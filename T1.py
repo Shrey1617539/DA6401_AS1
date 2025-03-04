@@ -16,3 +16,7 @@ def plot_images(X_train, y_train):
         ax[i].set_title(y_train[np.where(y_train == i)[0][0]])
         ax[i].axis('off')
     plt.show()
+
+def train_test_split(X_train, y_train, split_ratio=0.9):
+    split = int(X_train.shape[0]*split_ratio)
+    return X_train[:split], y_train[:split], X_train[split:], y_train[split:]

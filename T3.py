@@ -52,9 +52,12 @@ def feedforward(x, weights, bias, activation_function):
 
     return x, a, h
     
-def loss_calculations(y_pred, y):
-    print(y_pred[np.arange(y_pred.shape[0]), y])
-    loss = -1*np.log(y_pred[np.arange(y_pred.shape[0]), y])
+def loss_calculations(y, y_pred):
+    if type(y) == list:
+        y = np.array(y)
+    if type(y_pred) == list:
+        y_pred = np.array(y_pred)
+    loss = -1*np.log(y_pred[np.arange(y_pred.shape[0]), y, 0])
     loss = np.average(loss)
     return loss
 
@@ -94,8 +97,25 @@ def reset_d_weights(weights, bias):
     
     return d_W, d_b
 
+def initialize_weights(input_size, hidden_layers, hidden_layer_size, output_size, initialisation):
+    weights = []
+    bias = []
 
-def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function, learning_rate = 0.01, beta = 0, batch_size = None, optimization_method = None):
+    if initialisation == 'random':
+        weights.append(np.random.randn(int(hidden_layer_size), int(input_size)))
+        bias.append(np.random.randn(int(hidden_layer_size), 1))
+
+        for i in range(hidden_layers-1):
+            weights.append(np.random.randn(int(hidden_layer_size), int(hidden_layer_size)))
+            bias.append(np.random.randn(int(hidden_layer_size), 1))
+
+        weights.append(np.random.randn(int(output_size), int(hidden_layer_size)))
+        bias.append(np.random.randn(int(output_size), 1))
+
+    return weights, bias
+
+
+def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function , learning_rate = 0.01, beta = 0, batch_size = None, optimization_method = None):
     if batch_size == None:
         batch_size = X_data.shape[0]
 
