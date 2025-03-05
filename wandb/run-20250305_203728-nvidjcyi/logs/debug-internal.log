@@ -1,0 +1,16 @@
+{"time":"2025-03-05T20:37:28.5634036+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250305_203728-nvidjcyi\\logs\\debug-core.log"}
+{"time":"2025-03-05T20:37:29.5846356+05:30","level":"INFO","msg":"created new stream","id":"nvidjcyi"}
+{"time":"2025-03-05T20:37:29.5846356+05:30","level":"INFO","msg":"stream: started","id":"nvidjcyi"}
+{"time":"2025-03-05T20:37:29.5846356+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"nvidjcyi"}
+{"time":"2025-03-05T20:37:29.5846356+05:30","level":"INFO","msg":"handler: started","stream_id":"nvidjcyi"}
+{"time":"2025-03-05T20:37:29.585223+05:30","level":"INFO","msg":"sender: started","stream_id":"nvidjcyi"}
+{"time":"2025-03-05T20:37:30.1509647+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T20:44:25.8914015+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T20:44:25.8919091+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T20:44:26.9040067+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.119446},{"desc":"uploading wandb-summary.json","runtime_seconds":0.119446}],"total_operations":2}}
+{"time":"2025-03-05T20:44:27.5559607+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T20:44:29.0222781+05:30","level":"INFO","msg":"stream: closing","id":"nvidjcyi"}
+{"time":"2025-03-05T20:44:29.0222781+05:30","level":"INFO","msg":"handler: closed","stream_id":"nvidjcyi"}
+{"time":"2025-03-05T20:44:29.0222781+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"nvidjcyi"}
+{"time":"2025-03-05T20:44:29.0222781+05:30","level":"INFO","msg":"sender: closed","stream_id":"nvidjcyi"}
+{"time":"2025-03-05T20:44:29.0222781+05:30","level":"INFO","msg":"stream: closed","id":"nvidjcyi"}

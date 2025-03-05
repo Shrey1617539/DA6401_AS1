@@ -1,0 +1,16 @@
+{"time":"2025-03-05T19:05:02.8709279+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250305_190502-bgg28h3z\\logs\\debug-core.log"}
+{"time":"2025-03-05T19:05:03.7865082+05:30","level":"INFO","msg":"created new stream","id":"bgg28h3z"}
+{"time":"2025-03-05T19:05:03.7865082+05:30","level":"INFO","msg":"stream: started","id":"bgg28h3z"}
+{"time":"2025-03-05T19:05:03.7865082+05:30","level":"INFO","msg":"handler: started","stream_id":"bgg28h3z"}
+{"time":"2025-03-05T19:05:03.7865082+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bgg28h3z"}
+{"time":"2025-03-05T19:05:03.7870355+05:30","level":"INFO","msg":"sender: started","stream_id":"bgg28h3z"}
+{"time":"2025-03-05T19:05:04.2163721+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-05T19:09:01.2745385+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-05T19:09:01.2754177+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-05T19:09:02.2901807+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3657438,"progress":"58B/58B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3657438,"progress":"174B/174B"},{"desc":"uploading config.yaml","runtime_seconds":0.0335861,"progress":"809B/809B"}],"total_operations":3}}
+{"time":"2025-03-05T19:09:02.760382+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-05T19:09:04.2122026+05:30","level":"INFO","msg":"stream: closing","id":"bgg28h3z"}
+{"time":"2025-03-05T19:09:04.2122026+05:30","level":"INFO","msg":"handler: closed","stream_id":"bgg28h3z"}
+{"time":"2025-03-05T19:09:04.2122026+05:30","level":"INFO","msg":"sender: closed","stream_id":"bgg28h3z"}
+{"time":"2025-03-05T19:09:04.2122026+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bgg28h3z"}
+{"time":"2025-03-05T19:09:04.2122026+05:30","level":"INFO","msg":"stream: closed","id":"bgg28h3z"}
