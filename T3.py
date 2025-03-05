@@ -1,6 +1,7 @@
 from keras.datasets import fashion_mnist
 import numpy as np
 import pandas as pd
+import wandb
 
 def activation_function_cal(a, activation_function):
     if activation_function == 'sigmoid':
@@ -33,7 +34,8 @@ def gradient_activation_function(a, activation_function):
         return 1*(a>0)
 
 
-def feedforward(x, weights, bias, activation_function):
+def feedforward(x, weights, bias, activation_function, batch_output = False):
+    
     a = []
     h = []
     x = x.flatten()
@@ -61,6 +63,14 @@ def loss_calculations(y, y_pred):
     loss = np.average(loss)
     return loss
 
+def accuracy_calculations(y, y_pred):
+    if type(y) == list:
+        y = np.array(y)
+    if type(y_pred) == list:
+        y_pred = np.array(y_pred)
+    y_pred = np.argmax(y_pred, axis = 1)
+    y_pred = y_pred.flatten()
+    return np.sum(y_pred == y)/y.shape[0]
 
 def backpropagation(X, Y, weights, bias, activation_function):
     d_W = []
@@ -115,19 +125,35 @@ def initialize_weights(input_size, hidden_layers, hidden_layer_size, output_size
     return weights, bias
 
 
-def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function , learning_rate = 0.01, beta = 0, batch_size = None, optimization_method = None):
+def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function , 
+                     learning_rate = 0.01, beta = 0.5, beta1 = 0.5, beta2 = 0.5, 
+                     momentum = 0.5, batch_size = None, optimization_method = None,
+                     epsilon = 0.000001, X_val = None, Y_val = None, X_test = None, 
+                     Y_test = None, logging_train = False, logging_val = False, logging_test = False):
+    
     if batch_size == None:
         batch_size = X_data.shape[0]
+    
+    if optimization_method == 'sgd':
+        batch_size = 1
 
     for epoch in range(epochs):
+
+        indices = np.random.permutation(X_data.shape[0])
+        X_data = X_data[indices]
+        Y_data = Y_data[indices]
+
         d_W, d_b = reset_d_weights(weights, bias)
-        u_W, u_b = reset_d_weights(weights, bias)
-        
+
         for i in range(X_data.shape[0]):
             X = X_data[i]
             Y = Y_data[i]
 
-            if optimization_method == 'nesterov':
+            if optimization_method == 'nag':
+
+                if epoch == 0 and i == 0:
+                    u_W, u_b = reset_d_weights(weights, bias)
+                
                 for j in range(len(weights)):
                     weights[j] -= beta*u_W[j]
                     bias[j] -= beta*u_b[j]
@@ -140,53 +166,114 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
 
             if optimization_method == None or optimization_method == 'gd':
 
-                if (i+1)%batch_size == 0:
-                    d_W = [x/batch_size for x in d_W]  
-                    d_b = [x/batch_size for x in d_b]
+                if (i+1)%batch_size == 0 or i == X_data.shape[0]-1:
+
+                    if (i+1)%batch_size == 0:
+                        d_W = [x/batch_size for x in d_W]  
+                        d_b = [x/batch_size for x in d_b]
+
+                    elif i == X_data.shape[0]-1:
+                        d_W = [x/(X_data.shape[0]%batch_size) for x in d_W]
+                        d_b = [x/(X_data.shape[0]%batch_size) for x in d_b]
 
                     for j in range(len(weights)):
                         weights[j] -= learning_rate * d_W[j]
                         bias[j] -= learning_rate * d_b[j]
 
                     d_W, d_b = reset_d_weights(weights, bias)
-
-            if optimization_method == 'sgd':
-
-                for j in range(len(weights)):
-                    weights[j] -= learning_rate * d_W[j]
-                    bias[j] -= learning_rate * d_b[j]
-
-                d_W, d_b = reset_d_weights(weights, bias)
             
             if optimization_method == 'momentum':
 
-                if (i+1)%batch_size == 0:
-                    d_W = [x/batch_size for x in d_W]
-                    d_b = [x/batch_size for x in d_b]
+                if epoch == 0 and i == 0:
+                    u_W, u_b = reset_d_weights(weights, bias)
+
+                if (i+1)%batch_size == 0 or i == X_data.shape[0]-1:
+
+                    if (i+1)%batch_size == 0:
+                        d_W = [x/batch_size for x in d_W]
+                        d_b = [x/batch_size for x in d_b]
+                    
+                    elif i == X_data.shape[0]-1:
+                        d_W = [x/(X_data.shape[0]%batch_size) for x in d_W]
+                        d_b = [x/(X_data.shape[0]%batch_size) for x in d_b]
+
+                    for j in range(len(weights)):
+                        u_W[j] = momentum*u_W[j] + learning_rate*d_W[j]
+                        u_b[j] = momentum*u_b[j] + learning_rate*d_b[j]
+
+                        weights[j] -= u_W[j]
+                        bias[j] -= u_b[j]
+
+                    d_W, d_b = reset_d_weights(weights, bias)
+
+            if optimization_method == 'nag':
+
+                if (i+1)%batch_size == 0 or i == X_data.shape[0]-1:
+                    
+                    if (i+1)%batch_size == 0:
+                        d_W = [x/batch_size for x in d_W]
+                        d_b = [x/batch_size for x in d_b]
+                    
+                    elif i == X_data.shape[0]-1:
+                        d_W = [x/(X_data.shape[0]%batch_size) for x in d_W]
+                        d_b = [x/(X_data.shape[0]%batch_size) for x in d_b]
 
                     for j in range(len(weights)):
                         u_W[j] = beta*u_W[j] + learning_rate*d_W[j]
                         u_b[j] = beta*u_b[j] + learning_rate*d_b[j]
 
-                        weights[j] -= u_W[j]
-                        bias[j] -= u_b[j]
+                        weights[j] -= learning_rate*d_W[j]
+                        bias[j] -= learning_rate*d_b[j]
                     d_W, d_b = reset_d_weights(weights, bias)
 
-            if optimization_method == 'nesterov':
-                
-                for j in range(len(weights)):
-                    weights[j] += beta*u_W[j]
-                    bias[j] += beta*u_b[j]
+            if optimization_method == 'rmsprop':
 
-                if (i+1)%batch_size == 0:
-                    d_W = [x/batch_size for x in d_W]
-                    d_b = [x/batch_size for x in d_b]
+                if epoch == 0 and i == 0:
+                    v_W, v_b = reset_d_weights(weights, bias)
+
+                if (i+1)%batch_size == 0 or i == X_data.shape[0]-1:
+
+                    if (i+1)%batch_size == 0:
+                        d_W = [x/batch_size for x in d_W]
+                        d_b = [x/batch_size for x in d_b]
+                    
+                    elif i == X_data.shape[0]-1:
+                        d_W = [x/(X_data.shape[0]%batch_size) for x in d_W]
+                        d_b = [x/(X_data.shape[0]%batch_size) for x in d_b]
 
                     for j in range(len(weights)):
-                        u_W[j] = beta*u_W[j] + learning_rate*d_W[j]
-                        u_b[j] = beta*u_b[j] + learning_rate*d_b[j]
+                        v_W[j] = beta*v_W[j] + (1-beta)*d_W[j]**2
+                        v_b[j] = beta*v_b[j] + (1-beta)*d_b[j]**2
 
-                        weights[j] -= u_W[j]
-                        bias[j] -= u_b[j]
+                        weights[j] -= learning_rate*d_W[j]/np.sqrt(v_W[j] + epsilon)
+                        bias[j] -= learning_rate*d_b[j]/np.sqrt(v_b[j] + epsilon)
+
                     d_W, d_b = reset_d_weights(weights, bias)
+        if logging_train:
+            y_pred = []
+            for i in range(X_data.shape[0]):
+                y_pred.append(feedforward(X_data[i], weights, bias, activation_function)[0])
+            loss = loss_calculations(Y_data, y_pred)
+            accuracy = accuracy_calculations(Y_data, y_pred)
+            wandb.log({"train_accuracy": accuracy})
+            wandb.log({"train_error": loss})
+        
+        if logging_val:
+            y_pred = []
+            for i in range(X_val.shape[0]):
+                y_pred.append(feedforward(X_val[i], weights, bias, activation_function)[0])
+            loss = loss_calculations(Y_val, y_pred)
+            accuracy = accuracy_calculations(Y_val, y_pred)
+            wandb.log({"validation_accuracy": accuracy})
+            wandb.log({"validation_error": loss})
+        
+        if logging_test:
+            y_pred = []
+            for i in range(X_test.shape[0]):
+                y_pred.append(feedforward(X_test[i], weights, bias, activation_function)[0])
+            loss = loss_calculations(Y_test, y_pred)
+            accuracy = accuracy_calculations(Y_test, y_pred)
+            wandb.log({"test_accuracy": accuracy})
+            wandb.log({"test_error": loss})
+
     return weights, bias
