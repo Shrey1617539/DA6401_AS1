@@ -1,10 +1,15 @@
-from keras.datasets import fashion_mnist
+from keras.datasets import fashion_mnist, mnist
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def load_data():
-    (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
+def load_data(data_name = 'fashion_mnist'):
+    if data_name == 'fashion_mnist':
+        (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
+    
+    elif data_name == 'mnist':
+        (X_train, y_train), (X_test, y_test) = mnist.load_data()
+
     X_train = X_train/255
     X_test = X_test/255
     return X_train, y_train, X_test, y_test
@@ -19,4 +24,7 @@ def plot_images(X_train, y_train):
 
 def train_test_split(X_train, y_train, split_ratio=0.9):
     split = int(X_train.shape[0]*split_ratio)
+    indices = np.random.permutation(X_train.shape[0])
+    X_train = X_train[indices]
+    y_train = y_train[indices]
     return X_train[:split], y_train[:split], X_train[split:], y_train[split:]

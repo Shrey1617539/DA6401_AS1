@@ -1,0 +1,36 @@
+method: bayes
+command: ["python", "main.py"]
+metric:
+  goal: minimize
+  name: validation_loss
+parameters:
+  weight_init:
+    values: ["random"]
+  num_layers:
+    values: [3]
+  hidden_size:
+    values: [[10, 5, 7], 5]
+  optimizer:
+    values: ["adam", "nadam"]
+  epochs:
+    values: [5]
+  activation:
+    values: ["sigmoid"]
+  learning_rate:
+    values: [0.001]
+  weight_decay:
+    values: [0.0005]
+  batch_size:
+    values: [16]
+  loss:
+    values: ["cross_entropy"]
+  beta:
+    values: [0.5]
+  beta1:
+    values: [0.9]
+  beta2:
+    values: [0.999]
+  momentum:
+    values: [0.5]
+  epsilon:
+    values: [1e-6]
