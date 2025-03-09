@@ -1,0 +1,585 @@
+{"time":"2025-03-08T14:14:51.8333919+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250308_141451-qgpcd83f\\logs\\debug-core.log"}
+{"time":"2025-03-08T14:14:52.786032+05:30","level":"INFO","msg":"created new stream","id":"qgpcd83f"}
+{"time":"2025-03-08T14:14:52.786032+05:30","level":"INFO","msg":"stream: started","id":"qgpcd83f"}
+{"time":"2025-03-08T14:14:52.786032+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qgpcd83f"}
+{"time":"2025-03-08T14:14:52.7878117+05:30","level":"INFO","msg":"handler: started","stream_id":"qgpcd83f"}
+{"time":"2025-03-08T14:14:52.7878117+05:30","level":"INFO","msg":"sender: started","stream_id":"qgpcd83f"}
+{"time":"2025-03-08T14:14:53.7004223+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T14:15:13.7015673+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:15:13.7107686+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:15:23.7012141+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:15:23.7216147+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:15:33.7011811+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:15:33.7183333+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:15:43.7012711+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:15:43.7129922+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:15:53.7014274+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:15:53.7236883+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:16:03.7011421+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:16:03.7223079+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:16:13.701533+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:16:13.72332+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:16:23.7021769+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:16:23.7437053+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:16:33.7085115+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:16:33.7350839+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:16:43.7014726+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:16:43.7171067+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:16:53.7012516+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:16:53.7232918+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:17:03.7015335+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:17:03.7196482+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:17:13.7015154+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:17:13.728211+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:17:23.7031271+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:17:23.7349199+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:17:33.701939+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:17:33.7158219+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:17:43.7012442+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:17:43.7167842+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:17:53.7173634+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:17:53.7476871+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:18:03.7014888+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:18:03.7190159+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:18:13.704947+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:18:13.7359272+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:18:23.7012048+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:18:23.7219821+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:18:33.701564+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:18:33.728005+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:18:43.7015186+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:18:43.7223262+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:18:53.7041437+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:18:53.7498593+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:19:03.7126681+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:19:03.7542112+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:19:13.7015838+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:19:13.7250882+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:19:23.7060565+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:19:23.7434716+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:19:33.7012855+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:19:33.7201813+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:19:43.7196167+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:19:43.748716+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:19:53.7104575+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:19:53.758138+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:20:03.7014774+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:20:03.7207948+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:20:13.7014372+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:20:13.7157971+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:20:23.7061064+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:20:23.8042201+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:20:33.7022654+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:20:33.7632906+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:20:43.7041601+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:20:43.7560814+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:20:53.7033234+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:20:53.730114+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:21:03.7023169+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:21:03.7198869+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:21:13.7018015+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:21:13.7111202+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:21:23.7014644+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:21:23.7175372+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:21:33.7013231+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:21:33.7198016+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:21:43.7019941+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:21:43.7143403+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:21:53.7012684+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:21:53.7197678+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:22:03.7025532+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:22:03.7287196+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:22:13.7020631+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:22:13.7247865+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:22:23.7013691+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:22:23.7200798+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:22:33.7011658+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:22:33.7272851+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:22:43.7013719+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:22:43.7185629+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:22:53.7013017+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:22:53.7116553+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:23:03.7013574+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:23:03.7122354+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:23:13.7014483+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:23:13.7135778+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:23:23.7014069+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:23:23.7138331+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:23:33.7019861+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:23:33.7128439+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:23:43.7011536+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:23:43.7215283+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:23:53.7490695+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:23:53.7579471+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:24:03.7011866+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:24:03.730129+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:24:13.702076+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:24:13.7180956+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:24:23.7016273+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:24:23.7128057+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:24:33.7012865+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:24:33.7161318+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:24:43.7012041+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:24:43.7235158+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:24:53.7011207+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:24:53.7279729+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:25:03.7012531+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:25:03.7144562+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:25:13.70159+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:25:13.7149493+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:25:23.701415+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:25:23.7267539+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:25:33.7012629+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:25:33.7240721+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:25:43.7014495+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:25:43.7127802+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:25:53.7012289+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:25:53.7162155+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:26:03.7013771+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:26:03.7234668+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:26:13.7015275+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:26:13.7147293+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:26:23.7010862+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:26:23.7162745+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:26:33.7014294+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:26:33.7280152+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:26:43.7013095+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:26:43.7180446+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:26:53.7016475+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:26:53.7199564+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:27:03.7012232+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:27:03.7222604+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:27:13.7231374+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:27:13.7283886+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:27:23.7015192+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:27:23.7163019+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:27:33.701712+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:27:33.7220068+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:27:43.7011606+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:27:43.7162493+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:27:53.7016044+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:27:53.7212518+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:28:03.7015154+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:28:03.7143865+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:28:13.7012839+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:28:13.7143751+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:28:23.7009884+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:28:23.7251822+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:28:33.7013593+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:28:33.7144814+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:28:43.7025118+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:28:43.7198556+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:28:53.7020774+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:28:53.7173492+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:29:03.7018948+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:29:03.717698+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:29:13.7029838+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:29:13.7214366+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:29:23.7016244+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:29:23.7190377+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:29:33.7012238+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:29:33.7209366+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:29:43.7030272+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:29:43.7185117+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:29:53.7040024+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:29:53.7277203+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:30:03.7092311+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:30:03.763571+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:30:13.8120329+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:30:13.9170077+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:30:23.725565+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:30:23.8558595+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:30:33.7208859+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:30:33.8879922+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:30:43.7018414+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:30:43.744052+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:30:53.7012962+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:30:53.7343742+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:31:03.7015871+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:31:03.7237944+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:31:13.701643+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:31:13.7309746+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:31:23.7015169+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:31:23.7436857+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:31:33.7081031+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:31:33.7383593+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:31:43.7010665+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:31:43.7313201+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:31:53.7043241+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:31:53.7417501+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:32:03.703539+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:03.7468912+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:32:13.7049192+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:13.7350085+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:32:23.7020718+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:23.7358091+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:32:33.7015359+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:33.726569+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:32:43.7012901+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:43.7335742+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:32:53.7077232+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:53.7422188+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:33:03.7318587+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:03.7370933+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:33:13.7017316+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:13.7273889+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:33:23.7016466+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:23.7302176+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:33:33.7061225+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:33.7371922+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:33:43.7128209+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:43.7455841+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:33:53.7025401+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:53.7654607+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:34:03.7311924+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:34:03.8032296+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:34:13.7227667+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:34:13.8031706+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:34:23.7010002+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:34:23.7240086+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:34:33.7015011+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:34:33.729103+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:34:43.7014873+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:34:43.7250189+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:34:53.712338+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:34:53.7333912+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:35:03.7013703+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:35:03.7463044+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:35:13.7068592+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:35:13.7253331+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:35:23.7015458+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:35:23.724097+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:35:33.7016591+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:35:33.7340803+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:35:43.7025747+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:35:43.7271723+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:35:53.7020804+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:35:53.7331688+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:36:03.701583+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:36:03.7277953+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:36:13.7263937+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:36:13.7583893+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:36:23.7106313+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:36:23.7631344+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:36:33.718484+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:36:33.7511891+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:36:43.7015782+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:36:43.7450783+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:36:53.7014861+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:36:53.7221211+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:37:03.7037125+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:37:03.7400004+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:37:13.7015783+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:37:13.7330482+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:37:23.7071337+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:37:23.7363163+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:37:33.7352679+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:37:33.7927232+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:37:43.7554106+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:37:43.7597469+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:37:53.7086473+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:37:53.7397372+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:38:03.7023275+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:38:03.7382928+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:38:13.7014723+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:38:13.7190084+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:38:23.7027244+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:38:23.7325356+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:38:33.725237+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:38:33.8118552+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:38:43.7013563+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:38:43.7844045+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:38:53.7077855+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:38:53.7415291+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:39:03.7034281+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:39:03.7234257+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:39:13.7046224+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:39:13.7564953+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:39:23.7117259+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:39:23.7379094+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:39:33.7018656+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:39:33.7250928+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:39:43.7011794+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:39:43.7418098+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:39:53.709606+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:39:53.7346205+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:40:03.7048764+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:40:03.7518987+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:40:13.7054946+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:40:13.7397742+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:40:23.7064663+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:40:23.7364997+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:40:33.7037074+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:40:33.7461048+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:40:43.7132189+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:40:43.7404025+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:40:53.7161615+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:40:53.7683557+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:41:03.718814+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:41:03.7468092+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:41:13.7012335+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:41:13.723211+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:41:23.7347585+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:41:23.7775453+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:41:33.7189345+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:41:33.7514761+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:41:43.7016325+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:41:43.726922+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:41:53.7012939+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:41:53.7503559+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:42:03.7017758+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:42:03.7242105+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:42:13.701923+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:42:13.7342554+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:42:23.7250521+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:42:23.7478346+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:42:33.7023661+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:42:33.7347984+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:42:43.7044873+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:42:43.734071+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:42:53.7182603+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:42:53.746544+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:43:03.7102941+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:43:03.7317878+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:43:13.7028188+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:43:13.728847+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:43:23.7149274+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:43:23.7316987+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:43:33.701881+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:43:33.7344413+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:43:43.7209837+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:43:43.7430578+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:43:53.7040322+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:43:53.7605498+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:44:03.7734325+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:44:03.8114361+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:44:13.7767959+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:44:13.8300733+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:44:23.7032046+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:44:23.7431403+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:44:33.7170228+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:44:33.7469254+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:44:43.7018278+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:44:43.7285695+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:44:53.7018573+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:44:53.7421148+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:45:03.7029302+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:45:03.7262119+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:45:13.7031055+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:45:13.7310085+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:45:23.704653+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:45:23.7893561+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:45:33.8188187+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:45:33.838225+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:45:43.7645444+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:45:43.7944117+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:45:53.7033674+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:45:53.7806361+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:46:03.8268674+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:46:03.9487895+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:46:13.718784+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:46:13.7594654+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:46:23.7054821+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:46:23.7380818+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:46:33.7304033+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:46:33.8281407+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:46:43.7753161+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:46:43.8428287+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:46:54.2955094+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:46:54.334061+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:47:03.8605384+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:47:03.9044951+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:47:13.7619361+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:47:13.8121347+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:47:23.7751752+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:47:23.8327493+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:47:33.7822022+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:47:33.8290205+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:47:43.7021683+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:47:43.8068289+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:47:53.7154081+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:47:53.7497738+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:48:04.0044945+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:48:04.0526807+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:48:13.7427869+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:48:13.7701962+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:48:23.7338439+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:48:23.7422429+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:48:33.7430691+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:48:33.7586146+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:48:43.7015942+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:48:43.7364826+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:48:53.7045311+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:48:53.7341007+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:49:03.7032037+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:49:03.7428924+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:49:13.712354+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:49:13.8187758+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:49:23.7184988+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:49:23.7583486+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:49:33.7168745+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:49:33.7866547+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:49:43.708646+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:49:43.7678047+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:49:53.7034994+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:49:53.7368244+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:50:03.739177+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:50:03.7658022+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:50:13.7085165+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:50:13.7456666+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:50:23.7016003+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:50:23.7212625+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:50:33.7036239+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:50:33.7335964+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:50:43.7042848+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:50:43.7406926+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:50:53.7080583+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:50:53.7378259+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:51:03.7062626+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:51:03.7331497+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:51:13.7113934+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:51:13.7301322+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:51:23.7128838+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:51:23.7346225+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:51:33.7862477+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:51:33.7876185+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:51:43.7486083+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:51:43.7486083+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:51:53.7075013+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:51:53.7472343+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:52:03.7021214+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:52:03.7314114+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:52:13.7024369+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:52:13.7582668+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:52:23.7195192+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:52:23.7503407+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:52:33.705677+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:52:33.7286072+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:52:43.7116181+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:52:43.7503828+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:52:53.7191816+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:52:53.7415726+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:03.7093842+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:53:03.7471449+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:13.7222628+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:53:13.7652823+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:23.717318+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:53:23.7962675+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:33.7202861+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:53:33.7587986+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:43.7202106+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:53:43.7679848+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:53.7549458+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:53:53.7717884+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:03.8108488+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:03.8694636+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:54:13.7137553+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:13.7774747+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:54:23.8815065+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:23.9182295+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:54:33.7015755+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:33.7678295+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:54:43.7054582+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:43.7343654+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:54:53.7097165+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:54:53.7440902+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:55:03.7102454+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:55:03.7403648+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:55:13.7038004+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:55:14.1486727+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:55:23.701831+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:55:23.8202918+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:55:33.7295088+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:55:33.7715105+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:55:43.7141176+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:55:43.742226+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:55:53.8683362+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:55:53.8954008+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:56:03.7160582+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:56:03.7514649+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:56:13.7203425+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:56:13.7603046+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:56:23.7202891+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:56:23.7412715+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:56:33.7292179+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:56:33.7503273+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:56:43.7066508+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:56:43.737643+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:56:53.7198785+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:56:53.7598556+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:57:03.7087605+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:57:03.8766901+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:57:13.7086328+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:57:13.7879728+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:57:23.7272387+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:57:23.7683345+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:57:33.7070381+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:57:33.7374051+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:57:43.7215491+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:57:43.861676+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:57:53.7035231+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:57:53.7563768+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:58:03.7016467+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:58:03.7223155+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:58:13.7094418+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:58:13.7281636+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:58:23.7085192+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:58:23.7362601+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:58:33.7085387+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:58:33.7674903+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:58:43.7021033+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:58:43.7189876+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:58:53.7012311+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:58:53.7358637+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:59:03.7016004+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:59:03.7506281+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:59:13.7009995+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:59:13.7225536+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:59:23.7185887+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:59:23.7736444+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:59:33.7014372+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:59:33.7221216+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:59:39.9227186+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/qgpcd83f/file_stream"}
+{"time":"2025-03-08T14:59:39.9227186+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/me21b138-indian-institute-of-technology-madras/my-awesome-project/qgpcd83f/file_stream: {\"error\":\"run my-awesome-project/qgpcd83f not found while streaming file\"}"}
+{"time":"2025-03-08T14:59:43.7014139+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:59:43.731012+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T14:59:53.7030916+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:59:53.7242992+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:00:03.7014319+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:00:03.7228521+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:00:13.7016812+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:00:13.7286418+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:00:23.701349+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:00:23.7210227+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:00:33.7019462+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:00:33.7188394+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:00:43.7013136+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:00:43.7154625+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:00:53.7023433+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:00:53.7184862+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:01:03.8067903+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:01:03.9459004+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:01:13.7017293+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:01:13.7222115+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:01:23.7037974+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:01:23.7248489+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:01:33.7015118+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:01:33.7163364+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:01:43.7045461+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:01:43.7188284+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:01:53.7015083+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:01:53.7207375+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:02:03.7013856+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:02:03.716526+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:02:13.7014074+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:02:13.7203598+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:02:23.7012265+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:02:23.7187243+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:02:33.7012297+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:02:33.7233711+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:02:43.7015808+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:02:43.7249617+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:02:53.7224456+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:02:53.7345834+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}
+{"time":"2025-03-08T15:03:03.7159635+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T15:03:03.7304354+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 37792"}

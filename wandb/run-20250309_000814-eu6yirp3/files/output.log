@@ -1,0 +1,3 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:34: RuntimeWarning: overflow encountered in exp
+  a = np.exp(a)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:37: RuntimeWarning: invalid value encountered in divide

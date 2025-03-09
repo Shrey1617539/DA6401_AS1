@@ -1,0 +1,9 @@
+{"time":"2025-03-06T12:06:21.9902373+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_120621-r95tei88\\logs\\debug-core.log"}
+{"time":"2025-03-06T12:06:23.1190042+05:30","level":"INFO","msg":"created new stream","id":"r95tei88"}
+{"time":"2025-03-06T12:06:23.1190042+05:30","level":"INFO","msg":"stream: started","id":"r95tei88"}
+{"time":"2025-03-06T12:06:23.1190042+05:30","level":"INFO","msg":"handler: started","stream_id":"r95tei88"}
+{"time":"2025-03-06T12:06:23.1190042+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"r95tei88"}
+{"time":"2025-03-06T12:06:23.1190042+05:30","level":"INFO","msg":"sender: started","stream_id":"r95tei88"}
+{"time":"2025-03-06T12:06:23.7351306+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:09:25.29271+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/r95tei88/file_stream"}
+{"time":"2025-03-06T12:09:25.2934867+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/me21b138-indian-institute-of-technology-madras/my-awesome-project/r95tei88/file_stream: {\"error\":\"run my-awesome-project/r95tei88 not found while streaming file\"}"}

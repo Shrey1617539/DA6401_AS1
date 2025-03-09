@@ -1,0 +1,16 @@
+{"time":"2025-03-06T02:03:23.7223372+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_020323-utkgejnr\\logs\\debug-core.log"}
+{"time":"2025-03-06T02:03:24.7502421+05:30","level":"INFO","msg":"created new stream","id":"utkgejnr"}
+{"time":"2025-03-06T02:03:24.7502421+05:30","level":"INFO","msg":"stream: started","id":"utkgejnr"}
+{"time":"2025-03-06T02:03:24.7502421+05:30","level":"INFO","msg":"handler: started","stream_id":"utkgejnr"}
+{"time":"2025-03-06T02:03:24.7502421+05:30","level":"INFO","msg":"sender: started","stream_id":"utkgejnr"}
+{"time":"2025-03-06T02:03:24.7502421+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"utkgejnr"}
+{"time":"2025-03-06T02:03:25.3291331+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T02:03:43.9618151+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T02:03:43.9630787+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T02:03:44.9809875+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.5125737,"progress":"2.6KB/2.6KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5125737,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.0010754,"progress":"809B/809B"}],"total_operations":3}}
+{"time":"2025-03-06T02:03:46.0431552+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T02:03:47.5095192+05:30","level":"INFO","msg":"stream: closing","id":"utkgejnr"}
+{"time":"2025-03-06T02:03:47.5095192+05:30","level":"INFO","msg":"handler: closed","stream_id":"utkgejnr"}
+{"time":"2025-03-06T02:03:47.5095192+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"utkgejnr"}
+{"time":"2025-03-06T02:03:47.5095192+05:30","level":"INFO","msg":"sender: closed","stream_id":"utkgejnr"}
+{"time":"2025-03-06T02:03:47.5100343+05:30","level":"INFO","msg":"stream: closed","id":"utkgejnr"}

@@ -1,0 +1,18 @@
+wandb_version: 1
+
+activation_function:
+  value: sigmoid
+batch_size:
+  value: 16
+initialisation:
+  value: random
+learning_rate:
+  value: 0.001
+number_of_epochs:
+  value: 5
+number_of_hidden_layers:
+  value: 3
+optimization_method:
+  value: momentum
+size_of_every_hidden_layer:
+  value: 128

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T10:42:49.81653+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_104249-w16iuh7s\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:42:50.8409957+05:30","level":"INFO","msg":"created new stream","id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:50.8409957+05:30","level":"INFO","msg":"stream: started","id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:50.8409957+05:30","level":"INFO","msg":"sender: started","stream_id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:50.8409957+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:50.8415577+05:30","level":"INFO","msg":"handler: started","stream_id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:51.3211131+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:42:52.1771486+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:42:52.1776531+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:42:53.1965527+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-metadata.json","runtime_seconds":0.5554023,"progress":"1.2KB/1.2KB"},{"desc":"uploading output.log","runtime_seconds":0.5554023},{"desc":"uploading wandb-summary.json","runtime_seconds":0.5554023,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.2016913,"progress":"809B/809B"}],"total_operations":4}}
+{"time":"2025-03-06T10:42:54.1587924+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:42:55.5781649+05:30","level":"INFO","msg":"stream: closing","id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:55.5781649+05:30","level":"INFO","msg":"handler: closed","stream_id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:55.5781649+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:55.5781649+05:30","level":"INFO","msg":"sender: closed","stream_id":"w16iuh7s"}
+{"time":"2025-03-06T10:42:55.5781649+05:30","level":"INFO","msg":"stream: closed","id":"w16iuh7s"}

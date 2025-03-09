@@ -1,0 +1,2445 @@
+2025-03-06 10:03:02 INFO Running runs: []
+2025-03-06 10:03:03 INFO Agent received command: run
+2025-03-06 10:03:03 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 10:03:03 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 10:03:08 INFO Running runs: ['zxhnox9x']
+2025-03-06 10:03:08 INFO Cleaning up finished run: zxhnox9x
+2025-03-06 10:03:14 INFO Running runs: []
+2025-03-06 10:15:56 INFO Running runs: []
+2025-03-06 10:15:56 INFO Agent received command: run
+2025-03-06 10:15:56 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 10:15:56 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 10:16:01 INFO Running runs: ['4iecq76b']
+2025-03-06 10:16:01 INFO Cleaning up finished run: 4iecq76b
+2025-03-06 10:16:07 INFO Running runs: []
+2025-03-06 10:24:15 INFO Running runs: []
+2025-03-06 10:24:15 INFO Agent received command: run
+2025-03-06 10:24:15 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 10:24:15 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 10:24:20 INFO Running runs: ['898e37ki']
+2025-03-06 10:24:20 INFO Cleaning up finished run: 898e37ki
+2025-03-06 10:24:26 INFO Running runs: []
+2025-03-06 11:38:45 ERROR 400 response executing GraphQL.
+2025-03-06 11:38:45 ERROR {"errors":[{"message":"name required for project query","path":["project"]}],"data":{"project":null}}
+2025-03-06 11:38:45 ERROR Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 1129, in sweep
+    response = self.gql(
+               ^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 370, in gql
+    ret = self._retry_gql(
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 1676, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\wandb_agent.py", line 567, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\wandb_agent.py", line 526, in run_agent
+    agent.run()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\wandb_agent.py", line 193, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\internal.py", line 134, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\normalize.py", line 42, in wrapper
+    raise CommError(message, error)
+wandb.errors.errors.CommError: HTTP 400: name required for project query
+
+2025-03-06 11:39:10 INFO Running runs: []
+2025-03-06 11:39:10 INFO Agent received command: run
+2025-03-06 11:39:10 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 11:39:10 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 11:39:15 INFO Running runs: ['1zhpge38']
+2025-03-06 11:39:15 INFO Cleaning up finished run: 1zhpge38
+2025-03-06 11:39:21 INFO Running runs: []
+2025-03-06 11:39:57 ERROR Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 1139, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+ValueError: Sweep me21b138-indian-institute-of-technology-madras/my-awesome-project/1gkorabp not found
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 1676, in agent
+    wandb_agent.agent(sweep_id, entity=entity, project=project, count=count)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\wandb_agent.py", line 567, in agent
+    return run_agent(
+           ^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\wandb_agent.py", line 526, in run_agent
+    agent.run()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\wandb_agent.py", line 193, in run
+    sweep_obj = self._api.sweep(self._sweep_id, "{}")
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\internal.py", line 134, in sweep
+    return self.api.sweep(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\normalize.py", line 79, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\apis\normalize.py", line 25, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 1139, in sweep
+    raise ValueError(f"Sweep {entity}/{project}/{sweep} not found")
+wandb.errors.errors.CommError: Sweep me21b138-indian-institute-of-technology-madras/my-awesome-project/1gkorabp not found
+
+2025-03-06 11:40:13 INFO Running runs: []
+2025-03-06 11:44:26 INFO Running runs: []
+2025-03-06 11:44:27 INFO Agent received command: run
+2025-03-06 11:44:27 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 11:44:27 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 11:44:32 INFO Running runs: ['xj7rindb']
+2025-03-06 11:44:32 INFO Cleaning up finished run: xj7rindb
+2025-03-06 11:44:38 INFO Running runs: []
+2025-03-06 11:50:46 INFO Running runs: []
+2025-03-06 11:50:46 INFO Agent received command: run
+2025-03-06 11:50:46 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 11:50:46 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 11:50:51 INFO Running runs: ['toee7u5c']
+2025-03-06 11:50:51 INFO Cleaning up finished run: toee7u5c
+2025-03-06 11:50:57 INFO Running runs: []
+2025-03-06 11:56:22 INFO Running runs: []
+2025-03-06 11:56:22 INFO Agent received command: run
+2025-03-06 11:56:22 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 11:56:22 INFO About to run command: python main.py
+2025-03-06 11:56:27 INFO Running runs: ['68mf7kgb']
+2025-03-06 11:56:38 INFO Cleaning up finished run: 68mf7kgb
+2025-03-06 11:56:43 INFO Running runs: []
+2025-03-06 12:01:32 INFO Running runs: []
+2025-03-06 12:01:32 INFO Agent received command: run
+2025-03-06 12:01:32 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:01:32 INFO About to run command: python main.py
+2025-03-06 12:01:37 INFO Running runs: ['r164bfmc']
+2025-03-06 12:01:48 INFO Cleaning up finished run: r164bfmc
+2025-03-06 12:01:54 INFO Running runs: []
+2025-03-06 12:04:44 INFO Running runs: []
+2025-03-06 12:04:44 INFO Agent received command: run
+2025-03-06 12:04:44 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:04:44 INFO About to run command: python "main.py --wandb_entity me21b138-indian-institute-of-technology-madras --wandb_project my-awesome-project"
+2025-03-06 12:04:49 INFO Running runs: ['ryc7kc1x']
+2025-03-06 12:04:49 INFO Cleaning up finished run: ryc7kc1x
+2025-03-06 12:04:55 INFO Running runs: []
+2025-03-06 12:06:55 INFO Running runs: []
+2025-03-06 12:06:56 INFO Agent received command: run
+2025-03-06 12:06:56 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:06:56 INFO About to run command: python main.py "--wandb_entity me21b138-indian-institute-of-technology-madras --wandb_project my-awesome-project"
+2025-03-06 12:07:01 INFO Running runs: ['dugsstk5']
+2025-03-06 12:07:17 INFO Cleaning up finished run: dugsstk5
+2025-03-06 12:07:23 INFO Running runs: []
+2025-03-06 12:10:47 INFO Running runs: []
+2025-03-06 12:10:47 INFO Agent received command: run
+2025-03-06 12:10:47 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:10:47 INFO About to run command: python main.py
+2025-03-06 12:10:52 INFO Running runs: ['kushygzp']
+2025-03-06 12:11:09 INFO Cleaning up finished run: kushygzp
+2025-03-06 12:11:14 INFO Running runs: []
+2025-03-06 12:13:58 INFO Running runs: []
+2025-03-06 12:13:59 INFO Agent received command: run
+2025-03-06 12:13:59 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:13:59 INFO About to run command: python main.py --wandb_entity me21b138-indian-institute-of-technology-madras --wandb_project my-awesome-project
+2025-03-06 12:14:04 INFO Running runs: ['nvp0lt1m']
+2025-03-06 12:25:22 INFO Running runs: []
+2025-03-06 12:25:22 INFO Agent received command: run
+2025-03-06 12:25:22 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:25:22 INFO About to run command: python main.py
+2025-03-06 12:25:27 INFO Running runs: ['f50a6cj8']
+2025-03-06 12:27:38 INFO Running runs: []
+2025-03-06 12:27:39 INFO Agent received command: run
+2025-03-06 12:27:39 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:27:39 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 12:27:44 INFO Running runs: ['4nn99oag']
+2025-03-06 12:27:44 INFO Cleaning up finished run: 4nn99oag
+2025-03-06 12:27:50 INFO Running runs: []
+2025-03-06 12:29:34 INFO Running runs: []
+2025-03-06 12:29:35 INFO Agent received command: run
+2025-03-06 12:29:35 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:29:35 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 12:29:40 INFO Running runs: ['oz895123']
+2025-03-06 12:29:51 INFO Cleaning up finished run: oz895123
+2025-03-06 12:29:56 INFO Running runs: []
+2025-03-06 12:41:18 INFO Running runs: []
+2025-03-06 12:41:19 INFO Agent received command: run
+2025-03-06 12:41:19 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 12:41:19 INFO About to run command: python  --activation_function=sigmoid --batch_size=128 --initialisation=random --learning_rate=0.001 --number_of_epochs=5 --number_of_hidden_layers=3 --size_of_every_hidden_layer=128
+2025-03-06 12:41:24 INFO Running runs: ['wwa8pwxo']
+2025-03-06 18:48:09 INFO Running runs: []
+2025-03-06 18:48:10 INFO Agent received command: run
+2025-03-06 18:48:10 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 128
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 18:48:10 INFO About to run command: python main.py
+2025-03-06 18:48:15 INFO Running runs: ['lvhp88q6']
+2025-03-06 18:56:29 INFO Cleaning up finished run: lvhp88q6
+2025-03-06 18:56:30 INFO Agent received command: exit
+2025-03-06 18:56:30 INFO Received exit command. Killing runs and quitting.
+2025-03-06 22:28:26 INFO Running runs: []
+2025-03-06 22:28:26 INFO Agent received command: run
+2025-03-06 22:28:26 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: nag
+	size_of_every_hidden_layer: 128
+2025-03-06 22:28:26 INFO About to run command: python main.py
+2025-03-06 22:28:31 INFO Running runs: ['ws4ulbc9']
+2025-03-06 22:28:38 INFO Running runs: []
+2025-03-06 22:28:39 INFO Agent received command: run
+2025-03-06 22:28:39 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: rmsprop
+	size_of_every_hidden_layer: 128
+2025-03-06 22:28:39 INFO About to run command: python main.py
+2025-03-06 22:28:44 INFO Running runs: ['qrblpzb9']
+2025-03-06 22:31:05 INFO Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000242335A3510>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000242335A3510>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000242335A3510>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-03-06 22:31:07 INFO Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001FFA6903810>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FFA6903810>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FFA6903810>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-03-06 22:46:39 INFO Cleaning up finished run: ws4ulbc9
+2025-03-06 22:46:40 INFO Agent received command: exit
+2025-03-06 22:46:40 INFO Received exit command. Killing runs and quitting.
+2025-03-06 22:46:44 INFO Cleaning up finished run: qrblpzb9
+2025-03-06 22:46:44 INFO Agent received command: exit
+2025-03-06 22:46:44 INFO Received exit command. Killing runs and quitting.
+2025-03-08 03:29:15 INFO Running runs: []
+2025-03-08 03:29:15 INFO Agent received command: run
+2025-03-08 03:29:15 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 8
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: cross_entropy
+	number_of_epochs: 5
+	number_of_hidden_layers: 2
+	optimization_method: momentum
+	size_of_every_hidden_layer: [64, 128]
+2025-03-08 03:29:15 INFO About to run command: python  --activation_function=sigmoid --batch_size=8 --initialisation=random --learning_rate=0.001 --loss_type=cross_entropy --number_of_epochs=5 --number_of_hidden_layers=2 --optimization_method=momentum "--size_of_every_hidden_layer=[64, 128]"
+2025-03-08 03:29:20 INFO Running runs: ['yeudmnmu']
+2025-03-08 03:29:20 INFO Cleaning up finished run: yeudmnmu
+2025-03-08 03:29:21 INFO Agent received command: run
+2025-03-08 03:29:21 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 8
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: cross_entropy
+	number_of_epochs: 5
+	number_of_hidden_layers: 2
+	optimization_method: momentum
+	size_of_every_hidden_layer: 256
+2025-03-08 03:29:21 INFO About to run command: python  --activation_function=sigmoid --batch_size=8 --initialisation=random --learning_rate=0.001 --loss_type=cross_entropy --number_of_epochs=5 --number_of_hidden_layers=2 --optimization_method=momentum --size_of_every_hidden_layer=256
+2025-03-08 03:29:26 INFO Running runs: ['rwq4sc7u']
+2025-03-08 03:29:26 INFO Cleaning up finished run: rwq4sc7u
+2025-03-08 03:31:34 INFO Running runs: []
+2025-03-08 03:31:34 INFO Agent received command: run
+2025-03-08 03:31:34 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: momentum
+	size_of_every_hidden_layer: 35
+2025-03-08 03:31:34 INFO About to run command: python main.py
+2025-03-08 03:31:39 INFO Running runs: ['wy63wvpl']
+2025-03-08 03:33:53 INFO Cleaning up finished run: wy63wvpl
+2025-03-08 03:33:54 INFO Agent received command: exit
+2025-03-08 03:33:54 INFO Received exit command. Killing runs and quitting.
+2025-03-08 12:25:10 INFO Running runs: []
+2025-03-08 12:25:10 INFO Agent received command: run
+2025-03-08 12:25:10 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.5
+	beta2: 0.5
+	epsilon: 1e-08
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	momentum: 0.5
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: nag
+	size_of_every_hidden_layer: 20
+	weight_decay: 0.0005
+2025-03-08 12:25:10 INFO About to run command: python main.py
+2025-03-08 12:25:15 INFO Running runs: ['it4rabow']
+2025-03-08 12:25:26 INFO Running runs: []
+2025-03-08 12:25:26 INFO Agent received command: run
+2025-03-08 12:25:26 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.5
+	beta2: 0.5
+	epsilon: 1e-08
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	momentum: 0.5
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: rmsprop
+	size_of_every_hidden_layer: 20
+	weight_decay: 0.0005
+2025-03-08 12:25:26 INFO About to run command: python main.py
+2025-03-08 12:25:31 INFO Running runs: ['pht7i3vh']
+2025-03-08 12:25:33 INFO Running runs: []
+2025-03-08 12:25:33 INFO Agent received command: run
+2025-03-08 12:25:33 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.5
+	beta2: 0.5
+	epsilon: 1e-08
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	momentum: 0.5
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: adam
+	size_of_every_hidden_layer: 20
+	weight_decay: 0.0005
+2025-03-08 12:25:33 INFO About to run command: python main.py
+2025-03-08 12:25:38 INFO Running runs: ['etwkm3pj']
+2025-03-08 12:28:54 INFO Cleaning up finished run: it4rabow
+2025-03-08 12:28:55 INFO Agent received command: run
+2025-03-08 12:28:55 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.5
+	beta2: 0.5
+	epsilon: 1e-08
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	momentum: 0.5
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: gd
+	size_of_every_hidden_layer: 20
+	weight_decay: 0.0005
+2025-03-08 12:28:55 INFO About to run command: python main.py
+2025-03-08 12:29:00 INFO Running runs: ['nyq9bw1a']
+2025-03-08 12:29:26 INFO Cleaning up finished run: pht7i3vh
+2025-03-08 12:29:32 INFO Running runs: []
+2025-03-08 12:29:38 INFO Agent received command: exit
+2025-03-08 12:29:38 INFO Received exit command. Killing runs and quitting.
+2025-03-08 12:29:43 INFO Cleaning up finished run: etwkm3pj
+2025-03-08 12:29:44 INFO Agent received command: exit
+2025-03-08 12:29:44 INFO Received exit command. Killing runs and quitting.
+2025-03-08 12:31:51 INFO Cleaning up finished run: nyq9bw1a
+2025-03-08 12:31:52 INFO Agent received command: exit
+2025-03-08 12:31:52 INFO Received exit command. Killing runs and quitting.
+2025-03-08 14:08:19 INFO Running runs: []
+2025-03-08 14:08:19 INFO Agent received command: run
+2025-03-08 14:08:19 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.5
+	beta2: 0.99
+	epsilon: 1e-08
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	momentum: 0.5
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: nadam
+	size_of_every_hidden_layer: 20
+	weight_decay: 0.0005
+2025-03-08 14:08:19 INFO About to run command: python main.py
+2025-03-08 14:08:24 INFO Running runs: ['q7g6zzyn']
+2025-03-08 14:56:07 INFO Running runs: []
+2025-03-08 14:56:07 INFO Agent received command: run
+2025-03-08 14:56:07 INFO Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.9
+	beta2: 0.999
+	epsilon: 1e-06
+	initialisation: random
+	learning_rate: 0.001
+	loss_type: mean_squared_error
+	momentum: 0.5
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	optimization_method: nadam
+	size_of_every_hidden_layer: 20
+	weight_decay: 0.0005
+2025-03-08 14:56:07 INFO About to run command: python main.py
+2025-03-08 14:56:12 INFO Running runs: ['nyny19or']
+2025-03-08 15:00:28 INFO Cleaning up finished run: nyny19or
+2025-03-08 15:00:29 INFO Agent received command: exit
+2025-03-08 15:00:29 INFO Received exit command. Killing runs and quitting.
+2025-03-09 00:07:48 INFO Running runs: []
+2025-03-09 00:07:49 INFO Agent received command: run
+2025-03-09 00:07:49 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.1
+	beta1: 0.9
+	beta2: 0.9999
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 256
+	learning_rate: 0.1
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 6
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: random
+2025-03-09 00:07:49 INFO About to run command: python main.py
+2025-03-09 00:07:54 INFO Running runs: ['eu6yirp3']
+2025-03-09 00:08:01 INFO Running runs: []
+2025-03-09 00:08:01 INFO Agent received command: run
+2025-03-09 00:08:01 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.9
+	beta1: 0.8
+	beta2: 0.9
+	epochs: 5
+	epsilon: 1e-05
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 3
+	optimizer: sgd
+	weight_decay: 0.5
+	weight_init: random
+2025-03-09 00:08:01 INFO About to run command: python main.py
+2025-03-09 00:08:06 INFO Running runs: ['23va7g5f']
+2025-03-09 00:08:08 INFO Running runs: []
+2025-03-09 00:08:09 INFO Agent received command: run
+2025-03-09 00:08:09 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.9
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 15
+	epsilon: 0.0001
+	hidden_size: 256
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 4
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 00:08:09 INFO About to run command: python main.py
+2025-03-09 00:08:14 INFO Running runs: ['rfrcr2ue']
+2025-03-09 00:20:09 INFO Running runs: []
+2025-03-09 00:20:10 INFO Agent received command: run
+2025-03-09 00:20:10 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.5
+	beta1: 0.8
+	beta2: 0.999
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 128
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 6
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 00:20:10 INFO About to run command: python main.py
+2025-03-09 00:20:15 INFO Running runs: ['az7nx68t']
+2025-03-09 00:20:19 INFO Running runs: []
+2025-03-09 00:20:20 INFO Agent received command: run
+2025-03-09 00:20:20 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.1
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 15
+	epsilon: 0.0001
+	hidden_size: 256
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: momentum
+	weight_decay: 0.5
+	weight_init: random
+2025-03-09 00:20:20 INFO About to run command: python main.py
+2025-03-09 00:20:25 INFO Running runs: ['vvppdu6q']
+2025-03-09 00:20:30 INFO Running runs: []
+2025-03-09 00:20:30 INFO Agent received command: run
+2025-03-09 00:20:30 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.9
+	beta1: 0.9
+	beta2: 0.9
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 00:20:30 INFO About to run command: python main.py
+2025-03-09 00:20:35 INFO Running runs: ['dcw2gw90']
+2025-03-09 00:29:32 INFO Running runs: []
+2025-03-09 00:29:33 INFO Agent received command: run
+2025-03-09 00:29:33 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.5
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 15
+	epsilon: 1e-05
+	hidden_size: 256
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: gd
+	weight_decay: 0.5
+	weight_init: random
+2025-03-09 00:29:33 INFO About to run command: python main.py
+2025-03-09 00:29:38 INFO Running runs: ['o14tc2jz']
+2025-03-09 00:29:41 INFO Running runs: []
+2025-03-09 00:29:42 INFO Agent received command: run
+2025-03-09 00:29:42 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.1
+	beta1: 0.99
+	beta2: 0.99
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 512
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 00:29:42 INFO About to run command: python main.py
+2025-03-09 00:29:47 INFO Running runs: ['l6eubeb2']
+2025-03-09 01:03:23 INFO Running runs: []
+2025-03-09 01:03:24 INFO Agent received command: run
+2025-03-09 01:03:24 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.9
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 5
+	epsilon: 1e-05
+	hidden_size: 256
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 6
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 01:03:24 INFO About to run command: python main.py
+2025-03-09 01:03:29 INFO Running runs: ['jcfu79ne']
+2025-03-09 01:03:33 INFO Running runs: []
+2025-03-09 01:03:34 INFO Agent received command: run
+2025-03-09 01:03:34 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.95
+	beta1: 0.8
+	beta2: 0.99
+	epochs: 5
+	epsilon: 0.0001
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 6
+	optimizer: gd
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-03-09 01:03:34 INFO About to run command: python main.py
+2025-03-09 01:03:39 INFO Running runs: ['cx4cib69']
+2025-03-09 01:06:58 INFO Running runs: []
+2025-03-09 01:06:58 INFO Agent received command: run
+2025-03-09 01:06:58 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	beta: 0.05
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 5
+	epsilon: 1e-05
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 01:06:58 INFO About to run command: python main.py
+2025-03-09 01:07:03 INFO Running runs: ['xipfefq9']
+2025-03-09 01:14:22 INFO Cleaning up finished run: xipfefq9
+2025-03-09 01:14:23 INFO Agent received command: run
+2025-03-09 01:14:23 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.9
+	beta1: 0.9
+	beta2: 0.9
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.01
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 5
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 01:14:23 INFO About to run command: python main.py
+2025-03-09 01:14:28 INFO Running runs: ['yjng46bf']
+2025-03-09 01:35:27 INFO Cleaning up finished run: yjng46bf
+2025-03-09 01:35:28 INFO Agent received command: run
+2025-03-09 01:35:28 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.1
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 01:35:28 INFO About to run command: python main.py
+2025-03-09 01:35:33 INFO Running runs: ['numeqw88']
+2025-03-09 01:40:00 INFO Cleaning up finished run: cx4cib69
+2025-03-09 01:40:03 INFO Agent received command: run
+2025-03-09 01:40:03 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: momentum
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 01:40:03 INFO About to run command: python main.py
+2025-03-09 01:40:08 INFO Running runs: ['4hni7jf2']
+2025-03-09 01:44:46 INFO Cleaning up finished run: numeqw88
+2025-03-09 01:44:46 INFO Agent received command: run
+2025-03-09 01:44:46 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.05
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 6
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: random
+2025-03-09 01:44:46 INFO About to run command: python main.py
+2025-03-09 01:44:51 INFO Running runs: ['qfblfkwx']
+2025-03-09 01:52:01 INFO Cleaning up finished run: 4hni7jf2
+2025-03-09 01:52:02 INFO Agent received command: run
+2025-03-09 01:52:02 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.99
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 01:52:02 INFO About to run command: python main.py
+2025-03-09 01:52:07 INFO Running runs: ['ukyd1yp3']
+2025-03-09 02:10:30 INFO Cleaning up finished run: qfblfkwx
+2025-03-09 02:10:31 INFO Agent received command: run
+2025-03-09 02:10:31 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.05
+	beta1: 0.9
+	beta2: 0.999
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0.5
+	weight_init: Xavier
+2025-03-09 02:10:31 INFO About to run command: python main.py
+2025-03-09 02:10:36 INFO Running runs: ['mf387zpc']
+2025-03-09 02:15:38 INFO Cleaning up finished run: jcfu79ne
+2025-03-09 02:15:42 INFO Agent received command: run
+2025-03-09 02:15:42 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.99
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 256
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0.0005
+	weight_init: random
+2025-03-09 02:15:42 INFO About to run command: python main.py
+2025-03-09 02:15:47 INFO Running runs: ['4iozik66']
+2025-03-09 02:16:24 INFO Agent received command: stop
+2025-03-09 02:16:24 INFO Stop: o14tc2jz
+2025-03-09 02:16:45 INFO Cleaning up finished run: o14tc2jz
+2025-03-09 02:17:39 INFO Cleaning up finished run: mf387zpc
+2025-03-09 02:17:40 INFO Agent received command: run
+2025-03-09 02:17:40 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 5
+	epsilon: 1e-05
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:17:40 INFO About to run command: python main.py
+2025-03-09 02:17:45 INFO Running runs: ['n824wvsz']
+2025-03-09 02:20:28 INFO Running runs: []
+2025-03-09 02:20:29 INFO Agent received command: run
+2025-03-09 02:20:29 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.5
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 6
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:20:29 INFO About to run command: python main.py
+2025-03-09 02:20:34 INFO Running runs: ['bvi6pkf1']
+2025-03-09 02:20:35 INFO Running runs: []
+2025-03-09 02:20:36 INFO Agent received command: run
+2025-03-09 02:20:36 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.5
+	beta1: 0.9
+	beta2: 0.999
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 6
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:20:36 INFO About to run command: python main.py
+2025-03-09 02:20:41 INFO Running runs: ['cxxf9jx2']
+2025-03-09 02:24:48 INFO Cleaning up finished run: n824wvsz
+2025-03-09 02:24:48 INFO Agent received command: run
+2025-03-09 02:24:48 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.1
+	beta1: 0.99
+	beta2: 0.99
+	epochs: 10
+	epsilon: 1e-05
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:24:48 INFO About to run command: python main.py
+2025-03-09 02:24:53 INFO Running runs: ['burk6jdk']
+2025-03-09 02:25:30 INFO Cleaning up finished run: ukyd1yp3
+2025-03-09 02:25:30 INFO Agent received command: run
+2025-03-09 02:25:30 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 256
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0
+	weight_init: random
+2025-03-09 02:25:30 INFO About to run command: python main.py
+2025-03-09 02:25:35 INFO Running runs: ['l83xkriy']
+2025-03-09 02:31:44 INFO Cleaning up finished run: cxxf9jx2
+2025-03-09 02:31:46 INFO Agent received command: run
+2025-03-09 02:31:46 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.05
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 256
+	learning_rate: 0.001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 02:31:46 INFO About to run command: python main.py
+2025-03-09 02:31:51 INFO Running runs: ['y6zhalli']
+2025-03-09 02:34:41 INFO Running runs: []
+2025-03-09 02:34:42 INFO Agent received command: run
+2025-03-09 02:34:42 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 15
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:34:42 INFO About to run command: python main.py
+2025-03-09 02:34:47 INFO Running runs: ['r2g9hjf0']
+2025-03-09 02:37:07 INFO Cleaning up finished run: burk6jdk
+2025-03-09 02:37:08 INFO Agent received command: run
+2025-03-09 02:37:08 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.1
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 64
+	learning_rate: 0.001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 5
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:37:08 INFO About to run command: python main.py
+2025-03-09 02:37:13 INFO Running runs: ['dhunerna']
+2025-03-09 02:41:10 INFO Running runs: []
+2025-03-09 02:41:11 INFO Agent received command: run
+2025-03-09 02:41:11 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 10
+	epsilon: 1e-05
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:41:11 INFO About to run command: python main.py
+2025-03-09 02:41:16 INFO Running runs: ['lxg01r3d']
+2025-03-09 02:43:40 INFO Cleaning up finished run: bvi6pkf1
+2025-03-09 02:43:42 INFO Agent received command: run
+2025-03-09 02:43:42 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 10
+	epsilon: 1e-05
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:43:42 INFO About to run command: python main.py
+2025-03-09 02:43:47 INFO Running runs: ['sg2m22fi']
+2025-03-09 02:48:16 INFO Cleaning up finished run: dhunerna
+2025-03-09 02:48:21 INFO Agent received command: run
+2025-03-09 02:48:21 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.9
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 256
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 02:48:21 INFO About to run command: python main.py
+2025-03-09 02:48:26 INFO Running runs: ['39vmltjo']
+2025-03-09 03:04:34 INFO Cleaning up finished run: r2g9hjf0
+2025-03-09 03:04:36 INFO Agent received command: run
+2025-03-09 03:04:36 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.5
+	beta1: 0.99
+	beta2: 0.99
+	epochs: 5
+	epsilon: 1e-06
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 4
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: random
+2025-03-09 03:04:36 INFO About to run command: python main.py
+2025-03-09 03:04:41 INFO Running runs: ['cx2izmqe']
+2025-03-09 03:11:43 INFO Cleaning up finished run: cx2izmqe
+2025-03-09 03:11:44 INFO Agent received command: run
+2025-03-09 03:11:44 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.05
+	beta1: 0.9
+	beta2: 0.999
+	epochs: 15
+	epsilon: 1e-05
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 6
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 03:11:44 INFO About to run command: python main.py
+2025-03-09 03:11:49 INFO Running runs: ['1vw1cw1t']
+2025-03-09 03:38:22 INFO Cleaning up finished run: sg2m22fi
+2025-03-09 03:38:23 INFO Agent received command: run
+2025-03-09 03:38:23 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.1
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 15
+	epsilon: 1e-06
+	hidden_size: 32
+	learning_rate: 0.001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 03:38:23 INFO About to run command: python main.py
+2025-03-09 03:38:28 INFO Running runs: ['kqat8wuw']
+2025-03-09 03:39:22 INFO Cleaning up finished run: 39vmltjo
+2025-03-09 03:39:23 INFO Agent received command: run
+2025-03-09 03:39:23 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.5
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 10
+	epsilon: 1e-06
+	hidden_size: 32
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.9
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 03:39:23 INFO About to run command: python main.py
+2025-03-09 03:39:28 INFO Running runs: ['snsk0cyr']
+2025-03-09 03:39:50 INFO Cleaning up finished run: lxg01r3d
+2025-03-09 03:39:52 INFO Agent received command: run
+2025-03-09 03:39:52 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.05
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 15
+	epsilon: 1e-05
+	hidden_size: 256
+	learning_rate: 0.001
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 03:39:52 INFO About to run command: python main.py
+2025-03-09 03:39:57 INFO Running runs: ['4nythyjx']
+2025-03-09 03:51:28 INFO Cleaning up finished run: snsk0cyr
+2025-03-09 03:51:29 INFO Agent received command: run
+2025-03-09 03:51:29 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.1
+	beta1: 0.9
+	beta2: 0.99
+	epochs: 15
+	epsilon: 1e-06
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.1
+	num_layers: 4
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: random
+2025-03-09 03:51:29 INFO About to run command: python main.py
+2025-03-09 03:51:34 INFO Running runs: ['aie9a7qo']
+2025-03-09 03:55:54 INFO Cleaning up finished run: kqat8wuw
+2025-03-09 03:55:55 INFO Agent received command: run
+2025-03-09 03:55:55 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.05
+	beta1: 0.99
+	beta2: 0.999
+	epochs: 15
+	epsilon: 1e-06
+	hidden_size: 128
+	learning_rate: 0.0001
+	loss: cross_entropy
+	momentum: 0.5
+	num_layers: 6
+	optimizer: rmsprop
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 03:55:55 INFO About to run command: python main.py
+2025-03-09 03:56:00 INFO Running runs: ['a7l7vuco']
+2025-03-09 04:16:19 INFO Running runs: []
+2025-03-09 04:16:19 INFO Agent received command: run
+2025-03-09 04:16:19 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.01001029373356104
+	beta1: 0.9845349885894776
+	beta2: 0.9957191038650038
+	epochs: 10
+	epsilon: 1.5355367376415134e-06
+	hidden_size: 64
+	learning_rate: 4.7216744214516256e-05
+	loss: cross_entropy
+	momentum: 0.879646957736626
+	num_layers: 5
+	optimizer: nag
+	weight_decay: 0.001
+	weight_init: random
+2025-03-09 04:16:19 INFO About to run command: python main.py
+2025-03-09 04:16:24 INFO Running runs: ['0mg9l4km']
+2025-03-09 04:19:53 INFO Running runs: []
+2025-03-09 04:19:54 INFO Agent received command: run
+2025-03-09 04:19:54 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.01001029373356104
+	beta1: 0.9845349885894776
+	beta2: 0.9957191038650038
+	epochs: 10
+	epsilon: 1.5355367376415134e-06
+	hidden_size: 64
+	learning_rate: 4.7216744214516256e-05
+	loss: cross_entropy
+	momentum: 0.879646957736626
+	num_layers: 5
+	optimizer: sgd
+	weight_decay: 0.001
+	weight_init: random
+2025-03-09 04:19:54 INFO About to run command: python main.py
+2025-03-09 04:19:59 INFO Running runs: ['40b82qip']
+2025-03-09 04:20:17 INFO Running runs: []
+2025-03-09 04:20:17 INFO Agent received command: run
+2025-03-09 04:20:17 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.021047531945278575
+	beta1: 0.9866546689387212
+	beta2: 0.9965262889050712
+	epochs: 10
+	epsilon: 3.131662909555064e-06
+	hidden_size: 64
+	learning_rate: 0.00020969872922883224
+	loss: cross_entropy
+	momentum: 0.9224129502373796
+	num_layers: 6
+	optimizer: nag
+	weight_decay: 0
+	weight_init: random
+2025-03-09 04:20:17 INFO About to run command: python main.py
+2025-03-09 04:20:22 INFO Running runs: []
+2025-03-09 04:20:22 INFO Running runs: ['upkcjaoc']
+2025-03-09 04:20:23 INFO Agent received command: run
+2025-03-09 04:20:23 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.06256571114794876
+	beta1: 0.9944252534014002
+	beta2: 0.998964174699631
+	epochs: 10
+	epsilon: 1.0988381232775222e-06
+	hidden_size: 64
+	learning_rate: 1.4694193784414002e-05
+	loss: cross_entropy
+	momentum: 0.8221629581648479
+	num_layers: 5
+	optimizer: momentum
+	weight_decay: 0.0001
+	weight_init: random
+2025-03-09 04:20:23 INFO About to run command: python main.py
+2025-03-09 04:20:28 INFO Running runs: []
+2025-03-09 04:20:28 INFO Running runs: ['wymd821a']
+2025-03-09 04:20:28 INFO Agent received command: run
+2025-03-09 04:20:28 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.04767206676941771
+	beta1: 0.9864003696680278
+	beta2: 0.9954277859432202
+	epochs: 10
+	epsilon: 2.4505790039127124e-06
+	hidden_size: 128
+	learning_rate: 7.650542595316507e-05
+	loss: cross_entropy
+	momentum: 0.9731775941212372
+	num_layers: 3
+	optimizer: momentum
+	weight_decay: 0.001
+	weight_init: random
+2025-03-09 04:20:28 INFO About to run command: python main.py
+2025-03-09 04:20:33 INFO Running runs: ['po8gcr2d']
+2025-03-09 04:20:37 INFO Running runs: []
+2025-03-09 04:20:37 INFO Agent received command: run
+2025-03-09 04:20:37 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.032062971997664426
+	beta1: 0.9865015452454088
+	beta2: 0.9993499888817496
+	epochs: 10
+	epsilon: 8.192565631790728e-06
+	hidden_size: 128
+	learning_rate: 0.0003863145060913007
+	loss: cross_entropy
+	momentum: 0.9332497014426208
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.001
+	weight_init: random
+2025-03-09 04:20:37 INFO About to run command: python main.py
+2025-03-09 04:20:42 INFO Running runs: ['dnjwagv5']
+2025-03-09 04:20:45 INFO Running runs: []
+2025-03-09 04:20:46 INFO Agent received command: run
+2025-03-09 04:20:46 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.0974598496449836
+	beta1: 0.9835036581956952
+	beta2: 0.9950794035245568
+	epochs: 10
+	epsilon: 3.128687150155642e-06
+	hidden_size: 32
+	learning_rate: 0.000328854704419177
+	loss: cross_entropy
+	momentum: 0.8053529795245202
+	num_layers: 6
+	optimizer: sgd
+	weight_decay: 0.0001
+	weight_init: random
+2025-03-09 04:20:46 INFO About to run command: python main.py
+2025-03-09 04:20:51 INFO Running runs: ['5u6sxbft']
+2025-03-09 04:22:05 ERROR Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 104, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 1669, in agent
+    api = _get_cling_api()
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\cli\cli.py", line 132, in _get_cling_api
+    wandb.setup(settings=wandb.Settings(x_cli_only_mode=True))
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_setup.py", line 382, in setup
+    return _setup(settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_setup.py", line 321, in _setup
+    _singleton.ensure_service()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\wandb_setup.py", line 264, in ensure_service
+    self._connection = service_connection.connect_to_service(self._settings)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\service_connection.py", line 40, in connect_to_service
+    return _start_and_connect_service(settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\service_connection.py", line 75, in _start_and_connect_service
+    proc.start()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\service\service.py", line 232, in start
+    self._launch_server()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\service\service.py", line 226, in _launch_server
+    _sentry.reraise(e)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\analytics\sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\service\service.py", line 224, in _launch_server
+    self._wait_for_ports(fname, proc=internal_proc)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\service\service.py", line 121, in _wait_for_ports
+    raise ServiceStartTimeoutError(
+wandb.sdk.service.service.ServiceStartTimeoutError: Timed out waiting for wandb service to start after 30.0 seconds. Try increasing the timeout with the `_service_wait` setting.
+
+2025-03-09 04:22:16 INFO Cleaning up finished run: 5u6sxbft
+2025-03-09 04:22:18 INFO Agent received command: run
+2025-03-09 04:22:18 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.020307613850139423
+	beta1: 0.9862308642578465
+	beta2: 0.9959676084792822
+	epochs: 15
+	epsilon: 4.154651658544862e-06
+	hidden_size: 128
+	learning_rate: 2.970233980925675e-05
+	loss: cross_entropy
+	momentum: 0.9693695735243943
+	num_layers: 6
+	optimizer: nag
+	weight_decay: 0.001
+	weight_init: random
+2025-03-09 04:22:18 INFO About to run command: python main.py
+2025-03-09 04:22:23 INFO Running runs: ['97babi08']
+2025-03-09 04:40:14 INFO Cleaning up finished run: wymd821a
+2025-03-09 04:40:16 INFO Agent received command: run
+2025-03-09 04:40:16 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.03975505683847633
+	beta1: 0.9896786874403252
+	beta2: 0.9956342395373096
+	epochs: 10
+	epsilon: 2.411288493750879e-06
+	hidden_size: 32
+	learning_rate: 1.0696186510230992e-05
+	loss: cross_entropy
+	momentum: 0.960782501014412
+	num_layers: 3
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: random
+2025-03-09 04:40:16 INFO About to run command: python main.py
+2025-03-09 04:40:21 INFO Running runs: ['9ry9vvgt']
+2025-03-09 04:41:47 INFO Cleaning up finished run: upkcjaoc
+2025-03-09 04:41:50 INFO Agent received command: run
+2025-03-09 04:41:50 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.05898124540438736
+	beta1: 0.9873546523263252
+	beta2: 0.9963192605110316
+	epochs: 15
+	epsilon: 1.4351826466656207e-06
+	hidden_size: 32
+	learning_rate: 0.00014763528497886298
+	loss: cross_entropy
+	momentum: 0.8423394608113387
+	num_layers: 4
+	optimizer: momentum
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 04:41:50 INFO About to run command: python main.py
+2025-03-09 04:41:55 INFO Running runs: ['oaizqban']
+2025-03-09 04:57:36 INFO Cleaning up finished run: oaizqban
+2025-03-09 04:57:37 INFO Agent received command: run
+2025-03-09 04:57:37 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.06857041423033902
+	beta1: 0.9824090468185774
+	beta2: 0.9971164269772518
+	epochs: 15
+	epsilon: 7.76242846229491e-06
+	hidden_size: 128
+	learning_rate: 4.713930952760226e-05
+	loss: cross_entropy
+	momentum: 0.9790675290185676
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0.0001
+	weight_init: random
+2025-03-09 04:57:37 INFO About to run command: python main.py
+2025-03-09 04:57:42 INFO Running runs: ['jty9k4lp']
+2025-03-09 04:57:51 INFO Cleaning up finished run: 9ry9vvgt
+2025-03-09 04:57:52 INFO Agent received command: run
+2025-03-09 04:57:52 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.011347476383577498
+	beta1: 0.9865445728363704
+	beta2: 0.995544884912266
+	epochs: 10
+	epsilon: 7.0616717827779184e-06
+	hidden_size: 128
+	learning_rate: 2.061841574106391e-05
+	loss: cross_entropy
+	momentum: 0.8137692737308927
+	num_layers: 3
+	optimizer: sgd
+	weight_decay: 0.0005
+	weight_init: random
+2025-03-09 04:57:52 INFO About to run command: python main.py
+2025-03-09 04:57:57 INFO Running runs: ['36ya1del']
+2025-03-09 05:00:35 INFO Cleaning up finished run: po8gcr2d
+2025-03-09 05:00:38 INFO Agent received command: run
+2025-03-09 05:00:38 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.05028263711937611
+	beta1: 0.9862250187791096
+	beta2: 0.9957919246244864
+	epochs: 10
+	epsilon: 5.284179331301174e-06
+	hidden_size: 64
+	learning_rate: 0.0002155501745118335
+	loss: cross_entropy
+	momentum: 0.9495096744315452
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 05:00:38 INFO About to run command: python main.py
+2025-03-09 05:00:43 INFO Running runs: ['ow883n30']
+2025-03-09 05:01:10 INFO Cleaning up finished run: 40b82qip
+2025-03-09 05:01:11 INFO Cleaning up finished run: dnjwagv5
+2025-03-09 05:01:12 INFO Agent received command: run
+2025-03-09 05:01:12 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.04162712759320376
+	beta1: 0.9843467327001832
+	beta2: 0.9959216696995538
+	epochs: 15
+	epsilon: 2.38050712642256e-06
+	hidden_size: 64
+	learning_rate: 0.00025887464268922717
+	loss: cross_entropy
+	momentum: 0.8841816986302894
+	num_layers: 3
+	optimizer: gd
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 05:01:12 INFO About to run command: python main.py
+2025-03-09 05:01:13 INFO Agent received command: run
+2025-03-09 05:01:13 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.05971785910759169
+	beta1: 0.991900972419372
+	beta2: 0.995662491668532
+	epochs: 15
+	epsilon: 4.247752316412051e-06
+	hidden_size: 128
+	learning_rate: 1.713644790889834e-05
+	loss: cross_entropy
+	momentum: 0.8420186650247148
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 05:01:13 INFO About to run command: python main.py
+2025-03-09 05:01:17 INFO Running runs: ['wu2emc9c']
+2025-03-09 05:01:18 INFO Running runs: ['nmcw8vad']
+2025-03-09 05:18:08 INFO Cleaning up finished run: ow883n30
+2025-03-09 05:18:09 INFO Agent received command: run
+2025-03-09 05:18:09 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.06333478700627908
+	beta1: 0.983819396655386
+	beta2: 0.9963732760684264
+	epochs: 10
+	epsilon: 2.901592903337258e-06
+	hidden_size: 64
+	learning_rate: 4.138404690437241e-05
+	loss: cross_entropy
+	momentum: 0.960994041927872
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 05:18:09 INFO About to run command: python main.py
+2025-03-09 05:18:14 INFO Running runs: ['853rjcep']
+2025-03-09 05:22:18 INFO Cleaning up finished run: wu2emc9c
+2025-03-09 05:22:18 INFO Agent received command: run
+2025-03-09 05:22:18 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.0974598496449836
+	beta1: 0.9835036581956952
+	beta2: 0.9950794035245568
+	epochs: 10
+	epsilon: 3.128687150155642e-06
+	hidden_size: 32
+	learning_rate: 0.000328854704419177
+	loss: cross_entropy
+	momentum: 0.8053529795245202
+	num_layers: 6
+	optimizer: sgd
+	weight_decay: 0.0001
+	weight_init: random
+2025-03-09 05:22:18 INFO About to run command: python main.py
+2025-03-09 05:22:23 INFO Running runs: ['5u6sxbft']
+2025-03-09 05:35:24 INFO Cleaning up finished run: 853rjcep
+2025-03-09 05:35:25 INFO Agent received command: run
+2025-03-09 05:35:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.038193008271121515
+	beta1: 0.9866523694749084
+	beta2: 0.9969072301675356
+	epochs: 15
+	epsilon: 8.105068790865768e-06
+	hidden_size: 128
+	learning_rate: 0.0002965266338137845
+	loss: cross_entropy
+	momentum: 0.9872376541004704
+	num_layers: 5
+	optimizer: nadam
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 05:35:25 INFO About to run command: python main.py
+2025-03-09 05:35:30 INFO Running runs: ['figjuq22']
+2025-03-09 05:39:56 INFO Cleaning up finished run: 36ya1del
+2025-03-09 05:39:57 INFO Agent received command: run
+2025-03-09 05:39:57 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.08897247942464771
+	beta1: 0.9860431523082992
+	beta2: 0.996272977664484
+	epochs: 15
+	epsilon: 1.2327268880529211e-06
+	hidden_size: 64
+	learning_rate: 0.0004832120374988159
+	loss: cross_entropy
+	momentum: 0.9843132796223536
+	num_layers: 4
+	optimizer: nag
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 05:39:57 INFO About to run command: python main.py
+2025-03-09 05:40:02 INFO Running runs: ['jdibe021']
+2025-03-09 05:56:29 INFO Cleaning up finished run: 97babi08
+2025-03-09 05:56:30 INFO Agent received command: run
+2025-03-09 05:56:30 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.08146672233108435
+	beta1: 0.9838312300348578
+	beta2: 0.9977765234564904
+	epochs: 15
+	epsilon: 2.8610371595530223e-06
+	hidden_size: 128
+	learning_rate: 0.00017906160569792928
+	loss: cross_entropy
+	momentum: 0.8542398970388609
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 05:56:30 INFO About to run command: python main.py
+2025-03-09 05:56:32 INFO Cleaning up finished run: nmcw8vad
+2025-03-09 05:56:33 INFO Agent received command: run
+2025-03-09 05:56:33 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	beta: 0.057958565143689855
+	beta1: 0.9903947343524094
+	beta2: 0.9959662112732928
+	epochs: 15
+	epsilon: 3.3615000049925e-06
+	hidden_size: 64
+	learning_rate: 0.000299597544754055
+	loss: cross_entropy
+	momentum: 0.9820504648046716
+	num_layers: 4
+	optimizer: adam
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 05:56:33 INFO About to run command: python main.py
+2025-03-09 05:56:35 INFO Running runs: ['3vjpr1nt']
+2025-03-09 05:56:38 INFO Running runs: ['2lqj7d8f']
+2025-03-09 05:59:40 INFO Cleaning up finished run: 5u6sxbft
+2025-03-09 05:59:41 INFO Agent received command: run
+2025-03-09 05:59:41 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	beta: 0.04526714976407904
+	beta1: 0.9890547667245516
+	beta2: 0.9953982360328582
+	epochs: 15
+	epsilon: 2.853803102898869e-06
+	hidden_size: 128
+	learning_rate: 0.0002460122857795389
+	loss: cross_entropy
+	momentum: 0.8845213056395054
+	num_layers: 5
+	optimizer: nadam
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 05:59:41 INFO About to run command: python main.py
+2025-03-09 05:59:46 INFO Running runs: ['wzi417uw']
+2025-03-09 06:04:47 INFO Cleaning up finished run: jdibe021
+2025-03-09 06:04:47 INFO Agent received command: run
+2025-03-09 06:04:47 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.011564811799452304
+	beta1: 0.9862765952206762
+	beta2: 0.9970555111023106
+	epochs: 15
+	epsilon: 5.554696303609681e-06
+	hidden_size: 128
+	learning_rate: 7.918868044731254e-05
+	loss: cross_entropy
+	momentum: 0.9534088893212678
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 06:04:47 INFO About to run command: python main.py
+2025-03-09 06:04:52 INFO Running runs: ['yvhrr5nb']
+2025-03-09 06:25:26 INFO Cleaning up finished run: 2lqj7d8f
+2025-03-09 06:25:27 INFO Agent received command: run
+2025-03-09 06:25:27 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.04793467131609392
+	beta1: 0.988301407125184
+	beta2: 0.9971863125066592
+	epochs: 15
+	epsilon: 1.4503911038090752e-06
+	hidden_size: 64
+	learning_rate: 0.0004282712081785744
+	loss: cross_entropy
+	momentum: 0.955194050511724
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 06:25:27 INFO About to run command: python main.py
+2025-03-09 06:25:32 INFO Running runs: ['yaf7ulze']
+2025-03-09 06:26:13 INFO Cleaning up finished run: jty9k4lp
+2025-03-09 06:26:14 INFO Agent received command: run
+2025-03-09 06:26:14 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.025575900996758025
+	beta1: 0.9929839021766476
+	beta2: 0.997369101410873
+	epochs: 15
+	epsilon: 9.181308559366731e-06
+	hidden_size: 128
+	learning_rate: 0.0004836889940136203
+	loss: cross_entropy
+	momentum: 0.9139166372346812
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 06:26:14 INFO About to run command: python main.py
+2025-03-09 06:26:19 INFO Running runs: ['3r877939']
+2025-03-09 06:51:38 INFO Cleaning up finished run: yaf7ulze
+2025-03-09 06:51:39 INFO Agent received command: run
+2025-03-09 06:51:39 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.029797562169239303
+	beta1: 0.9868586128274376
+	beta2: 0.995699881230613
+	epochs: 15
+	epsilon: 5.427247700725617e-06
+	hidden_size: 128
+	learning_rate: 0.00021356641730131595
+	loss: cross_entropy
+	momentum: 0.9151989817060812
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 06:51:39 INFO About to run command: python main.py
+2025-03-09 06:51:44 INFO Running runs: ['12jiw0cv']
+2025-03-09 06:59:45 INFO Cleaning up finished run: 3vjpr1nt
+2025-03-09 06:59:46 INFO Agent received command: run
+2025-03-09 06:59:46 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 16
+	beta: 0.030509541670956056
+	beta1: 0.986899084652979
+	beta2: 0.998835922384854
+	epochs: 15
+	epsilon: 9.636409595914973e-06
+	hidden_size: 128
+	learning_rate: 0.00025978128859071713
+	loss: cross_entropy
+	momentum: 0.8874651961964366
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 06:59:46 INFO About to run command: python main.py
+2025-03-09 06:59:51 INFO Running runs: ['cmja83cz']
+2025-03-09 07:01:09 INFO Cleaning up finished run: figjuq22
+2025-03-09 07:01:10 INFO Agent received command: run
+2025-03-09 07:01:10 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.01715447631841027
+	beta1: 0.9907680279134712
+	beta2: 0.9969324668725889
+	epochs: 15
+	epsilon: 8.762367262671813e-06
+	hidden_size: 128
+	learning_rate: 0.00045380889722810544
+	loss: cross_entropy
+	momentum: 0.930262729134148
+	num_layers: 4
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 07:01:10 INFO About to run command: python main.py
+2025-03-09 07:01:15 INFO Running runs: ['z6oweztn']
+2025-03-09 07:06:04 INFO Cleaning up finished run: yvhrr5nb
+2025-03-09 07:06:04 INFO Agent received command: run
+2025-03-09 07:06:04 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.05353998765248775
+	beta1: 0.9870925178341964
+	beta2: 0.9987788319105602
+	epochs: 15
+	epsilon: 5.313226888344697e-06
+	hidden_size: 128
+	learning_rate: 0.00037890068700969414
+	loss: cross_entropy
+	momentum: 0.9792642007548638
+	num_layers: 6
+	optimizer: nadam
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 07:06:04 INFO About to run command: python main.py
+2025-03-09 07:06:09 INFO Running runs: ['1sialvxy']
+2025-03-09 07:26:58 INFO Cleaning up finished run: 3r877939
+2025-03-09 07:26:59 INFO Agent received command: run
+2025-03-09 07:26:59 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.07431275333417509
+	beta1: 0.9888491530042852
+	beta2: 0.9958043043024656
+	epochs: 15
+	epsilon: 7.543464665471729e-06
+	hidden_size: 128
+	learning_rate: 0.00032959494515422594
+	loss: cross_entropy
+	momentum: 0.9217362993530512
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 07:26:59 INFO About to run command: python main.py
+2025-03-09 07:27:04 INFO Running runs: ['wzvy8si5']
+2025-03-09 07:34:09 INFO Cleaning up finished run: wzi417uw
+2025-03-09 07:34:10 INFO Agent received command: run
+2025-03-09 07:34:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.09480097013993195
+	beta1: 0.9842476803865148
+	beta2: 0.9984307006168311
+	epochs: 15
+	epsilon: 7.478109940471819e-06
+	hidden_size: 128
+	learning_rate: 0.00017124032329303969
+	loss: cross_entropy
+	momentum: 0.9535407395492094
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 07:34:10 INFO About to run command: python main.py
+2025-03-09 07:34:15 INFO Running runs: ['nz79a0yn']
+2025-03-09 07:53:43 INFO Cleaning up finished run: 12jiw0cv
+2025-03-09 07:53:44 INFO Agent received command: run
+2025-03-09 07:53:44 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.051976922706061954
+	beta1: 0.9849773358937236
+	beta2: 0.9981655876156929
+	epochs: 15
+	epsilon: 8.100955433815836e-06
+	hidden_size: 64
+	learning_rate: 0.00019638204837116053
+	loss: cross_entropy
+	momentum: 0.882959225077811
+	num_layers: 3
+	optimizer: nag
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 07:53:44 INFO About to run command: python main.py
+2025-03-09 07:53:49 INFO Running runs: ['6tqjop88']
+2025-03-09 08:02:01 INFO Cleaning up finished run: cmja83cz
+2025-03-09 08:02:02 INFO Agent received command: run
+2025-03-09 08:02:02 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.09118511427739064
+	beta1: 0.9823831468186176
+	beta2: 0.9979410385896732
+	epochs: 15
+	epsilon: 5.182065229647604e-06
+	hidden_size: 128
+	learning_rate: 0.0004221446708305479
+	loss: cross_entropy
+	momentum: 0.9751071292856304
+	num_layers: 4
+	optimizer: nadam
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 08:02:02 INFO About to run command: python main.py
+2025-03-09 08:02:07 INFO Running runs: ['yi4cqkft']
+2025-03-09 08:17:51 INFO Cleaning up finished run: 6tqjop88
+2025-03-09 08:17:52 INFO Agent received command: run
+2025-03-09 08:17:52 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.030474919460651777
+	beta1: 0.9836661493881884
+	beta2: 0.997243776582588
+	epochs: 10
+	epsilon: 1.1049798701216668e-06
+	hidden_size: 128
+	learning_rate: 0.0004685979181880845
+	loss: cross_entropy
+	momentum: 0.9866840242536098
+	num_layers: 5
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 08:17:52 INFO About to run command: python main.py
+2025-03-09 08:17:57 INFO Running runs: ['2amfr9xk']
+2025-03-09 08:18:10 INFO Cleaning up finished run: z6oweztn
+2025-03-09 08:18:11 INFO Agent received command: run
+2025-03-09 08:18:11 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	beta: 0.052075341576338786
+	beta1: 0.993721675262383
+	beta2: 0.9969008218968188
+	epochs: 15
+	epsilon: 9.257451274382617e-06
+	hidden_size: 128
+	learning_rate: 0.00022815487286809223
+	loss: cross_entropy
+	momentum: 0.9644836423374116
+	num_layers: 6
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 08:18:11 INFO About to run command: python main.py
+2025-03-09 08:18:16 INFO Running runs: ['5zgivyoo']
+2025-03-09 08:24:58 INFO Cleaning up finished run: wzvy8si5
+2025-03-09 08:24:59 INFO Agent received command: run
+2025-03-09 08:24:59 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 64
+	beta: 0.09745527519133158
+	beta1: 0.9939729418407276
+	beta2: 0.9994574202799716
+	epochs: 15
+	epsilon: 1.3276206511848131e-06
+	hidden_size: 128
+	learning_rate: 0.00035383514352637377
+	loss: cross_entropy
+	momentum: 0.9731428420850324
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 08:24:59 INFO About to run command: python main.py
+2025-03-09 08:25:04 INFO Running runs: ['zgo413c1']
+2025-03-09 08:34:32 INFO Cleaning up finished run: nz79a0yn
+2025-03-09 08:34:33 INFO Agent received command: run
+2025-03-09 08:34:33 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.09759502615162134
+	beta1: 0.9890936770284984
+	beta2: 0.9968969607795156
+	epochs: 15
+	epsilon: 6.594471496985842e-06
+	hidden_size: 128
+	learning_rate: 0.00047191593005022314
+	loss: cross_entropy
+	momentum: 0.9487183010970724
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 08:34:33 INFO About to run command: python main.py
+2025-03-09 08:34:38 INFO Running runs: ['x9bqzl8n']
+2025-03-09 08:48:19 INFO Cleaning up finished run: 1sialvxy
+2025-03-09 08:48:19 INFO Agent received command: run
+2025-03-09 08:48:19 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.08915593718836644
+	beta1: 0.9899383950850827
+	beta2: 0.9956203407479656
+	epochs: 15
+	epsilon: 1.3236781050492196e-06
+	hidden_size: 64
+	learning_rate: 0.0004642697887858732
+	loss: cross_entropy
+	momentum: 0.9284545638008962
+	num_layers: 3
+	optimizer: rmsprop
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 08:48:19 INFO About to run command: python main.py
+2025-03-09 08:48:24 INFO Running runs: ['23b7vksc']
+2025-03-09 09:12:13 INFO Cleaning up finished run: 23b7vksc
+2025-03-09 09:12:14 INFO Agent received command: run
+2025-03-09 09:12:14 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 64
+	beta: 0.017832002124649637
+	beta1: 0.9891070707748816
+	beta2: 0.9964478924462652
+	epochs: 15
+	epsilon: 4.312895924937286e-06
+	hidden_size: 128
+	learning_rate: 0.0004103173828853866
+	loss: cross_entropy
+	momentum: 0.9524518152036966
+	num_layers: 5
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 09:12:14 INFO About to run command: python main.py
+2025-03-09 09:12:19 INFO Running runs: ['2d58qpna']
+2025-03-09 09:17:47 INFO Cleaning up finished run: yi4cqkft
+2025-03-09 09:17:49 INFO Agent received command: run
+2025-03-09 09:17:49 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.08819888205675755
+	beta1: 0.9925513247891518
+	beta2: 0.9968764632644128
+	epochs: 15
+	epsilon: 3.8307907709113016e-06
+	hidden_size: 128
+	learning_rate: 0.0004097528385750248
+	loss: cross_entropy
+	momentum: 0.952072972715858
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 09:17:49 INFO About to run command: python main.py
+2025-03-09 09:17:54 INFO Running runs: ['izwfop75']
+2025-03-09 09:18:04 INFO Cleaning up finished run: 2amfr9xk
+2025-03-09 09:18:05 INFO Agent received command: run
+2025-03-09 09:18:05 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.07090017038804722
+	beta1: 0.984557743320582
+	beta2: 0.996824915300644
+	epochs: 15
+	epsilon: 3.919547041312177e-06
+	hidden_size: 128
+	learning_rate: 0.000344410305312974
+	loss: cross_entropy
+	momentum: 0.9847424840727368
+	num_layers: 3
+	optimizer: nadam
+	weight_decay: 0.001
+	weight_init: Xavier
+2025-03-09 09:18:05 INFO About to run command: python main.py
+2025-03-09 09:18:10 INFO Running runs: ['oog4ykw4']
+2025-03-09 09:27:25 INFO Cleaning up finished run: zgo413c1
+2025-03-09 09:27:25 INFO Agent received command: run
+2025-03-09 09:27:25 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 16
+	beta: 0.015695028573213716
+	beta1: 0.9939570079021962
+	beta2: 0.9957738732771644
+	epochs: 15
+	epsilon: 1.0539951287246925e-06
+	hidden_size: 128
+	learning_rate: 0.0003358235289177704
+	loss: cross_entropy
+	momentum: 0.9563810190729494
+	num_layers: 5
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 09:27:25 INFO About to run command: python main.py
+2025-03-09 09:27:30 INFO Running runs: ['x9uakgsm']
+2025-03-09 09:33:55 INFO Cleaning up finished run: x9bqzl8n
+2025-03-09 09:33:56 INFO Agent received command: run
+2025-03-09 09:33:56 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.059711800453215544
+	beta1: 0.9912861793216456
+	beta2: 0.9982486894671256
+	epochs: 15
+	epsilon: 2.965663513265211e-06
+	hidden_size: 128
+	learning_rate: 0.00024056676590147424
+	loss: cross_entropy
+	momentum: 0.9673048381736516
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 09:33:56 INFO About to run command: python main.py
+2025-03-09 09:34:01 INFO Running runs: ['u7epaw99']
+2025-03-09 10:16:49 INFO Cleaning up finished run: 5zgivyoo
+2025-03-09 10:16:50 INFO Agent received command: run
+2025-03-09 10:16:50 INFO Agent starting run with config:
+	activation: tanh
+	batch_size: 32
+	beta: 0.03433057878059331
+	beta1: 0.988492288303636
+	beta2: 0.9959525115406204
+	epochs: 15
+	epsilon: 3.043496177036336e-06
+	hidden_size: 128
+	learning_rate: 0.00012623893706970184
+	loss: cross_entropy
+	momentum: 0.950608372678629
+	num_layers: 3
+	optimizer: adam
+	weight_decay: 0
+	weight_init: Xavier
+2025-03-09 10:16:50 INFO About to run command: python main.py
+2025-03-09 10:16:55 INFO Running runs: ['hmyeab3h']
+2025-03-09 10:30:10 INFO Cleaning up finished run: izwfop75
+2025-03-09 10:30:10 INFO Agent received command: run
+2025-03-09 10:30:10 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 32
+	beta: 0.05372633942213916
+	beta1: 0.9877145597421486
+	beta2: 0.9978911191218532
+	epochs: 15
+	epsilon: 1.1117012174164418e-06
+	hidden_size: 128
+	learning_rate: 0.0004144111780761874
+	loss: cross_entropy
+	momentum: 0.9567757906392964
+	num_layers: 5
+	optimizer: adam
+	weight_decay: 0.0001
+	weight_init: random
+2025-03-09 10:30:10 INFO About to run command: python main.py
+2025-03-09 10:30:15 INFO Running runs: ['ttg9mfcq']
+2025-03-09 10:32:12 INFO Cleaning up finished run: oog4ykw4
+2025-03-09 10:32:12 INFO Agent received command: run
+2025-03-09 10:32:12 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.0269578791288079
+	beta1: 0.9901539994366136
+	beta2: 0.9960052633797368
+	epochs: 15
+	epsilon: 4.625550484048235e-06
+	hidden_size: 64
+	learning_rate: 0.0004672980168885839
+	loss: cross_entropy
+	momentum: 0.969839137481658
+	num_layers: 4
+	optimizer: adam
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 10:32:12 INFO About to run command: python main.py
+2025-03-09 10:32:18 INFO Running runs: ['e9w8xx5i']
+2025-03-09 10:34:53 INFO Agent received command: stop
+2025-03-09 10:34:53 INFO Stop: ttg9mfcq
+2025-03-09 10:42:41 INFO Cleaning up finished run: 2d58qpna
+2025-03-09 10:42:42 INFO Agent received command: run
+2025-03-09 10:42:42 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.034772121592775
+	beta1: 0.9904362084195064
+	beta2: 0.9956870864512682
+	epochs: 15
+	epsilon: 2.7891622614845106e-06
+	hidden_size: 128
+	learning_rate: 0.00017776757425371433
+	loss: cross_entropy
+	momentum: 0.9718566947983702
+	num_layers: 4
+	optimizer: nadam
+	weight_decay: 0.0005
+	weight_init: Xavier
+2025-03-09 10:42:42 INFO About to run command: python main.py
+2025-03-09 10:42:47 INFO Running runs: ['yxzgaiga']
+2025-03-09 11:04:32 INFO Cleaning up finished run: u7epaw99
+2025-03-09 11:04:33 INFO Agent received command: run
+2025-03-09 11:04:33 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 64
+	beta: 0.03967402847670504
+	beta1: 0.9850239452662992
+	beta2: 0.9983690510647014
+	epochs: 15
+	epsilon: 3.813939408670654e-06
+	hidden_size: 128
+	learning_rate: 0.00047644221086482526
+	loss: cross_entropy
+	momentum: 0.977831937678852
+	num_layers: 6
+	optimizer: rmsprop
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 11:04:33 INFO About to run command: python main.py
+2025-03-09 11:04:38 INFO Running runs: ['pwylw010']
+2025-03-09 11:05:26 INFO Cleaning up finished run: x9uakgsm
+2025-03-09 11:05:26 INFO Agent received command: run
+2025-03-09 11:05:26 INFO Agent starting run with config:
+	activation: sigmoid
+	batch_size: 16
+	beta: 0.023400986545679237
+	beta1: 0.98599094479367
+	beta2: 0.9993113527783228
+	epochs: 15
+	epsilon: 2.596214344654778e-06
+	hidden_size: 128
+	learning_rate: 0.00016737941794262254
+	loss: cross_entropy
+	momentum: 0.9732733234230038
+	num_layers: 4
+	optimizer: nadam
+	weight_decay: 0
+	weight_init: random
+2025-03-09 11:05:26 INFO About to run command: python main.py
+2025-03-09 11:05:32 INFO Running runs: ['0g87og09']
+2025-03-09 11:09:40 INFO Cleaning up finished run: hmyeab3h
+2025-03-09 11:09:41 INFO Agent received command: run
+2025-03-09 11:09:41 INFO Agent starting run with config:
+	activation: ReLU
+	batch_size: 32
+	beta: 0.010176131877773055
+	beta1: 0.9808965672035056
+	beta2: 0.99721027847742
+	epochs: 15
+	epsilon: 2.992677326706897e-06
+	hidden_size: 128
+	learning_rate: 0.0004746495818373651
+	loss: cross_entropy
+	momentum: 0.9105623591185392
+	num_layers: 6
+	optimizer: nadam
+	weight_decay: 0.0001
+	weight_init: Xavier
+2025-03-09 11:09:41 INFO About to run command: python main.py
+2025-03-09 11:09:46 INFO Running runs: ['37bbousg']

@@ -1,0 +1,16 @@
+{"time":"2025-03-06T09:40:48.8778996+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_094048-ugsevtdk\\logs\\debug-core.log"}
+{"time":"2025-03-06T09:40:49.9112419+05:30","level":"INFO","msg":"created new stream","id":"ugsevtdk"}
+{"time":"2025-03-06T09:40:49.9112419+05:30","level":"INFO","msg":"stream: started","id":"ugsevtdk"}
+{"time":"2025-03-06T09:40:49.9112419+05:30","level":"INFO","msg":"handler: started","stream_id":"ugsevtdk"}
+{"time":"2025-03-06T09:40:49.9112419+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ugsevtdk"}
+{"time":"2025-03-06T09:40:49.9112419+05:30","level":"INFO","msg":"sender: started","stream_id":"ugsevtdk"}
+{"time":"2025-03-06T09:40:50.3528827+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T09:41:30.3461261+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T09:41:30.3470696+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T09:41:31.3610556+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.3346097,"progress":"240B/240B"},{"desc":"uploading output.log","runtime_seconds":0.3346097,"progress":"58B/58B"}],"total_operations":2}}
+{"time":"2025-03-06T09:41:32.5884636+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T09:41:34.1617138+05:30","level":"INFO","msg":"stream: closing","id":"ugsevtdk"}
+{"time":"2025-03-06T09:41:34.1617138+05:30","level":"INFO","msg":"handler: closed","stream_id":"ugsevtdk"}
+{"time":"2025-03-06T09:41:34.1617138+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ugsevtdk"}
+{"time":"2025-03-06T09:41:34.1617138+05:30","level":"INFO","msg":"sender: closed","stream_id":"ugsevtdk"}
+{"time":"2025-03-06T09:41:34.1617138+05:30","level":"INFO","msg":"stream: closed","id":"ugsevtdk"}

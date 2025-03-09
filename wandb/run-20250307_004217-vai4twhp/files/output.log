@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 94, in <module>
+    main(args)
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 56, in main
+    X_train, y_train, X_val, y_val = T1.train_test_split(X_train, y_train, split_ratio=0.9)
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T1.py", line 29, in train_test_split
+    Y_train = Y_train[indices]
+              ^^^^^^^
+UnboundLocalError: cannot access local variable 'Y_train' where it is not associated with a value

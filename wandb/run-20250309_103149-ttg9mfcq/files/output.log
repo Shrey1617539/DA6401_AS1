@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 211, in <module>
+    main(args)
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 52, in main
+    weights, bias = T3.gradient_descent(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py", line 219, in gradient_descent
+    d_W[j] += np.mean(d_W_part[j], axis = 0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\numpy\core\fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\numpy\core\_methods.py", line 118, in _mean
+    ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

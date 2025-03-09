@@ -1,0 +1,16 @@
+Create sweep with ID: 11deya73
+Sweep URL: https://wandb.ai/me21b138-indian-institute-of-technology-madras/my-awesome-project/sweeps/11deya73
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
+2025-03-06 18:43:54,058 - wandb.wandb_agent - INFO - Running runs: []
+2025-03-06 18:43:54,661 - wandb.wandb_agent - INFO - Agent received command: run
+2025-03-06 18:43:54,672 - wandb.wandb_agent - INFO - Agent starting run with config:
+	activation_function: sigmoid
+	batch_size: 16
+	initialisation: random
+	learning_rate: 0.001
+	number_of_epochs: 5
+	number_of_hidden_layers: 3
+	size_of_every_hidden_layer: 128
+2025-03-06 18:43:54,674 - wandb.wandb_agent - INFO - About to run command: python main.py
+2025-03-06 18:43:59,682 - wandb.wandb_agent - INFO - Running runs: ['wiurz511']
+2025-03-06 18:44:05,109 - wandb.wandb_agent - INFO - Cleaning up finished run: wiurz511

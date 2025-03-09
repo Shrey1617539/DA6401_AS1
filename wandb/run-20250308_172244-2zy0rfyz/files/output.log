@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 208, in <module>
+    main(args)
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 21, in main
+    size_of_every_hidden_layer = json.load(size_of_every_hidden_layer)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^
+AttributeError: 'int' object has no attribute 'read'

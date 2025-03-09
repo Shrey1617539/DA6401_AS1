@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 73, in <module>
+    main(args)
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 28, in main
+    weights, bias = T3.gradient_descent(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py", line 287, in gradient_descent
+    bias[j] -= (learning_rate*((beta1*m_b_hat) + ((1-beta1)*d_W[j]/(1-(beta1**step_cnt)))))/(np.sqrt(v_b_hat) + epsilon)
+ValueError: non-broadcastable output operand with shape (20,1) doesn't match the broadcast shape (20,784)

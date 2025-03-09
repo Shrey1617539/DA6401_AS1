@@ -1,0 +1,9 @@
+{"time":"2025-03-06T12:27:10.1501695+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_122710-47w53ynn\\logs\\debug-core.log"}
+{"time":"2025-03-06T12:27:11.1695148+05:30","level":"INFO","msg":"created new stream","id":"47w53ynn"}
+{"time":"2025-03-06T12:27:11.1695148+05:30","level":"INFO","msg":"stream: started","id":"47w53ynn"}
+{"time":"2025-03-06T12:27:11.1695148+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"47w53ynn"}
+{"time":"2025-03-06T12:27:11.1695148+05:30","level":"INFO","msg":"handler: started","stream_id":"47w53ynn"}
+{"time":"2025-03-06T12:27:11.1695148+05:30","level":"INFO","msg":"sender: started","stream_id":"47w53ynn"}
+{"time":"2025-03-06T12:27:11.5714359+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:28:28.2698871+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/47w53ynn/file_stream"}
+{"time":"2025-03-06T12:28:28.2698871+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/me21b138-indian-institute-of-technology-madras/my-awesome-project/47w53ynn/file_stream: {\"error\":\"run my-awesome-project/47w53ynn not found while streaming file\"}"}

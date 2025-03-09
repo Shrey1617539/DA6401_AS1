@@ -1,0 +1,7 @@
+{"time":"2025-03-06T10:59:29.2740677+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_105929-0awlseik\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:59:30.1922834+05:30","level":"INFO","msg":"created new stream","id":"0awlseik"}
+{"time":"2025-03-06T10:59:30.1922834+05:30","level":"INFO","msg":"stream: started","id":"0awlseik"}
+{"time":"2025-03-06T10:59:30.1922834+05:30","level":"INFO","msg":"sender: started","stream_id":"0awlseik"}
+{"time":"2025-03-06T10:59:30.1922834+05:30","level":"INFO","msg":"handler: started","stream_id":"0awlseik"}
+{"time":"2025-03-06T10:59:30.1922834+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"0awlseik"}
+{"time":"2025-03-06T10:59:30.6717301+05:30","level":"INFO","msg":"Starting system monitor"}

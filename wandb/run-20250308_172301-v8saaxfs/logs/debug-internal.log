@@ -1,0 +1,15 @@
+{"time":"2025-03-08T17:23:01.0890425+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250308_172301-v8saaxfs\\logs\\debug-core.log"}
+{"time":"2025-03-08T17:23:02.1086248+05:30","level":"INFO","msg":"created new stream","id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:02.1086248+05:30","level":"INFO","msg":"stream: started","id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:02.1086248+05:30","level":"INFO","msg":"handler: started","stream_id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:02.1086248+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:02.1086248+05:30","level":"INFO","msg":"sender: started","stream_id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:02.6680396+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T17:23:03.7354019+05:30","level":"INFO","msg":"stream: closing","id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:03.7354019+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-08T17:23:03.7364961+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-08T17:23:04.7691349+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-08T17:23:05.2223425+05:30","level":"INFO","msg":"handler: closed","stream_id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:05.2223425+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:05.2223425+05:30","level":"INFO","msg":"sender: closed","stream_id":"v8saaxfs"}
+{"time":"2025-03-08T17:23:05.2229833+05:30","level":"INFO","msg":"stream: closed","id":"v8saaxfs"}

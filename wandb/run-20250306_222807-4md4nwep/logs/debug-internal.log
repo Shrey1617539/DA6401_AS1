@@ -1,0 +1,47 @@
+{"time":"2025-03-06T22:28:07.902537+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_222807-4md4nwep\\logs\\debug-core.log"}
+{"time":"2025-03-06T22:28:09.1495209+05:30","level":"INFO","msg":"created new stream","id":"4md4nwep"}
+{"time":"2025-03-06T22:28:09.1500821+05:30","level":"INFO","msg":"stream: started","id":"4md4nwep"}
+{"time":"2025-03-06T22:28:09.1500821+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4md4nwep"}
+{"time":"2025-03-06T22:28:09.1500821+05:30","level":"INFO","msg":"handler: started","stream_id":"4md4nwep"}
+{"time":"2025-03-06T22:28:09.1500821+05:30","level":"INFO","msg":"sender: started","stream_id":"4md4nwep"}
+{"time":"2025-03-06T22:28:09.5983678+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T22:30:51.6010322+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp 35.186.228.49:443: connectex: A socket operation was attempted to an unreachable host."}
+{"time":"2025-03-06T22:30:53.9206986+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:30:58.5122646+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:31:01.7533933+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.66.129:51352->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2025-03-06T22:31:03.9963803+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:31:06.6130829+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:31:08.4008218+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:31:17.4511447+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:31:25.0395741+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:31:33.5579768+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:32:01.2570746+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:32:06.2302925+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:33:01.2714394+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:33:06.247676+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:34:01.2863082+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:34:06.2545742+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:35:01.3099988+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:35:06.2555115+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:36:01.322917+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:36:06.2568383+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:37:01.3593533+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:37:06.2584893+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:38:01.3738849+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:38:06.2593726+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:39:01.3838315+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:39:06.2596372+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:40:01.387407+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:40:06.2608772+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:40:40.0659874+05:30","level":"WARN","msg":"sender: taking a long time","seconds":600.0006166,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"wr0zzh701v25\"  connection_id:\"127.0.0.1:51347\")"}
+{"time":"2025-03-06T22:41:01.3941126+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/4md4nwep/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:41:06.2618434+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-03-06T22:42:06.6847736+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":686.6194028,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"wr0zzh701v25\"  connection_id:\"127.0.0.1:51347\")"}
+{"time":"2025-03-06T22:42:06.6847736+05:30","level":"INFO","msg":"stream: closing","id":"4md4nwep"}
+{"time":"2025-03-06T22:42:06.6854708+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T22:42:07.5041954+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T22:42:08.5540806+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T22:42:09.0901726+05:30","level":"INFO","msg":"handler: closed","stream_id":"4md4nwep"}
+{"time":"2025-03-06T22:42:09.0901726+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4md4nwep"}
+{"time":"2025-03-06T22:42:09.092181+05:30","level":"INFO","msg":"sender: closed","stream_id":"4md4nwep"}
+{"time":"2025-03-06T22:42:09.092181+05:30","level":"INFO","msg":"stream: closed","id":"4md4nwep"}

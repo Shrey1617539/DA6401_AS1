@@ -1,0 +1,78 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.11.2
+    cli_version: 0.19.7
+    framework: keras
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1741476736
+    t:
+      1:
+      - 2
+      - 3
+      - 55
+      - 105
+      2:
+      - 2
+      - 3
+      - 55
+      - 105
+      3:
+      - 14
+      - 17
+      - 23
+      - 37
+      4: 3.11.2
+      5: 0.19.7
+      8:
+      - 3
+      - 5
+      13: windows-amd64
+activation:
+  desc: null
+  value: ReLU
+batch_size:
+  desc: null
+  value: 16
+beta:
+  desc: null
+  value: 0.04162712759320376
+beta1:
+  desc: null
+  value: 0.9843467327001832
+beta2:
+  desc: null
+  value: 0.9959216696995538
+epochs:
+  desc: null
+  value: 15
+epsilon:
+  desc: null
+  value: 2.38050712642256e-06
+hidden_size:
+  desc: null
+  value: 64
+learning_rate:
+  desc: null
+  value: 0.00025887464268922717
+loss:
+  desc: null
+  value: cross_entropy
+momentum:
+  desc: null
+  value: 0.8841816986302894
+num_layers:
+  desc: null
+  value: 3
+optimizer:
+  desc: null
+  value: gd
+weight_decay:
+  desc: null
+  value: 0.0005
+weight_init:
+  desc: null
+  value: Xavier

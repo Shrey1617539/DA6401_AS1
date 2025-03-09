@@ -1,0 +1,16 @@
+{"time":"2025-03-06T10:54:08.2834139+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_105408-dljvhj1a\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:54:09.201298+05:30","level":"INFO","msg":"created new stream","id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:09.201298+05:30","level":"INFO","msg":"stream: started","id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:09.201298+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:09.201298+05:30","level":"INFO","msg":"sender: started","stream_id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:09.201298+05:30","level":"INFO","msg":"handler: started","stream_id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:09.8705506+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:54:10.7146702+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:54:10.717314+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:54:11.7176058+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":1.2353832,"progress":"5.3KB/5.3KB"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.4572174,"progress":"1.2KB/1.2KB"},{"desc":"uploading output.log","runtime_seconds":0.4572174,"progress":"101B/101B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4572174,"progress":"24B/24B"},{"desc":"uploading config.yaml","runtime_seconds":0.1575084,"progress":"809B/809B"}],"total_operations":5}}
+{"time":"2025-03-06T10:54:12.8581739+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:54:14.3346525+05:30","level":"INFO","msg":"stream: closing","id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:14.3346525+05:30","level":"INFO","msg":"handler: closed","stream_id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:14.3346525+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:14.3346525+05:30","level":"INFO","msg":"sender: closed","stream_id":"dljvhj1a"}
+{"time":"2025-03-06T10:54:14.3351782+05:30","level":"INFO","msg":"stream: closed","id":"dljvhj1a"}

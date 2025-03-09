@@ -1,0 +1,11 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:59: RuntimeWarning: overflow encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:300: RuntimeWarning: overflow encountered in divide
+  weights[j] -= (learning_rate*(((beta1*m_W_hat) + ((1-beta1)*d_W[j]/(1-(beta1**step_cnt)))) + weight_decay*weights[j]))/(np.sqrt(v_W_hat) + epsilon)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:59: RuntimeWarning: invalid value encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:300: RuntimeWarning: invalid value encountered in subtract
+  weights[j] -= (learning_rate*(((beta1*m_W_hat) + ((1-beta1)*d_W[j]/(1-(beta1**step_cnt)))) + weight_decay*weights[j]))/(np.sqrt(v_W_hat) + epsilon)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:119: RuntimeWarning: invalid value encountered in matmul
+  grad_hl = np.matmul(weights[layer].T, grad_al)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:64: RuntimeWarning: invalid value encountered in matmul

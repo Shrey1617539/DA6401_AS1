@@ -1,0 +1,9 @@
+{"time":"2025-03-06T12:10:14.1474499+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_121014-brkkiroh\\logs\\debug-core.log"}
+{"time":"2025-03-06T12:10:15.1690856+05:30","level":"INFO","msg":"created new stream","id":"brkkiroh"}
+{"time":"2025-03-06T12:10:15.1696656+05:30","level":"INFO","msg":"stream: started","id":"brkkiroh"}
+{"time":"2025-03-06T12:10:15.1696656+05:30","level":"INFO","msg":"sender: started","stream_id":"brkkiroh"}
+{"time":"2025-03-06T12:10:15.1696656+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"brkkiroh"}
+{"time":"2025-03-06T12:10:15.1696656+05:30","level":"INFO","msg":"handler: started","stream_id":"brkkiroh"}
+{"time":"2025-03-06T12:10:15.6769944+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T12:13:17.2772725+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/brkkiroh/file_stream"}
+{"time":"2025-03-06T12:13:17.2772725+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/me21b138-indian-institute-of-technology-madras/my-awesome-project/brkkiroh/file_stream: {\"error\":\"run my-awesome-project/brkkiroh not found while streaming file\"}"}

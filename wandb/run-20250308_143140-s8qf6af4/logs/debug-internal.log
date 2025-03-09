@@ -1,0 +1,30 @@
+{"time":"2025-03-08T14:31:41.2920223+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250308_143140-s8qf6af4\\logs\\debug-core.log"}
+{"time":"2025-03-08T14:31:42.4914793+05:30","level":"INFO","msg":"created new stream","id":"s8qf6af4"}
+{"time":"2025-03-08T14:31:42.4914793+05:30","level":"INFO","msg":"stream: started","id":"s8qf6af4"}
+{"time":"2025-03-08T14:31:42.4914793+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s8qf6af4"}
+{"time":"2025-03-08T14:31:42.4964981+05:30","level":"INFO","msg":"sender: started","stream_id":"s8qf6af4"}
+{"time":"2025-03-08T14:31:42.4970148+05:30","level":"INFO","msg":"handler: started","stream_id":"s8qf6af4"}
+{"time":"2025-03-08T14:31:43.2081066+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-08T14:32:13.231334+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:13.2445857+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:32:23.2206354+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:23.2493307+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:32:33.2094227+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:33.2354773+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:32:43.2091349+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:32:43.2466349+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:32:53.2395678+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:32:53.2428429+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:03.2146803+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:03.270405+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:33:13.2083683+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:13.2533897+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:33:23.2116417+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:23.2502989+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:33:33.211003+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:33.2450983+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:33:43.2268295+05:30","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-03-08T14:33:43.2443774+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 29168"}
+{"time":"2025-03-08T14:47:30.0852165+05:30","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/s8qf6af4/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-03-08T14:59:03.672028+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/s8qf6af4/file_stream"}
+{"time":"2025-03-08T14:59:03.6735542+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/me21b138-indian-institute-of-technology-madras/my-awesome-project/s8qf6af4/file_stream: {\"error\":\"run my-awesome-project/s8qf6af4 not found while streaming file\"}"}

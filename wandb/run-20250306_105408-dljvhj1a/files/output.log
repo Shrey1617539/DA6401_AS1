@@ -1,0 +1,5 @@
+(128, 784)
+(128, 128)
+(128, 128)
+(10, 128)
+Experiment complete. Check your wandb dashboard for logs.

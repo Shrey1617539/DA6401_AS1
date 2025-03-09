@@ -1,0 +1,2 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:87: RuntimeWarning: divide by zero encountered in log
+  loss = -1*np.log(y_pred[np.arange(y_pred.shape[0]), y, 0])

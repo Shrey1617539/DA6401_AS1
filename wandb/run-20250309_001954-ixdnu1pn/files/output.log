@@ -1,0 +1,6 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:60: RuntimeWarning: overflow encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:28: RuntimeWarning: invalid value encountered in multiply
+  return a*(a>0)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:65: RuntimeWarning: overflow encountered in matmul
+  x = bias[-1] + (weights[-1] @ x)

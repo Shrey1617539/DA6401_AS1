@@ -1,0 +1,11 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:8: RuntimeWarning: overflow encountered in exp
+  return (1/(1+np.exp(-1*a)))
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:28: RuntimeWarning: overflow encountered in exp
+  z = (1/(1+np.exp(-1*a)))
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:45: RuntimeWarning: overflow encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:263: RuntimeWarning: overflow encountered in divide
+  weights[j] -= ((learning_rate*(m_W_hat + weight_decay*weights[j]))/(np.sqrt(v_W_hat) + epsilon))
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:45: RuntimeWarning: invalid value encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+Experiment complete. Check your wandb dashboard for logs.

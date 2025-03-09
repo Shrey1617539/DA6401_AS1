@@ -1,0 +1,7 @@
+{"time":"2025-03-09T02:01:35.2125654+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250309_020135-qarx9olz\\logs\\debug-core.log"}
+{"time":"2025-03-09T02:01:36.2258884+05:30","level":"INFO","msg":"created new stream","id":"qarx9olz"}
+{"time":"2025-03-09T02:01:36.2264025+05:30","level":"INFO","msg":"stream: started","id":"qarx9olz"}
+{"time":"2025-03-09T02:01:36.2282498+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qarx9olz"}
+{"time":"2025-03-09T02:01:36.2321847+05:30","level":"INFO","msg":"handler: started","stream_id":"qarx9olz"}
+{"time":"2025-03-09T02:01:36.2321847+05:30","level":"INFO","msg":"sender: started","stream_id":"qarx9olz"}
+{"time":"2025-03-09T02:01:36.9467093+05:30","level":"INFO","msg":"Starting system monitor"}

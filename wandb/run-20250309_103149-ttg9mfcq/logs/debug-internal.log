@@ -1,0 +1,158 @@
+2025-03-09 10:31:49,965 INFO    StreamThr :24776 [internal.py:wandb_internal():83] W&B internal server running at pid: 24776, started at: 2025-03-09 10:31:49.960795
+2025-03-09 10:31:50,095 INFO    WriterThread:24776 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\run-ttg9mfcq.wandb
+2025-03-09 10:31:51,114 INFO    SenderThread:24776 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files
+2025-03-09 10:31:51,114 INFO    SenderThread:24776 [sender.py:_start_run_threads():1133] run started: ttg9mfcq with start time 1741496509.957807
+2025-03-09 10:31:51,843 INFO    HandlerThread:24776 [system_monitor.py:start():187] Starting system monitor
+2025-03-09 10:31:51,850 INFO    SystemMonitor:24776 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-09 10:31:51,851 INFO    HandlerThread:24776 [system_monitor.py:probe():207] Collecting system info
+2025-03-09 10:31:51,872 INFO    SystemMonitor:24776 [interfaces.py:start():186] Started cpu monitoring
+2025-03-09 10:31:51,882 INFO    SystemMonitor:24776 [interfaces.py:start():186] Started disk monitoring
+2025-03-09 10:31:51,895 INFO    SystemMonitor:24776 [interfaces.py:start():186] Started gpu monitoring
+2025-03-09 10:31:51,937 INFO    SystemMonitor:24776 [interfaces.py:start():186] Started memory monitoring
+2025-03-09 10:31:51,940 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:31:51,942 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:31:51,983 INFO    SystemMonitor:24776 [interfaces.py:start():186] Started network monitoring
+2025-03-09 10:31:52,479 INFO    HandlerThread:24776 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-09 10:31:52,479 INFO    HandlerThread:24776 [system_monitor.py:probe():220] Publishing system info
+2025-03-09 10:31:52,482 INFO    HandlerThread:24776 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-09 10:31:52,515 INFO    SenderThread:24776 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-09 10:31:53,132 INFO    Thread-16 :24776 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\wandb-metadata.json
+2025-03-09 10:31:53,822 INFO    wandb-upload_0:24776 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpklh0ezp1wandb\21oqvqv9-wandb-metadata.json
+2025-03-09 10:31:55,207 INFO    Thread-16 :24776 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\requirements.txt
+2025-03-09 10:31:58,040 INFO    SenderThread:24776 [sender.py:send_run():980] updated run: ttg9mfcq
+2025-03-09 10:31:58,248 INFO    Thread-16 :24776 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\config.yaml
+2025-03-09 10:32:02,492 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:32:02,496 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:02,496 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:13,618 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:32:13,623 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:13,624 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:23,912 INFO    Thread-16 :24776 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\config.yaml
+2025-03-09 10:32:24,683 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:32:24,687 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:24,687 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:35,176 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:32:35,219 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:35,219 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:45,401 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:32:45,406 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:45,406 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:55,519 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:32:55,521 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:32:55,521 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:05,900 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:33:05,908 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:05,908 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:16,491 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:33:16,495 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:16,496 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:26,660 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:33:26,667 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:26,667 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:36,808 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:33:36,811 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:36,811 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:47,096 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:33:47,101 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:47,101 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:57,947 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:33:57,950 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:33:57,951 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:08,599 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:34:08,604 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:08,604 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:19,235 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:34:19,238 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:19,238 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:29,942 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:34:29,944 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:29,944 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:40,659 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:34:40,665 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:40,665 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:51,443 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:34:51,449 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:51,449 ERROR   gpu       :24776 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 10:34:55,093 INFO    SenderThread:24776 [sender.py:send_exit():553] handling exit code: 255
+2025-03-09 10:34:55,095 INFO    SenderThread:24776 [sender.py:send_exit():555] handling runtime: 184
+2025-03-09 10:34:55,097 INFO    SenderThread:24776 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 10:34:55,101 INFO    SenderThread:24776 [sender.py:send_exit():561] send defer
+2025-03-09 10:34:55,103 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 0
+2025-03-09 10:34:55,103 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 0
+2025-03-09 10:34:55,103 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 1
+2025-03-09 10:34:55,105 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 1
+2025-03-09 10:34:55,106 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 1
+2025-03-09 10:34:55,106 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 2
+2025-03-09 10:34:55,106 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 2
+2025-03-09 10:34:55,106 INFO    HandlerThread:24776 [system_monitor.py:finish():196] Stopping system monitor
+2025-03-09 10:34:55,146 INFO    HandlerThread:24776 [interfaces.py:finish():198] Joined cpu monitor
+2025-03-09 10:34:55,147 INFO    HandlerThread:24776 [interfaces.py:finish():198] Joined disk monitor
+2025-03-09 10:34:55,780 ERROR   gpu       :24776 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 10:34:55,782 INFO    HandlerThread:24776 [interfaces.py:finish():198] Joined gpu monitor
+2025-03-09 10:34:55,782 INFO    HandlerThread:24776 [interfaces.py:finish():198] Joined memory monitor
+2025-03-09 10:34:55,782 INFO    HandlerThread:24776 [interfaces.py:finish():198] Joined network monitor
+2025-03-09 10:34:55,784 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 2
+2025-03-09 10:34:55,784 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 3
+2025-03-09 10:34:55,785 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 3
+2025-03-09 10:34:55,789 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 3
+2025-03-09 10:34:55,789 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 4
+2025-03-09 10:34:55,790 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 4
+2025-03-09 10:34:55,790 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 4
+2025-03-09 10:34:55,790 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 5
+2025-03-09 10:34:55,791 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 5
+2025-03-09 10:34:55,796 INFO    SenderThread:24776 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 10:34:55,799 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 5
+2025-03-09 10:34:55,800 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 6
+2025-03-09 10:34:55,800 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 6
+2025-03-09 10:34:55,800 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 6
+2025-03-09 10:34:55,802 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 7
+2025-03-09 10:34:55,802 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 7
+2025-03-09 10:34:55,804 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 7
+2025-03-09 10:34:55,899 INFO    Thread-16 :24776 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\wandb-summary.json
+2025-03-09 10:34:55,900 INFO    Thread-16 :24776 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\output.log
+2025-03-09 10:34:57,055 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 8
+2025-03-09 10:34:57,057 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 8
+2025-03-09 10:34:57,057 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 8
+2025-03-09 10:34:57,059 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 9
+2025-03-09 10:34:57,059 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 9
+2025-03-09 10:34:57,059 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 9
+2025-03-09 10:34:57,061 INFO    SenderThread:24776 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-09 10:34:57,917 INFO    SenderThread:24776 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\output.log
+2025-03-09 10:34:57,920 INFO    SenderThread:24776 [dir_watcher.py:finish():388] scan: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files
+2025-03-09 10:34:57,922 INFO    SenderThread:24776 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\config.yaml config.yaml
+2025-03-09 10:34:57,922 INFO    SenderThread:24776 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\output.log output.log
+2025-03-09 10:34:57,928 INFO    SenderThread:24776 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\requirements.txt requirements.txt
+2025-03-09 10:34:57,933 INFO    SenderThread:24776 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\wandb-metadata.json wandb-metadata.json
+2025-03-09 10:34:57,934 INFO    SenderThread:24776 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\wandb-summary.json wandb-summary.json
+2025-03-09 10:34:57,948 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 10
+2025-03-09 10:34:57,949 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 10
+2025-03-09 10:34:57,956 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 10
+2025-03-09 10:34:57,956 INFO    SenderThread:24776 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-09 10:34:58,876 INFO    wandb-upload_3:24776 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\wandb-summary.json
+2025-03-09 10:34:58,884 INFO    wandb-upload_1:24776 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\output.log
+2025-03-09 10:34:58,912 INFO    wandb-upload_2:24776 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\requirements.txt
+2025-03-09 10:34:59,914 INFO    wandb-upload_0:24776 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\files\config.yaml
+2025-03-09 10:35:00,129 INFO    Thread-15 (_thread_body):24776 [sender.py:transition_state():581] send defer: 11
+2025-03-09 10:35:00,129 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 11
+2025-03-09 10:35:00,131 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 11
+2025-03-09 10:35:00,131 INFO    SenderThread:24776 [file_pusher.py:join():175] waiting for file pusher
+2025-03-09 10:35:00,133 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 12
+2025-03-09 10:35:00,133 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 12
+2025-03-09 10:35:00,135 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 12
+2025-03-09 10:35:00,135 INFO    SenderThread:24776 [file_stream.py:finish():601] file stream finish called
+2025-03-09 10:35:01,349 INFO    SenderThread:24776 [file_stream.py:finish():605] file stream finish is done
+2025-03-09 10:35:01,349 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 13
+2025-03-09 10:35:01,351 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 13
+2025-03-09 10:35:01,353 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 13
+2025-03-09 10:35:01,353 INFO    SenderThread:24776 [sender.py:transition_state():581] send defer: 14
+2025-03-09 10:35:01,355 INFO    HandlerThread:24776 [handler.py:handle_request_defer():188] handle defer: 14
+2025-03-09 10:35:01,357 INFO    SenderThread:24776 [sender.py:send_request_defer():577] handle sender defer: 14
+2025-03-09 10:35:01,376 INFO    MainThread:24776 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-09 10:35:01,377 INFO    MainThread:24776 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-09 10:35:01,377 INFO    MainThread:24776 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-09 10:35:01,382 INFO    HandlerThread:24776 [handler.py:finish():897] shutting down handler
+2025-03-09 10:35:02,390 INFO    MsgRouterThr:24776 [mailbox.py:close():115] Closing mailbox, abandoning 0 handles.
+2025-03-09 10:35:02,404 INFO    SenderThread:24776 [sender.py:finish():1580] shutting down sender
+2025-03-09 10:35:02,405 INFO    SenderThread:24776 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-09 10:35:02,406 INFO    WriterThread:24776 [datastore.py:close():296] close: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_103149-ttg9mfcq\run-ttg9mfcq.wandb
+2025-03-09 10:35:02,412 INFO    SenderThread:24776 [file_pusher.py:join():175] waiting for file pusher

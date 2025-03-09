@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 211, in <module>
+    main(args)
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\main.py", line 52, in main
+    weights, bias = T3.gradient_descent(
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py", line 226, in gradient_descent
+    bias[j] -= learning_rate * d_b[j]
+    ~~~~^^^
+KeyboardInterrupt

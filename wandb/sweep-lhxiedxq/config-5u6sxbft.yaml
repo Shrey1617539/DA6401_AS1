@@ -1,0 +1,32 @@
+wandb_version: 1
+
+activation:
+  value: tanh
+batch_size:
+  value: 32
+beta:
+  value: 0.0974598496449836
+beta1:
+  value: 0.9835036581956952
+beta2:
+  value: 0.9950794035245568
+epochs:
+  value: 10
+epsilon:
+  value: 3.128687150155642e-06
+hidden_size:
+  value: 32
+learning_rate:
+  value: 0.000328854704419177
+loss:
+  value: cross_entropy
+momentum:
+  value: 0.8053529795245202
+num_layers:
+  value: 6
+optimizer:
+  value: sgd
+weight_decay:
+  value: 0.0001
+weight_init:
+  value: random

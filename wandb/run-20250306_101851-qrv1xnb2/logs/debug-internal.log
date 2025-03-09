@@ -1,0 +1,16 @@
+{"time":"2025-03-06T10:18:51.8883129+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_101851-qrv1xnb2\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:18:52.9039141+05:30","level":"INFO","msg":"created new stream","id":"qrv1xnb2"}
+{"time":"2025-03-06T10:18:52.9039141+05:30","level":"INFO","msg":"stream: started","id":"qrv1xnb2"}
+{"time":"2025-03-06T10:18:52.9039141+05:30","level":"INFO","msg":"handler: started","stream_id":"qrv1xnb2"}
+{"time":"2025-03-06T10:18:52.9039141+05:30","level":"INFO","msg":"sender: started","stream_id":"qrv1xnb2"}
+{"time":"2025-03-06T10:18:52.9039141+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qrv1xnb2"}
+{"time":"2025-03-06T10:18:53.3687962+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:25:59.5569521+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:25:59.5574584+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:26:00.5630191+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3346906},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3346906,"progress":"243B/243B"},{"desc":"uploading config.yaml","runtime_seconds":0.0475268,"progress":"809B/809B"}],"total_operations":3}}
+{"time":"2025-03-06T10:26:00.9886109+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:26:02.376051+05:30","level":"INFO","msg":"stream: closing","id":"qrv1xnb2"}
+{"time":"2025-03-06T10:26:02.3765629+05:30","level":"INFO","msg":"handler: closed","stream_id":"qrv1xnb2"}
+{"time":"2025-03-06T10:26:02.3765629+05:30","level":"INFO","msg":"sender: closed","stream_id":"qrv1xnb2"}
+{"time":"2025-03-06T10:26:02.3765629+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qrv1xnb2"}
+{"time":"2025-03-06T10:26:02.3765629+05:30","level":"INFO","msg":"stream: closed","id":"qrv1xnb2"}

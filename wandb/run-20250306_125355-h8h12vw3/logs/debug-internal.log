@@ -1,0 +1,46 @@
+2025-03-06 12:53:55,752 INFO    StreamThr :17564 [internal.py:wandb_internal():83] W&B internal server running at pid: 17564, started at: 2025-03-06 12:53:55.752828
+2025-03-06 12:53:55,752 INFO    WriterThread:17564 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_125355-h8h12vw3\run-h8h12vw3.wandb
+2025-03-06 12:53:56,714 INFO    SenderThread:17564 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_125355-h8h12vw3\files
+2025-03-06 12:53:56,714 INFO    SenderThread:17564 [sender.py:_start_run_threads():1133] run started: h8h12vw3 with start time 1741245835.752828
+2025-03-06 12:53:57,266 INFO    HandlerThread:17564 [system_monitor.py:start():187] Starting system monitor
+2025-03-06 12:53:57,266 INFO    SystemMonitor:17564 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-06 12:53:57,266 INFO    HandlerThread:17564 [system_monitor.py:probe():207] Collecting system info
+2025-03-06 12:53:57,277 INFO    SystemMonitor:17564 [interfaces.py:start():186] Started cpu monitoring
+2025-03-06 12:53:57,278 INFO    SystemMonitor:17564 [interfaces.py:start():186] Started disk monitoring
+2025-03-06 12:53:57,278 INFO    SystemMonitor:17564 [interfaces.py:start():186] Started gpu monitoring
+2025-03-06 12:53:57,285 INFO    SystemMonitor:17564 [interfaces.py:start():186] Started memory monitoring
+2025-03-06 12:53:57,290 INFO    SystemMonitor:17564 [interfaces.py:start():186] Started network monitoring
+2025-03-06 12:53:57,306 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:53:57,306 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:53:57,418 INFO    HandlerThread:17564 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-06 12:53:57,418 INFO    HandlerThread:17564 [system_monitor.py:probe():220] Publishing system info
+2025-03-06 12:53:57,418 INFO    HandlerThread:17564 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-06 12:53:57,434 INFO    SenderThread:17564 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-06 12:53:57,722 INFO    Thread-16 :17564 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_125355-h8h12vw3\files\wandb-metadata.json
+2025-03-06 12:53:58,734 INFO    Thread-16 :17564 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_125355-h8h12vw3\files\requirements.txt
+2025-03-06 12:53:58,797 INFO    wandb-upload_0:17564 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpeyw0k935wandb\zh4crk9a-wandb-metadata.json
+2025-03-06 12:54:08,212 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:54:08,216 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:08,216 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:19,127 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:54:19,127 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:19,127 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:29,091 INFO    Thread-16 :17564 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_125355-h8h12vw3\files\config.yaml
+2025-03-06 12:54:30,001 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:54:30,001 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:30,001 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:40,927 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:54:40,927 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:40,927 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:51,856 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:54:51,859 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:54:51,859 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:55:02,762 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:55:02,766 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:55:02,767 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:55:12,783 ERROR   gpu       :17564 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:55:12,783 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Unknown Error
+2025-03-06 12:55:12,783 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Unknown Error
+2025-03-06 12:55:12,783 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:55:12,783 ERROR   gpu       :17564 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:55:15,595 INFO    MainThread:17564 [internal.py:handle_exit():73] Internal process exited

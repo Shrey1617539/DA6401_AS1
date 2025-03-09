@@ -1,0 +1,16 @@
+{"time":"2025-03-06T10:27:47.7063129+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_102747-legvyfyv\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:27:48.7229215+05:30","level":"INFO","msg":"created new stream","id":"legvyfyv"}
+{"time":"2025-03-06T10:27:48.7229215+05:30","level":"INFO","msg":"stream: started","id":"legvyfyv"}
+{"time":"2025-03-06T10:27:48.7229215+05:30","level":"INFO","msg":"handler: started","stream_id":"legvyfyv"}
+{"time":"2025-03-06T10:27:48.7229215+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"legvyfyv"}
+{"time":"2025-03-06T10:27:48.7229215+05:30","level":"INFO","msg":"sender: started","stream_id":"legvyfyv"}
+{"time":"2025-03-06T10:27:49.1705226+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:33:43.1999577+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:33:43.2004653+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:33:44.2143962+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3239734,"progress":"58B/58B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3239734,"progress":"231B/231B"},{"desc":"uploading config.yaml","runtime_seconds":0.0030389,"progress":"809B/809B"}],"total_operations":3}}
+{"time":"2025-03-06T10:33:44.6699733+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:33:46.1655857+05:30","level":"INFO","msg":"stream: closing","id":"legvyfyv"}
+{"time":"2025-03-06T10:33:46.1655857+05:30","level":"INFO","msg":"handler: closed","stream_id":"legvyfyv"}
+{"time":"2025-03-06T10:33:46.1655857+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"legvyfyv"}
+{"time":"2025-03-06T10:33:46.1655857+05:30","level":"INFO","msg":"sender: closed","stream_id":"legvyfyv"}
+{"time":"2025-03-06T10:33:46.1660932+05:30","level":"INFO","msg":"stream: closed","id":"legvyfyv"}

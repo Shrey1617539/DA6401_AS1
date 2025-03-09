@@ -1,0 +1,507 @@
+2025-03-06 22:28:40,065 INFO    StreamThr :20708 [internal.py:wandb_internal():83] W&B internal server running at pid: 20708, started at: 2025-03-06 22:28:40.065219
+2025-03-06 22:28:40,083 INFO    WriterThread:20708 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\run-ws4ulbc9.wandb
+2025-03-06 22:28:41,004 INFO    SenderThread:20708 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files
+2025-03-06 22:28:41,005 INFO    SenderThread:20708 [sender.py:_start_run_threads():1133] run started: ws4ulbc9 with start time 1741280320.065219
+2025-03-06 22:28:41,575 INFO    HandlerThread:20708 [system_monitor.py:start():187] Starting system monitor
+2025-03-06 22:28:41,576 INFO    SystemMonitor:20708 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-06 22:28:41,577 INFO    HandlerThread:20708 [system_monitor.py:probe():207] Collecting system info
+2025-03-06 22:28:41,587 INFO    SystemMonitor:20708 [interfaces.py:start():186] Started cpu monitoring
+2025-03-06 22:28:41,588 INFO    SystemMonitor:20708 [interfaces.py:start():186] Started disk monitoring
+2025-03-06 22:28:41,589 INFO    SystemMonitor:20708 [interfaces.py:start():186] Started gpu monitoring
+2025-03-06 22:28:41,599 INFO    SystemMonitor:20708 [interfaces.py:start():186] Started memory monitoring
+2025-03-06 22:28:41,619 INFO    SystemMonitor:20708 [interfaces.py:start():186] Started network monitoring
+2025-03-06 22:28:41,645 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:28:41,646 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:28:41,848 INFO    HandlerThread:20708 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-06 22:28:41,848 INFO    HandlerThread:20708 [system_monitor.py:probe():220] Publishing system info
+2025-03-06 22:28:41,849 INFO    HandlerThread:20708 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-06 22:28:41,871 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-06 22:28:42,015 INFO    Thread-16 :20708 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\wandb-metadata.json
+2025-03-06 22:28:43,002 INFO    wandb-upload_0:20708 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpw5umdmbwwandb\nqzigcch-wandb-metadata.json
+2025-03-06 22:28:43,021 INFO    Thread-16 :20708 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\requirements.txt
+2025-03-06 22:28:52,195 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:28:52,195 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:28:52,195 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:02,847 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:29:02,851 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:02,851 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:13,396 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:29:13,398 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:13,398 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:15,294 INFO    Thread-16 :20708 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\config.yaml
+2025-03-06 22:29:23,946 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:29:23,946 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:23,946 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:34,517 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:29:34,521 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:34,521 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:45,090 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:29:45,093 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:45,094 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:55,701 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:29:55,711 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:29:55,712 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:06,289 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:30:06,291 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:06,291 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:16,870 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:30:16,870 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:16,870 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:27,492 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:30:27,492 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:27,492 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:38,060 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:30:38,063 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:38,063 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:48,701 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:30:48,708 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:48,708 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:59,304 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:30:59,306 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:30:59,307 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:03,365 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:31:05,489 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F44894090>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:31:06,171 INFO    SenderThread:20708 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 203, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 1096, in _validate_conn
+    conn.connect()
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 611, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connection.py", line 210, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000012F448A8C10>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F448A8C10>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F448A8C10>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+2025-03-06 22:31:09,611 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F44896C50>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:31:09,878 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:31:09,878 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:09,878 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:18,940 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F44993BD0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:31:20,138 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:31:20,138 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:20,138 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:30,274 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:31:30,278 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:30,278 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:36,419 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F4499A910>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:31:40,920 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:31:40,936 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:40,936 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:51,573 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:31:51,576 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:31:51,576 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:02,150 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:32:02,152 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:02,152 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:12,770 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:32:12,772 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:12,772 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:13,763 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F44993710>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:32:23,336 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:32:23,338 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:23,338 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:33,920 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:32:33,922 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:33,922 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:44,557 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:32:44,560 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:44,560 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:55,165 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:32:55,169 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:32:55,170 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:05,751 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:33:05,755 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:05,755 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:16,358 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:33:16,361 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:16,361 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:19,358 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F44993410>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:33:26,963 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:33:26,967 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:26,967 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:37,607 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:33:37,611 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:37,611 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:48,200 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:33:48,202 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:48,202 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:58,799 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:33:58,802 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:33:58,802 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:08,924 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:34:08,937 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:08,937 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:19,715 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:34:19,718 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:19,718 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:30,681 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:34:30,685 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:30,685 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:41,668 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:34:41,672 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:41,672 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:52,682 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:34:52,682 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:34:52,686 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:03,625 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:35:03,629 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:03,629 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:14,587 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:35:14,587 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:14,587 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:25,530 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:35:25,532 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:25,532 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:36,125 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:35:36,125 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:36,125 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:36,160 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F4499A7D0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:35:47,142 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:35:47,144 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:47,144 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:58,052 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:35:58,054 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:35:58,055 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:08,981 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:36:08,983 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:08,983 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:19,900 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:36:19,902 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:19,902 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:30,858 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:36:30,858 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:30,858 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:41,754 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:36:41,756 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:41,756 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:52,746 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:36:52,748 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:36:52,750 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:03,724 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:37:03,726 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:03,726 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:14,645 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:37:14,647 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:14,647 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:25,570 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:37:25,570 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:25,570 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:36,511 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:37:36,511 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:36,511 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:47,477 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:37:47,477 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:47,477 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:58,449 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:37:58,452 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:37:58,453 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:09,367 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:38:09,367 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:09,367 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:20,276 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:38:20,278 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:20,278 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:31,202 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:38:31,219 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:31,219 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:42,094 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:38:42,094 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:42,094 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:52,947 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:38:52,947 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:38:52,947 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:03,800 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:39:03,802 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:03,802 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:14,641 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:39:14,641 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:14,641 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:25,505 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:39:25,505 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:25,505 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:36,357 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:39:36,357 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:36,357 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:47,193 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:39:47,193 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:47,193 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:58,046 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:39:58,046 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:39:58,046 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:06,739 WARNING FileStreamThread:20708 [file_stream.py:request_with_retry():674] requests_with_retry encountered retryable exception: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000012F440F3410>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)")). func: <bound method Session.post of <requests.sessions.Session object at 0x0000012F4405E590>>, args: ('https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/file_stream',), kwargs: {'json': {'files': {'wandb-events.jsonl': {'offset': 51, 'content': ['{"system.cpu": 12.79, "system.proc.cpu.threads": 22, "_wandb": true, "_timestamp": 1741280431.884933, "_runtime": 111.819714}', '{"system.proc.memory.availableMB": 2121.93, "system.memory": 86.7, "system.proc.memory.rssMB": 1121.33, "system.proc.memory.percent": 6.95, "_wandb": true, "_timestamp": 1741280432.230633, "_runtime": 112.165414}', '{"system.network.sent": 1737814.0, "system.network.recv": 379187.0, "_wandb": true, "_timestamp": 1741280432.246271, "_runtime": 112.181052}', '{"system.gpu.0.memoryAllocated": 6.91, "system.gpu.0.memoryAllocatedBytes": 148443136.0, "system.gpu.0.memory": 0.0, "system.gpu.0.gpu": 0.0, "system.gpu.0.temp": 85.0, "_wandb": true, "_timestamp": 1741280438.060961, "_runtime": 117.995742}', '{"system.disk.\\\\.usagePercent": 90.7, "system.disk.\\\\.usageGB": 414.2, "system.disk.in": 64.47, "system.disk.out": 999.98, "_wandb": true, "_timestamp": 1741280441.697143, "_runtime": 121.631924}']}}, 'dropped': 0}}
+2025-03-06 22:40:08,875 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:40:08,875 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:08,875 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:19,715 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:40:19,715 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:19,715 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:30,583 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:40:30,585 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:30,585 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:41,440 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:40:41,440 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:41,440 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:52,271 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:40:52,271 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:40:52,271 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:03,118 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:41:03,118 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:03,118 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:13,972 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:41:13,972 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:13,972 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:24,826 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:41:24,826 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:24,826 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:35,654 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:41:35,654 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:35,654 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:46,505 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:41:46,507 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:46,507 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:57,374 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:41:57,375 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:41:57,375 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:07,549 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:42:07,552 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:07,552 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:18,419 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:42:18,421 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:18,421 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:29,305 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:42:29,305 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:29,305 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:40,220 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:42:40,222 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:40,222 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:51,078 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:42:51,081 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:42:51,081 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:01,957 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:43:01,957 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:01,957 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:12,771 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:43:12,773 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:12,773 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:22,838 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:43:22,846 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:22,846 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:32,946 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:43:32,953 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:32,953 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:43,046 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:43:43,048 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:43,048 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:53,654 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:43:53,658 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:43:53,658 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:04,174 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:44:04,177 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:04,177 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:14,702 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:44:14,702 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:14,702 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:25,207 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:44:25,210 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:25,210 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:35,731 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:44:35,733 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:35,733 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:46,273 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:44:46,275 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:46,276 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:56,759 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:44:56,759 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:44:56,759 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:07,265 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:45:07,265 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:07,265 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:17,810 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:45:17,810 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:17,810 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:28,840 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:45:28,842 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:28,842 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:39,739 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:45:39,740 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:39,740 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:50,639 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:45:50,641 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:45:50,641 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:46:01,538 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:46:01,540 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:46:01,540 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:46:12,452 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:46:12,455 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:46:12,455 ERROR   gpu       :20708 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 22:46:18,569 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,587 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,589 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,592 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,604 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,615 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,615 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,615 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,634 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,636 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,638 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,640 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,654 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,656 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,657 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,659 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,662 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,662 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,662 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,662 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,662 INFO    SenderThread:20708 [sender.py:send_exit():553] handling exit code: 0
+2025-03-06 22:46:18,662 INFO    SenderThread:20708 [sender.py:send_exit():555] handling runtime: 597
+2025-03-06 22:46:18,678 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:18,678 INFO    SenderThread:20708 [sender.py:send_exit():561] send defer
+2025-03-06 22:46:18,694 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 0
+2025-03-06 22:46:18,710 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 0
+2025-03-06 22:46:18,710 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 1
+2025-03-06 22:46:18,710 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 1
+2025-03-06 22:46:18,710 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 1
+2025-03-06 22:46:18,710 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 2
+2025-03-06 22:46:18,710 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 2
+2025-03-06 22:46:18,710 INFO    HandlerThread:20708 [system_monitor.py:finish():196] Stopping system monitor
+2025-03-06 22:46:18,730 INFO    HandlerThread:20708 [interfaces.py:finish():198] Joined cpu monitor
+2025-03-06 22:46:18,730 INFO    HandlerThread:20708 [interfaces.py:finish():198] Joined disk monitor
+2025-03-06 22:46:19,230 ERROR   gpu       :20708 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 22:46:19,230 INFO    HandlerThread:20708 [interfaces.py:finish():198] Joined gpu monitor
+2025-03-06 22:46:19,230 INFO    HandlerThread:20708 [interfaces.py:finish():198] Joined memory monitor
+2025-03-06 22:46:19,230 INFO    HandlerThread:20708 [interfaces.py:finish():198] Joined network monitor
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 2
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 3
+2025-03-06 22:46:19,230 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 3
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 3
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 4
+2025-03-06 22:46:19,230 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 4
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 4
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 5
+2025-03-06 22:46:19,230 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 5
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 5
+2025-03-06 22:46:19,230 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 6
+2025-03-06 22:46:19,240 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 6
+2025-03-06 22:46:19,240 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 6
+2025-03-06 22:46:19,240 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 7
+2025-03-06 22:46:19,241 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 7
+2025-03-06 22:46:19,241 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 7
+2025-03-06 22:46:19,384 INFO    Thread-16 :20708 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\output.log
+2025-03-06 22:46:19,385 INFO    Thread-16 :20708 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\wandb-summary.json
+2025-03-06 22:46:20,677 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 8
+2025-03-06 22:46:20,677 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 8
+2025-03-06 22:46:20,677 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 8
+2025-03-06 22:46:20,677 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 9
+2025-03-06 22:46:20,677 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 9
+2025-03-06 22:46:20,677 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 9
+2025-03-06 22:46:20,677 INFO    SenderThread:20708 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-06 22:46:21,416 INFO    SenderThread:20708 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\output.log
+2025-03-06 22:46:21,417 INFO    SenderThread:20708 [dir_watcher.py:finish():388] scan: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files
+2025-03-06 22:46:21,417 INFO    SenderThread:20708 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\config.yaml config.yaml
+2025-03-06 22:46:21,417 INFO    SenderThread:20708 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\output.log output.log
+2025-03-06 22:46:21,424 INFO    SenderThread:20708 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\requirements.txt requirements.txt
+2025-03-06 22:46:21,425 INFO    SenderThread:20708 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\wandb-metadata.json wandb-metadata.json
+2025-03-06 22:46:21,426 INFO    SenderThread:20708 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\wandb-summary.json wandb-summary.json
+2025-03-06 22:46:21,434 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 10
+2025-03-06 22:46:21,435 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 10
+2025-03-06 22:46:21,439 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 10
+2025-03-06 22:46:21,440 INFO    SenderThread:20708 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-06 22:46:21,753 ERROR   wandb-upload_0:20708 [internal_api.py:upload_file():3022] upload_file exception https://storage.googleapis.com/wandb-production.appspot.com/me21b138-indian-institute-of-technology-madras/my-awesome-project/ws4ulbc9/config.yaml?Expires=1741367781&GoogleAccessId=gorilla-files-url-signer-man%40wandb-production.iam.gserviceaccount.com&Signature=etU8hQDrllMkXv8%2FPhRREdYt6oO%2FGFzDAEQ0B%2FJ4bKgHl%2FSxd8VeYPbJhmipNK%2Fgh1Z83VH3aJnTBDSAlnTnVH86mSXj4cbovBPbKgR%2BnNh9rkaoh5F7y8VT8bJkNRl9psGKQWxIn%2BPED7HmPoJpG3phPP9Q4%2Fqm2ufJ0UN1tlBPVBYzQ24HxIaKVH6WntN%2FVlRjKpTnGdvSRLXtHcFFdNWVkZOqfqMukAJW5m6B%2BZT9JEcnULzARMNPUA7VTirfp8sXAoeyBCl9kthhLQvBDchTgiVJuq59WLgZ8yvihGD9bBrGNWfgn1mwhtIANrk7RkF%2FcCtLUkYavrYowQmpVQ%3D%3D: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-06 22:46:21,753 ERROR   wandb-upload_0:20708 [internal_api.py:upload_file():3024] upload_file request headers: {'User-Agent': 'python-requests/2.32.3', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Length': '863'}
+2025-03-06 22:46:21,753 ERROR   wandb-upload_0:20708 [internal_api.py:upload_file():3026] upload_file response body: ''
+2025-03-06 22:46:22,317 INFO    wandb-upload_3:20708 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\wandb-summary.json
+2025-03-06 22:46:22,350 INFO    wandb-upload_2:20708 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\requirements.txt
+2025-03-06 22:46:23,372 INFO    wandb-upload_0:20708 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\config.yaml
+2025-03-06 22:46:23,401 INFO    wandb-upload_1:20708 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\files\output.log
+2025-03-06 22:46:23,615 INFO    Thread-15 (_thread_body):20708 [sender.py:transition_state():581] send defer: 11
+2025-03-06 22:46:23,615 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 11
+2025-03-06 22:46:23,615 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 11
+2025-03-06 22:46:23,615 INFO    SenderThread:20708 [file_pusher.py:join():175] waiting for file pusher
+2025-03-06 22:46:23,615 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 12
+2025-03-06 22:46:23,615 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 12
+2025-03-06 22:46:23,615 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 12
+2025-03-06 22:46:23,615 INFO    SenderThread:20708 [file_stream.py:finish():601] file stream finish called
+2025-03-06 22:46:24,821 INFO    SenderThread:20708 [file_stream.py:finish():605] file stream finish is done
+2025-03-06 22:46:24,821 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 13
+2025-03-06 22:46:24,822 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 13
+2025-03-06 22:46:24,822 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 13
+2025-03-06 22:46:24,823 INFO    SenderThread:20708 [sender.py:transition_state():581] send defer: 14
+2025-03-06 22:46:24,823 INFO    HandlerThread:20708 [handler.py:handle_request_defer():188] handle defer: 14
+2025-03-06 22:46:24,823 INFO    SenderThread:20708 [sender.py:send_request_defer():577] handle sender defer: 14
+2025-03-06 22:46:24,827 INFO    MainThread:20708 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-06 22:46:24,828 INFO    MainThread:20708 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-06 22:46:24,829 INFO    MainThread:20708 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-06 22:46:24,830 INFO    HandlerThread:20708 [handler.py:finish():897] shutting down handler
+2025-03-06 22:46:25,830 INFO    SenderThread:20708 [sender.py:finish():1580] shutting down sender
+2025-03-06 22:46:25,830 INFO    WriterThread:20708 [datastore.py:close():296] close: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_222840-ws4ulbc9\run-ws4ulbc9.wandb
+2025-03-06 22:46:25,830 INFO    MsgRouterThr:20708 [mailbox.py:close():115] Closing mailbox, abandoning 0 handles.
+2025-03-06 22:46:25,830 INFO    SenderThread:20708 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-06 22:46:25,831 INFO    SenderThread:20708 [file_pusher.py:join():175] waiting for file pusher

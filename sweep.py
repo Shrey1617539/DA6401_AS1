@@ -10,4 +10,4 @@ sweep_id = wandb.sweep(
     entity='me21b138-indian-institute-of-technology-madras',
     project='my-awesome-project'
 )
-wandb.agent(sweep_id)
+wandb.agent(sweep_id, count=100)

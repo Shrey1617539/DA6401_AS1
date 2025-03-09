@@ -1,0 +1,30 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:303: RuntimeWarning: overflow encountered in divide
+  weights[j] -= (learning_rate*(((beta1*m_W_hat) + ((1-beta1)*d_W[j]/(1-(beta1**step_cnt)))) + weight_decay*weights[j]))/(np.sqrt(v_W_hat) + epsilon)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:62: RuntimeWarning: invalid value encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:23: RuntimeWarning: overflow encountered in multiply
+  result[neg_mask] = (np.exp(2*a[neg_mask])-1) / (np.exp(2*a[neg_mask])+1)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:22: RuntimeWarning: overflow encountered in multiply
+  result[pos_mask] = (1 - np.exp(-2*a[pos_mask]))/ (1 + np.exp(-2*a[pos_mask]))
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:122: RuntimeWarning: invalid value encountered in matmul
+  grad_hl = np.matmul(weights[layer].T, grad_al)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:123: RuntimeWarning: invalid value encountered in multiply
+  grad_al = grad_hl * gradient_activation_function(a[layer - 1], activation_function[layer - 1])
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:119: RuntimeWarning: invalid value encountered in matmul
+  d_W.append(np.matmul(grad_al, h[layer - 1].transpose(0,2,1)))
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:122: RuntimeWarning: overflow encountered in matmul
+  grad_hl = np.matmul(weights[layer].T, grad_al)
+C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\numpy\core\_methods.py:118: RuntimeWarning: invalid value encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:295: RuntimeWarning: overflow encountered in square
+  v_W[j] = beta2*v_W[j] + (1-beta2)*(d_W[j]**2)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:296: RuntimeWarning: overflow encountered in square
+  v_b[j] = beta2*v_b[j] + (1-beta2)*(d_b[j]**2)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:303: RuntimeWarning: invalid value encountered in divide
+  weights[j] -= (learning_rate*(((beta1*m_W_hat) + ((1-beta1)*d_W[j]/(1-(beta1**step_cnt)))) + weight_decay*weights[j]))/(np.sqrt(v_W_hat) + epsilon)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:303: RuntimeWarning: invalid value encountered in subtract
+  weights[j] -= (learning_rate*(((beta1*m_W_hat) + ((1-beta1)*d_W[j]/(1-(beta1**step_cnt)))) + weight_decay*weights[j]))/(np.sqrt(v_W_hat) + epsilon)
+C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\numpy\core\_methods.py:118: RuntimeWarning: overflow encountered in reduce
+  ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:304: RuntimeWarning: invalid value encountered in divide
+  bias[j] -= (learning_rate*((beta1*m_b_hat) + ((1-beta1)*d_b[j]/(1-(beta1**step_cnt)))))/(np.sqrt(v_b_hat) + epsilon)

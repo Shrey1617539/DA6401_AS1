@@ -1,0 +1,16 @@
+{"time":"2025-03-06T10:51:11.0997441+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_105111-saavm30z\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:51:12.1179813+05:30","level":"INFO","msg":"created new stream","id":"saavm30z"}
+{"time":"2025-03-06T10:51:12.1179813+05:30","level":"INFO","msg":"stream: started","id":"saavm30z"}
+{"time":"2025-03-06T10:51:12.1179813+05:30","level":"INFO","msg":"handler: started","stream_id":"saavm30z"}
+{"time":"2025-03-06T10:51:12.1179813+05:30","level":"INFO","msg":"sender: started","stream_id":"saavm30z"}
+{"time":"2025-03-06T10:51:12.1179813+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"saavm30z"}
+{"time":"2025-03-06T10:51:12.573977+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:51:57.3612798+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:51:57.3622527+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:51:58.3750349+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3525289},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3525289,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.0347466,"progress":"809B/809B"}],"total_operations":3}}
+{"time":"2025-03-06T10:51:58.7563135+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:52:00.4641886+05:30","level":"INFO","msg":"stream: closing","id":"saavm30z"}
+{"time":"2025-03-06T10:52:00.4641886+05:30","level":"INFO","msg":"handler: closed","stream_id":"saavm30z"}
+{"time":"2025-03-06T10:52:00.4641886+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"saavm30z"}
+{"time":"2025-03-06T10:52:00.4641886+05:30","level":"INFO","msg":"sender: closed","stream_id":"saavm30z"}
+{"time":"2025-03-06T10:52:00.4641886+05:30","level":"INFO","msg":"stream: closed","id":"saavm30z"}

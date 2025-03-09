@@ -1,0 +1,16 @@
+{"time":"2025-03-06T10:58:17.9389916+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_105817-1miwgf66\\logs\\debug-core.log"}
+{"time":"2025-03-06T10:58:18.8550348+05:30","level":"INFO","msg":"created new stream","id":"1miwgf66"}
+{"time":"2025-03-06T10:58:18.8550348+05:30","level":"INFO","msg":"stream: started","id":"1miwgf66"}
+{"time":"2025-03-06T10:58:18.8550348+05:30","level":"INFO","msg":"handler: started","stream_id":"1miwgf66"}
+{"time":"2025-03-06T10:58:18.8550348+05:30","level":"INFO","msg":"sender: started","stream_id":"1miwgf66"}
+{"time":"2025-03-06T10:58:18.8550348+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1miwgf66"}
+{"time":"2025-03-06T10:58:19.7228601+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T10:58:49.1965139+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T10:58:49.1975765+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T10:58:50.2031157+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6429599,"progress":"144.6KB/144.6KB"},{"desc":"uploading config.yaml","runtime_seconds":0.3472952,"progress":"809B/809B"}],"total_operations":2}}
+{"time":"2025-03-06T10:58:50.7951953+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T10:58:52.3468247+05:30","level":"INFO","msg":"stream: closing","id":"1miwgf66"}
+{"time":"2025-03-06T10:58:52.3468247+05:30","level":"INFO","msg":"handler: closed","stream_id":"1miwgf66"}
+{"time":"2025-03-06T10:58:52.3468247+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"1miwgf66"}
+{"time":"2025-03-06T10:58:52.3468247+05:30","level":"INFO","msg":"sender: closed","stream_id":"1miwgf66"}
+{"time":"2025-03-06T10:58:52.3468247+05:30","level":"INFO","msg":"stream: closed","id":"1miwgf66"}

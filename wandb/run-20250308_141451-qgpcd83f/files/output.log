@@ -1,0 +1,6 @@
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:277: RuntimeWarning: overflow encountered in divide
+  weights[j] -= learning_rate*((m_W_hat + weight_decay*weights[j])/(np.sqrt(v_W_hat) + epsilon))
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:59: RuntimeWarning: invalid value encountered in matmul
+  x = bias[layer] + ( weights[layer] @ x )
+C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\T3.py:277: RuntimeWarning: invalid value encountered in subtract
+  weights[j] -= learning_rate*((m_W_hat + weight_decay*weights[j])/(np.sqrt(v_W_hat) + epsilon))

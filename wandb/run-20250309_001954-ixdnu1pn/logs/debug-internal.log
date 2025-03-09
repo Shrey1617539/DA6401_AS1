@@ -1,0 +1,7 @@
+{"time":"2025-03-09T00:19:54.9840068+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250309_001954-ixdnu1pn\\logs\\debug-core.log"}
+{"time":"2025-03-09T00:19:55.1339191+05:30","level":"INFO","msg":"created new stream","id":"ixdnu1pn"}
+{"time":"2025-03-09T00:19:55.1339191+05:30","level":"INFO","msg":"stream: started","id":"ixdnu1pn"}
+{"time":"2025-03-09T00:19:55.1339191+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ixdnu1pn"}
+{"time":"2025-03-09T00:19:55.1349339+05:30","level":"INFO","msg":"handler: started","stream_id":"ixdnu1pn"}
+{"time":"2025-03-09T00:19:55.1349339+05:30","level":"INFO","msg":"sender: started","stream_id":"ixdnu1pn"}
+{"time":"2025-03-09T00:19:55.8110363+05:30","level":"INFO","msg":"Starting system monitor"}

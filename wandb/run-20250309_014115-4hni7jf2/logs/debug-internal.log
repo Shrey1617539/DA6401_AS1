@@ -1,0 +1,313 @@
+2025-03-09 01:41:15,984 INFO    StreamThr :12852 [internal.py:wandb_internal():83] W&B internal server running at pid: 12852, started at: 2025-03-09 01:41:15.979354
+2025-03-09 01:41:16,008 INFO    WriterThread:12852 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\run-4hni7jf2.wandb
+2025-03-09 01:41:17,102 INFO    SenderThread:12852 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files
+2025-03-09 01:41:17,103 INFO    SenderThread:12852 [sender.py:_start_run_threads():1133] run started: 4hni7jf2 with start time 1741464675.979354
+2025-03-09 01:41:17,853 INFO    HandlerThread:12852 [system_monitor.py:start():187] Starting system monitor
+2025-03-09 01:41:17,855 INFO    SystemMonitor:12852 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-09 01:41:17,855 INFO    HandlerThread:12852 [system_monitor.py:probe():207] Collecting system info
+2025-03-09 01:41:17,876 INFO    SystemMonitor:12852 [interfaces.py:start():186] Started cpu monitoring
+2025-03-09 01:41:17,895 INFO    SystemMonitor:12852 [interfaces.py:start():186] Started disk monitoring
+2025-03-09 01:41:17,898 INFO    SystemMonitor:12852 [interfaces.py:start():186] Started gpu monitoring
+2025-03-09 01:41:17,945 INFO    SystemMonitor:12852 [interfaces.py:start():186] Started memory monitoring
+2025-03-09 01:41:17,950 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:17,950 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:17,975 INFO    SystemMonitor:12852 [interfaces.py:start():186] Started network monitoring
+2025-03-09 01:41:18,377 INFO    HandlerThread:12852 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-09 01:41:18,377 INFO    HandlerThread:12852 [system_monitor.py:probe():220] Publishing system info
+2025-03-09 01:41:18,379 INFO    HandlerThread:12852 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-09 01:41:18,451 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-09 01:41:19,120 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-metadata.json
+2025-03-09 01:41:19,744 INFO    wandb-upload_0:12852 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmp0d6_lqixwandb\qv4wcjda-wandb-metadata.json
+2025-03-09 01:41:20,123 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\requirements.txt
+2025-03-09 01:41:23,156 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\config.yaml
+2025-03-09 01:41:23,318 INFO    SenderThread:12852 [sender.py:send_run():980] updated run: 4hni7jf2
+2025-03-09 01:41:28,794 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:41:28,799 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:28,800 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:39,548 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:41:39,552 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:39,552 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:48,576 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\config.yaml
+2025-03-09 01:41:50,272 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:41:50,278 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:41:50,278 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:01,038 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:42:01,044 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:01,044 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:11,218 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:42:11,224 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:11,225 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:21,399 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:42:21,403 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:21,403 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:32,136 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:42:32,141 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:32,141 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:42,850 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:42:42,853 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:42,853 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:53,624 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:42:53,630 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:42:53,630 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:04,355 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:43:04,358 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:04,359 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:14,796 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:43:14,804 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:14,804 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:25,026 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:43:25,030 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:25,030 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:25,278 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:43:25,294 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:43:26,081 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:43:27,342 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:43:27,347 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:43:28,102 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:43:35,895 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:43:35,905 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:35,906 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:46,481 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:43:46,486 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:46,487 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:56,707 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:43:56,714 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:43:56,714 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:06,928 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:44:06,931 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:06,932 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:17,718 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:44:17,722 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:17,722 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:28,475 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:44:28,481 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:28,482 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:39,229 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:44:39,235 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:39,235 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:50,079 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:44:50,086 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:44:50,086 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:00,906 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:45:00,910 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:00,910 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:11,204 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:45:11,208 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:11,208 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:21,398 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:45:21,405 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:21,406 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:32,149 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:45:32,152 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:32,152 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:41,213 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:45:41,221 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:45:41,706 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:45:42,877 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:45:42,881 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:42,881 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:43,037 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:45:43,072 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:45:43,722 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:45:53,661 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:45:53,682 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:45:53,682 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:04,436 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:46:04,442 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:04,442 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:14,710 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:46:14,721 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:14,722 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:25,041 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:46:25,044 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:25,044 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:35,400 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:46:35,403 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:35,404 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:46,176 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:46:46,180 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:46,181 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:56,551 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:46:56,558 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:46:56,558 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:06,823 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:47:06,826 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:06,826 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:17,742 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:47:17,771 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:17,771 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:28,472 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:47:28,479 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:28,480 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:39,415 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:47:39,419 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:39,420 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:50,073 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:47:50,076 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:50,077 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:47:55,320 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:47:55,324 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:47:56,270 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:47:57,915 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:47:57,939 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:47:58,287 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:48:00,841 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:48:00,844 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:00,844 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:11,604 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:48:11,611 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:11,612 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:22,308 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:48:22,314 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:22,314 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:33,060 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:48:33,070 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:33,070 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:43,868 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:48:43,871 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:43,871 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:54,022 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:48:54,027 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:48:54,027 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:04,985 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:49:04,988 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:04,988 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:15,162 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:49:15,168 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:15,168 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:25,362 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:49:25,364 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:25,364 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:35,518 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:49:35,520 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:35,520 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:46,259 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:49:46,262 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:46,262 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:56,262 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:49:56,268 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:49:56,470 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:49:56,471 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:49:56,474 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:56,474 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:49:58,046 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:49:58,052 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:49:58,490 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:50:06,637 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:50:06,643 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:06,644 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:16,823 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:50:16,827 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:16,827 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:27,019 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:50:27,022 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:27,022 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:37,569 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:50:37,573 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:37,573 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:48,251 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:50:48,259 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:48,260 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:58,975 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:50:58,979 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:50:58,979 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:09,678 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:51:09,680 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:09,680 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:20,485 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:51:20,488 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:20,488 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:31,135 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:51:31,141 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:31,142 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:41,886 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:51:41,896 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:41,897 ERROR   gpu       :12852 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-09 01:51:45,841 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:51:45,869 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:51:46,107 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:51:48,026 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:51:48,029 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:51:48,132 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:51:48,354 INFO    SenderThread:12852 [sender.py:send_exit():553] handling exit code: 0
+2025-03-09 01:51:48,356 INFO    SenderThread:12852 [sender.py:send_exit():555] handling runtime: 631
+2025-03-09 01:51:48,357 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:51:48,358 INFO    SenderThread:12852 [sender.py:send_exit():561] send defer
+2025-03-09 01:51:48,358 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 0
+2025-03-09 01:51:48,359 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 0
+2025-03-09 01:51:48,359 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 1
+2025-03-09 01:51:48,360 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 1
+2025-03-09 01:51:48,360 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 1
+2025-03-09 01:51:48,361 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 2
+2025-03-09 01:51:48,361 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 2
+2025-03-09 01:51:48,361 INFO    HandlerThread:12852 [system_monitor.py:finish():196] Stopping system monitor
+2025-03-09 01:51:48,363 INFO    HandlerThread:12852 [interfaces.py:finish():198] Joined cpu monitor
+2025-03-09 01:51:48,386 INFO    HandlerThread:12852 [interfaces.py:finish():198] Joined disk monitor
+2025-03-09 01:51:49,108 ERROR   gpu       :12852 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-09 01:51:49,109 INFO    HandlerThread:12852 [interfaces.py:finish():198] Joined gpu monitor
+2025-03-09 01:51:49,110 INFO    HandlerThread:12852 [interfaces.py:finish():198] Joined memory monitor
+2025-03-09 01:51:49,110 INFO    HandlerThread:12852 [interfaces.py:finish():198] Joined network monitor
+2025-03-09 01:51:49,112 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 2
+2025-03-09 01:51:49,112 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 3
+2025-03-09 01:51:49,114 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 3
+2025-03-09 01:51:49,115 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 3
+2025-03-09 01:51:49,116 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 4
+2025-03-09 01:51:49,116 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 4
+2025-03-09 01:51:49,117 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 4
+2025-03-09 01:51:49,117 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 5
+2025-03-09 01:51:49,117 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 5
+2025-03-09 01:51:49,125 INFO    SenderThread:12852 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-09 01:51:49,128 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 5
+2025-03-09 01:51:49,128 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 6
+2025-03-09 01:51:49,129 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 6
+2025-03-09 01:51:49,130 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 6
+2025-03-09 01:51:49,130 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 7
+2025-03-09 01:51:49,131 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 7
+2025-03-09 01:51:49,132 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 7
+2025-03-09 01:51:49,141 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:51:49,142 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\output.log
+2025-03-09 01:51:50,185 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 8
+2025-03-09 01:51:50,185 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 8
+2025-03-09 01:51:50,188 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 8
+2025-03-09 01:51:50,188 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 9
+2025-03-09 01:51:50,189 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 9
+2025-03-09 01:51:50,190 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 9
+2025-03-09 01:51:50,190 INFO    SenderThread:12852 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-09 01:51:51,161 INFO    Thread-16 :12852 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\output.log
+2025-03-09 01:51:51,168 INFO    SenderThread:12852 [dir_watcher.py:finish():388] scan: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files
+2025-03-09 01:51:51,168 INFO    SenderThread:12852 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\config.yaml config.yaml
+2025-03-09 01:51:51,174 INFO    SenderThread:12852 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\output.log output.log
+2025-03-09 01:51:51,196 INFO    SenderThread:12852 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\requirements.txt requirements.txt
+2025-03-09 01:51:51,206 INFO    SenderThread:12852 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-metadata.json wandb-metadata.json
+2025-03-09 01:51:51,233 INFO    SenderThread:12852 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json wandb-summary.json
+2025-03-09 01:51:51,248 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 10
+2025-03-09 01:51:51,251 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 10
+2025-03-09 01:51:51,254 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 10
+2025-03-09 01:51:51,254 INFO    SenderThread:12852 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-09 01:51:52,268 INFO    wandb-upload_0:12852 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\config.yaml
+2025-03-09 01:51:52,327 INFO    wandb-upload_1:12852 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\output.log
+2025-03-09 01:51:52,346 INFO    wandb-upload_2:12852 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\requirements.txt
+2025-03-09 01:51:52,390 INFO    wandb-upload_3:12852 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\files\wandb-summary.json
+2025-03-09 01:51:52,597 INFO    Thread-15 (_thread_body):12852 [sender.py:transition_state():581] send defer: 11
+2025-03-09 01:51:52,602 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 11
+2025-03-09 01:51:52,603 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 11
+2025-03-09 01:51:52,603 INFO    SenderThread:12852 [file_pusher.py:join():175] waiting for file pusher
+2025-03-09 01:51:52,609 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 12
+2025-03-09 01:51:52,628 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 12
+2025-03-09 01:51:52,629 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 12
+2025-03-09 01:51:52,629 INFO    SenderThread:12852 [file_stream.py:finish():601] file stream finish called
+2025-03-09 01:51:53,654 INFO    SenderThread:12852 [file_stream.py:finish():605] file stream finish is done
+2025-03-09 01:51:53,656 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 13
+2025-03-09 01:51:53,656 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 13
+2025-03-09 01:51:53,658 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 13
+2025-03-09 01:51:53,658 INFO    SenderThread:12852 [sender.py:transition_state():581] send defer: 14
+2025-03-09 01:51:53,660 INFO    HandlerThread:12852 [handler.py:handle_request_defer():188] handle defer: 14
+2025-03-09 01:51:53,662 INFO    SenderThread:12852 [sender.py:send_request_defer():577] handle sender defer: 14
+2025-03-09 01:51:53,676 INFO    MainThread:12852 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-09 01:51:53,678 INFO    MainThread:12852 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-09 01:51:53,678 INFO    MainThread:12852 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-09 01:51:53,689 INFO    HandlerThread:12852 [handler.py:finish():897] shutting down handler
+2025-03-09 01:51:54,679 INFO    SenderThread:12852 [sender.py:finish():1580] shutting down sender
+2025-03-09 01:51:54,681 INFO    SenderThread:12852 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-09 01:51:54,681 INFO    SenderThread:12852 [file_pusher.py:join():175] waiting for file pusher
+2025-03-09 01:51:54,692 INFO    WriterThread:12852 [datastore.py:close():296] close: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250309_014115-4hni7jf2\run-4hni7jf2.wandb

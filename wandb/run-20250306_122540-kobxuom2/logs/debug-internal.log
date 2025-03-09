@@ -1,0 +1,50 @@
+2025-03-06 12:25:40,382 INFO    StreamThr :19804 [internal.py:wandb_internal():83] W&B internal server running at pid: 19804, started at: 2025-03-06 12:25:40.381151
+2025-03-06 12:25:40,385 INFO    WriterThread:19804 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_122540-kobxuom2\run-kobxuom2.wandb
+2025-03-06 12:25:41,117 INFO    SenderThread:19804 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_122540-kobxuom2\files
+2025-03-06 12:25:41,117 INFO    SenderThread:19804 [sender.py:_start_run_threads():1133] run started: kobxuom2 with start time 1741244140.379138
+2025-03-06 12:25:42,032 INFO    HandlerThread:19804 [system_monitor.py:start():187] Starting system monitor
+2025-03-06 12:25:42,034 INFO    SystemMonitor:19804 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-06 12:25:42,035 INFO    HandlerThread:19804 [system_monitor.py:probe():207] Collecting system info
+2025-03-06 12:25:42,040 INFO    SystemMonitor:19804 [interfaces.py:start():186] Started cpu monitoring
+2025-03-06 12:25:42,040 INFO    SystemMonitor:19804 [interfaces.py:start():186] Started disk monitoring
+2025-03-06 12:25:42,042 INFO    SystemMonitor:19804 [interfaces.py:start():186] Started gpu monitoring
+2025-03-06 12:25:42,042 INFO    SystemMonitor:19804 [interfaces.py:start():186] Started memory monitoring
+2025-03-06 12:25:42,057 INFO    SystemMonitor:19804 [interfaces.py:start():186] Started network monitoring
+2025-03-06 12:25:42,073 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:25:42,073 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:25:42,167 INFO    HandlerThread:19804 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-06 12:25:42,167 INFO    HandlerThread:19804 [system_monitor.py:probe():220] Publishing system info
+2025-03-06 12:25:42,167 INFO    HandlerThread:19804 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-06 12:25:42,183 INFO    SenderThread:19804 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-06 12:25:43,154 INFO    Thread-16 :19804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_122540-kobxuom2\files\requirements.txt
+2025-03-06 12:25:43,154 INFO    Thread-16 :19804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_122540-kobxuom2\files\wandb-metadata.json
+2025-03-06 12:25:43,471 INFO    wandb-upload_0:19804 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpm7aip3nzwandb\a9daz99p-wandb-metadata.json
+2025-03-06 12:25:53,057 ERROR   gpu       :19804 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:25:53,065 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:25:53,065 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:04,026 ERROR   gpu       :19804 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:26:04,026 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:04,026 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:13,420 INFO    Thread-16 :19804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250306_122540-kobxuom2\files\config.yaml
+2025-03-06 12:26:14,783 ERROR   gpu       :19804 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:26:14,786 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:14,786 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:24,743 ERROR   FileStreamThread:19804 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/kobxuom2/file_stream
+NoneType: None
+2025-03-06 12:26:24,863 ERROR   gpu       :19804 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:26:24,865 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:24,865 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:27,162 ERROR   FileStreamThread:19804 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/kobxuom2/file_stream
+NoneType: None
+2025-03-06 12:26:32,400 ERROR   FileStreamThread:19804 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/kobxuom2/file_stream
+NoneType: None
+2025-03-06 12:26:34,694 ERROR   FileStreamThread:19804 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/kobxuom2/file_stream
+NoneType: None
+2025-03-06 12:26:34,939 ERROR   gpu       :19804 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:26:34,939 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:34,939 ERROR   gpu       :19804 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-06 12:26:37,306 ERROR   FileStreamThread:19804 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/kobxuom2/file_stream
+NoneType: None
+2025-03-06 12:26:42,113 INFO    cpu       :19804 [interfaces.py:monitor():136] Process cpu has exited.
+2025-03-06 12:26:42,113 ERROR   gpu       :19804 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-06 12:26:43,560 INFO    MainThread:19804 [internal.py:handle_exit():73] Internal process exited

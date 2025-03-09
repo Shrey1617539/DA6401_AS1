@@ -1,0 +1,16 @@
+{"time":"2025-03-06T09:53:25.2209759+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250306_095325-gi77jemf\\logs\\debug-core.log"}
+{"time":"2025-03-06T09:53:25.8444039+05:30","level":"INFO","msg":"created new stream","id":"gi77jemf"}
+{"time":"2025-03-06T09:53:25.8444039+05:30","level":"INFO","msg":"handler: started","stream_id":"gi77jemf"}
+{"time":"2025-03-06T09:53:25.8444039+05:30","level":"INFO","msg":"sender: started","stream_id":"gi77jemf"}
+{"time":"2025-03-06T09:53:25.8444039+05:30","level":"INFO","msg":"stream: started","id":"gi77jemf"}
+{"time":"2025-03-06T09:53:25.8444039+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gi77jemf"}
+{"time":"2025-03-06T09:53:26.3117914+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-06T09:53:56.0389533+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-06T09:53:56.0399067+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-06T09:53:57.0440314+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.6581505,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.3579662,"progress":"809B/809B"}],"total_operations":2}}
+{"time":"2025-03-06T09:53:57.1540521+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-06T09:53:58.7241982+05:30","level":"INFO","msg":"stream: closing","id":"gi77jemf"}
+{"time":"2025-03-06T09:53:58.7241982+05:30","level":"INFO","msg":"handler: closed","stream_id":"gi77jemf"}
+{"time":"2025-03-06T09:53:58.7241982+05:30","level":"INFO","msg":"sender: closed","stream_id":"gi77jemf"}
+{"time":"2025-03-06T09:53:58.7241982+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gi77jemf"}
+{"time":"2025-03-06T09:53:58.724704+05:30","level":"INFO","msg":"stream: closed","id":"gi77jemf"}
