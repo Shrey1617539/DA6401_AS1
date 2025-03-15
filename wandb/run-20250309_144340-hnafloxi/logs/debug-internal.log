@@ -1,0 +1,15 @@
+{"time":"2025-03-09T14:43:40.7712909+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250309_144340-hnafloxi\\logs\\debug-core.log"}
+{"time":"2025-03-09T14:43:41.795139+05:30","level":"INFO","msg":"created new stream","id":"hnafloxi"}
+{"time":"2025-03-09T14:43:41.795139+05:30","level":"INFO","msg":"stream: started","id":"hnafloxi"}
+{"time":"2025-03-09T14:43:41.795691+05:30","level":"INFO","msg":"sender: started","stream_id":"hnafloxi"}
+{"time":"2025-03-09T14:43:41.795691+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hnafloxi"}
+{"time":"2025-03-09T14:43:41.795691+05:30","level":"INFO","msg":"handler: started","stream_id":"hnafloxi"}
+{"time":"2025-03-09T14:43:42.3625279+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T15:13:49.0016363+05:30","level":"INFO","msg":"stream: closing","id":"hnafloxi"}
+{"time":"2025-03-09T15:13:49.0016363+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T15:13:49.0032501+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T15:13:50.1378322+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-09T15:13:50.5296642+05:30","level":"INFO","msg":"handler: closed","stream_id":"hnafloxi"}
+{"time":"2025-03-09T15:13:50.5296642+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"hnafloxi"}
+{"time":"2025-03-09T15:13:50.5296642+05:30","level":"INFO","msg":"sender: closed","stream_id":"hnafloxi"}
+{"time":"2025-03-09T15:13:50.5296642+05:30","level":"INFO","msg":"stream: closed","id":"hnafloxi"}

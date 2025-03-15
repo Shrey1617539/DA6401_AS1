@@ -1,4 +1,7 @@
 import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
 import wandb
 
 
@@ -341,3 +344,31 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
             wandb.log({"test_error": loss})
 
     return weights, bias
+
+def confusion_matrix_plot(y_true, y_pred, class_names=None, title="Confusion Matrix", cmap="Blues"):
+    if y_true.shape != y_pred.shape:
+        y_pred = np.argmax(y_pred, axis=1).squeeze()
+
+    cm = confusion_matrix(y_true, y_pred)
+    
+    if class_names == None:
+        class_names = [f'class {i}' for i in range(len(np.unique(y_true)))]
+    
+    plt.figure(figsize=(8, 6))
+    sns.heatmap(cm, annot=True, fmt="d", cmap=cmap,xticklabels=class_names, yticklabels=class_names)
+    
+    plt.title(title, fontsize=16)
+    plt.xlabel("Predicted Labels", fontsize=14)
+    plt.ylabel("True Labels", fontsize=14)
+    
+    plt.xticks(rotation=45)
+    plt.yticks(rotation=0)
+    
+    plot_filename = title+".png"
+    plt.tight_layout()
+    plt.savefig(plot_filename)
+    plt.show
+    
+    # wandb.log({"Confusion Matrix": wandb.Image(plot_filename)})
+    
+    plt.close()

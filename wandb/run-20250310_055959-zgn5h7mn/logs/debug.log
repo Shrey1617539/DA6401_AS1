@@ -1,0 +1,53 @@
+2025-03-10 05:59:59,510 INFO    MainThread:24280 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-10 05:59:59,511 INFO    MainThread:24280 [wandb_setup.py:_flush():67] Configure stats pid to 24280
+2025-03-10 05:59:59,511 INFO    MainThread:24280 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\.config\wandb\settings
+2025-03-10 05:59:59,511 INFO    MainThread:24280 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\settings
+2025-03-10 05:59:59,511 INFO    MainThread:24280 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-10 05:59:59,512 INFO    MainThread:24280 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_055959-zgn5h7mn\logs\debug.log
+2025-03-10 05:59:59,513 INFO    MainThread:24280 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_055959-zgn5h7mn\logs\debug-internal.log
+2025-03-10 05:59:59,513 INFO    MainThread:24280 [wandb_init.py:init():761] calling init triggers
+2025-03-10 05:59:59,513 INFO    MainThread:24280 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'ReLU', 'batch_size': 64, 'beta': 0.09011329470264326, 'beta1': 0.9827094380202468, 'beta2': 0.9981408022813184, 'epochs': 10, 'epsilon': 9.978340517543284e-06, 'hidden_size': 128, 'learning_rate': 1.0831630773668144e-05, 'loss': 'mean_squared_error', 'momentum': 0.9510292136062142, 'num_layers': 4, 'optimizer': 'adam', 'weight_decay': 0.0001, 'weight_init': 'Xavier'}
+config: {'_wandb': {}}
+2025-03-10 05:59:59,515 INFO    MainThread:24280 [wandb_init.py:init():784] starting backend
+2025-03-10 05:59:59,515 INFO    MainThread:24280 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 05:59:59,589 INFO    MainThread:24280 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-10 05:59:59,591 INFO    MainThread:24280 [wandb_init.py:init():803] backend started and connected
+2025-03-10 05:59:59,593 INFO    MainThread:24280 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'ReLU', 'batch_size': 64, 'beta': 0.09011329470264326, 'beta1': 0.9827094380202468, 'beta2': 0.9981408022813184, 'epochs': 10, 'epsilon': 9.978340517543284e-06, 'hidden_size': 128, 'learning_rate': 1.0831630773668144e-05, 'loss': 'mean_squared_error', 'momentum': 0.9510292136062142, 'num_layers': 4, 'optimizer': 'adam', 'weight_decay': 0.0001, 'weight_init': 'Xavier'}
+2025-03-10 05:59:59,595 INFO    MainThread:24280 [wandb_init.py:init():896] updated telemetry
+2025-03-10 05:59:59,761 INFO    MainThread:24280 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-10 06:00:00,523 INFO    MainThread:24280 [wandb_init.py:init():995] starting run threads in backend
+2025-03-10 06:00:03,608 INFO    MainThread:24280 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-10 06:00:03,608 INFO    MainThread:24280 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-10 06:00:03,630 INFO    MainThread:24280 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-10 06:00:03,634 INFO    MainThread:24280 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-10 06:00:03,678 INFO    MainThread:24280 [wandb_init.py:init():1037] run started, returning control to user process
+2025-03-10 06:36:26,794 WARNING MsgRouterThr:24280 [router.py:message_loop():77] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\sock_client.py", line 258, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\interface\router_sock.py", line 28, in _read_message
+    resp = self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\sock_client.py", line 285, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\lib\sock_client.py", line 262, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\interface\router.py", line 70, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\wandb\sdk\interface\router_sock.py", line 30, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-03-10 06:36:26,800 INFO    MsgRouterThr:24280 [mailbox.py:close():115] Closing mailbox, abandoning 2 handles.

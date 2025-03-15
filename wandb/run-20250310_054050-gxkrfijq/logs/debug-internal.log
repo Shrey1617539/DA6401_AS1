@@ -1,0 +1,517 @@
+2025-03-10 05:40:50,908 INFO    StreamThr :14680 [internal.py:wandb_internal():83] W&B internal server running at pid: 14680, started at: 2025-03-10 05:40:50.905866
+2025-03-10 05:40:50,918 INFO    WriterThread:14680 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\run-gxkrfijq.wandb
+2025-03-10 05:40:51,815 INFO    SenderThread:14680 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files
+2025-03-10 05:40:51,815 INFO    SenderThread:14680 [sender.py:_start_run_threads():1133] run started: gxkrfijq with start time 1741565450.903865
+2025-03-10 05:40:52,533 INFO    HandlerThread:14680 [system_monitor.py:start():187] Starting system monitor
+2025-03-10 05:40:52,537 INFO    SystemMonitor:14680 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-10 05:40:52,537 INFO    HandlerThread:14680 [system_monitor.py:probe():207] Collecting system info
+2025-03-10 05:40:52,548 INFO    SystemMonitor:14680 [interfaces.py:start():186] Started cpu monitoring
+2025-03-10 05:40:52,550 INFO    SystemMonitor:14680 [interfaces.py:start():186] Started disk monitoring
+2025-03-10 05:40:52,553 INFO    SystemMonitor:14680 [interfaces.py:start():186] Started gpu monitoring
+2025-03-10 05:40:52,562 INFO    SystemMonitor:14680 [interfaces.py:start():186] Started memory monitoring
+2025-03-10 05:40:52,598 INFO    SystemMonitor:14680 [interfaces.py:start():186] Started network monitoring
+2025-03-10 05:40:52,621 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:40:52,621 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:40:52,901 INFO    HandlerThread:14680 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-10 05:40:52,901 INFO    HandlerThread:14680 [system_monitor.py:probe():220] Publishing system info
+2025-03-10 05:40:52,905 INFO    HandlerThread:14680 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-10 05:40:52,939 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-10 05:40:53,841 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-metadata.json
+2025-03-10 05:40:54,516 INFO    wandb-upload_0:14680 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpgr43350twandb\wexz1cfp-wandb-metadata.json
+2025-03-10 05:40:54,859 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\requirements.txt
+2025-03-10 05:40:56,681 INFO    SenderThread:14680 [sender.py:send_run():980] updated run: gxkrfijq
+2025-03-10 05:40:56,862 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\config.yaml
+2025-03-10 05:41:03,318 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:41:03,320 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:03,322 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:13,958 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:41:13,958 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:13,958 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:24,605 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:41:24,616 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:24,616 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:25,103 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\config.yaml
+2025-03-10 05:41:35,253 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:41:35,255 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:35,257 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:45,982 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:41:45,986 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:45,988 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:56,644 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:41:56,648 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:41:56,648 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:07,416 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:42:07,421 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:07,421 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:10,505 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:42:10,509 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:42:10,639 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:42:11,515 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:42:11,515 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:42:11,641 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:42:18,087 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:42:18,094 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:18,094 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:28,787 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:42:28,793 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:28,793 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:39,501 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:42:39,519 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:39,519 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:50,215 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:42:50,215 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:42:50,215 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:00,938 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:43:00,942 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:00,942 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:11,661 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:43:11,665 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:11,667 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:22,363 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:43:22,373 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:22,373 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:26,389 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:43:26,391 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:43:26,529 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:43:27,499 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:43:27,501 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:43:27,536 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:43:33,024 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:43:33,028 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:33,028 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:43,775 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:43:43,779 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:43,779 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:54,531 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:43:54,535 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:43:54,535 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:05,228 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:44:05,231 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:05,231 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:15,994 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:44:15,998 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:15,998 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:26,778 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:44:26,784 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:26,784 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:37,504 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:44:37,509 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:37,509 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:48,308 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:44:48,313 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:48,313 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:50,333 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:44:50,337 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:44:50,710 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:44:51,545 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:44:51,549 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:44:51,726 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:44:59,043 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:44:59,051 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:44:59,051 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:09,787 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:45:09,795 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:09,795 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:20,557 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:45:20,571 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:20,571 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:31,270 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:45:31,274 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:31,274 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:41,969 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:45:41,971 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:41,971 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:52,613 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:45:52,617 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:45:52,617 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:03,467 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:46:03,472 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:03,472 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:06,262 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:46:06,262 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:46:06,652 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:46:07,360 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:46:07,362 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:46:07,656 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:46:14,223 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:46:14,226 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:14,226 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:24,855 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:46:24,857 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:24,857 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:35,547 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:46:35,550 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:35,552 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:46,261 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:46:46,261 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:46,277 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:56,955 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:46:56,958 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:46:56,958 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:07,643 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:47:07,645 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:07,647 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:18,450 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:47:18,454 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:18,454 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:27,611 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:47:27,611 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:47:27,713 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:47:28,724 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:47:28,729 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:47:28,729 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:47:29,177 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:47:29,199 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:29,201 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:39,884 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:47:39,886 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:39,886 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:50,562 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:47:50,568 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:47:50,568 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:01,265 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:48:01,269 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:01,269 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:11,906 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:48:11,910 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:11,910 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:22,630 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:48:22,630 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:22,630 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:33,336 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:48:33,340 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:33,340 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:43,942 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:48:43,942 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:43,942 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:45,235 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:48:45,237 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:48:45,743 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:48:46,357 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:48:46,359 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:48:46,760 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:48:54,584 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:48:54,585 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:48:54,585 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:05,425 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:49:05,433 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:05,433 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:16,187 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:49:16,192 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:16,194 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:27,063 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:49:27,065 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:27,065 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:37,794 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:49:37,798 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:37,798 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:48,616 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:49:48,632 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:48,632 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:59,293 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:49:59,297 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:49:59,297 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:09,430 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:50:09,432 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:50:09,953 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:50:10,069 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:50:10,073 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:10,074 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:10,557 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:50:10,559 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:50:10,969 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:50:20,749 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:50:20,751 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:20,751 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:31,434 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:50:31,439 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:31,441 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:42,199 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:50:42,205 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:42,205 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:52,986 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:50:52,993 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:50:52,993 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:03,680 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:51:03,690 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:03,690 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:14,319 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:51:14,321 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:14,321 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:25,067 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:51:25,072 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:25,072 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:27,705 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:51:27,719 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:51:27,884 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:51:28,898 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:51:28,900 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:51:28,904 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:51:29,918 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:51:35,743 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:51:35,747 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:35,749 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:46,417 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:51:46,417 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:46,417 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:57,174 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:51:57,178 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:51:57,178 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:07,905 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:52:07,911 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:07,911 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:18,715 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:52:18,718 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:18,720 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:29,437 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:52:29,445 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:29,445 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:40,157 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:52:40,159 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:40,159 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:47,701 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:52:47,705 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:52:47,912 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:52:48,819 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:52:48,823 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:52:48,924 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:52:50,345 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:52:50,359 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:52:50,359 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:01,056 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:53:01,063 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:01,063 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:12,160 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:53:12,163 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:12,163 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:23,305 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:53:23,309 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:23,309 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:34,529 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:53:34,531 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:34,533 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:45,560 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:53:45,562 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:45,562 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:56,674 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:53:56,678 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:53:56,678 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:06,389 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:54:06,391 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:54:06,935 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:54:07,579 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:54:07,600 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:54:07,621 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:54:07,625 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:07,625 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:07,946 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:54:18,780 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:54:18,784 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:18,784 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:29,919 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:54:29,923 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:29,923 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:41,125 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:54:41,130 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:41,130 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:52,164 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:54:52,166 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:54:52,168 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:03,192 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:55:03,194 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:03,196 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:14,187 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:55:14,190 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:14,190 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:25,368 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:55:25,372 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:25,372 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:25,374 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:55:25,376 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:55:26,026 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:55:26,553 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:55:26,555 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:55:27,028 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:55:36,451 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:55:36,453 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:36,455 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:47,477 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:55:47,481 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:47,481 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:58,603 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:55:58,605 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:55:58,605 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:09,728 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:56:09,732 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:09,732 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:20,781 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:56:20,784 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:20,786 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:31,889 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:56:31,891 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:31,891 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:40,279 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:56:40,285 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:56:40,918 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:56:41,390 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:56:41,392 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:56:41,971 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:56:43,060 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:56:43,062 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:43,062 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:54,233 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:56:54,237 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:56:54,237 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:05,343 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:57:05,345 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:05,347 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:16,491 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:57:16,495 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:16,495 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:27,435 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:57:27,437 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:27,437 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:38,595 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:57:38,600 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:38,600 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:49,665 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:57:49,668 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:49,668 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:57:59,163 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:57:59,168 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:58:00,067 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:58:00,324 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:58:00,326 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:58:00,867 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:58:00,871 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:00,871 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:01,071 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:58:11,856 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:58:11,858 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:11,858 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:22,939 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:58:22,941 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:22,941 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:34,067 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:58:34,069 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:34,070 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:44,990 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:58:44,994 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:44,994 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:55,706 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:58:55,706 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:58:55,706 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:06,828 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:59:06,831 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:06,833 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:15,827 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:59:15,829 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:59:15,977 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:59:16,757 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:59:16,757 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 05:59:16,994 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 05:59:17,917 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:59:17,921 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:17,921 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:28,985 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:59:28,987 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:28,989 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:39,999 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:59:40,001 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:40,001 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:51,092 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 05:59:51,098 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 05:59:51,098 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:01,595 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 06:00:01,597 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:01,597 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:12,653 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 06:00:12,657 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:12,657 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:23,818 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 06:00:23,822 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:23,822 ERROR   gpu       :14680 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 06:00:31,072 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 06:00:31,076 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 06:00:31,944 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 06:00:32,148 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 06:00:32,150 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 06:00:32,327 INFO    SenderThread:14680 [sender.py:send_exit():553] handling exit code: 0
+2025-03-10 06:00:32,327 INFO    SenderThread:14680 [sender.py:send_exit():555] handling runtime: 1180
+2025-03-10 06:00:32,330 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 06:00:32,330 INFO    SenderThread:14680 [sender.py:send_exit():561] send defer
+2025-03-10 06:00:32,332 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 0
+2025-03-10 06:00:32,332 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 0
+2025-03-10 06:00:32,332 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 1
+2025-03-10 06:00:32,332 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 1
+2025-03-10 06:00:32,332 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 1
+2025-03-10 06:00:32,334 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 2
+2025-03-10 06:00:32,334 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 2
+2025-03-10 06:00:32,334 INFO    HandlerThread:14680 [system_monitor.py:finish():196] Stopping system monitor
+2025-03-10 06:00:32,354 INFO    HandlerThread:14680 [interfaces.py:finish():198] Joined cpu monitor
+2025-03-10 06:00:32,354 INFO    HandlerThread:14680 [interfaces.py:finish():198] Joined disk monitor
+2025-03-10 06:00:32,951 INFO    Thread-16 :14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 06:00:33,375 ERROR   gpu       :14680 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 06:00:33,377 INFO    HandlerThread:14680 [interfaces.py:finish():198] Joined gpu monitor
+2025-03-10 06:00:33,377 INFO    HandlerThread:14680 [interfaces.py:finish():198] Joined memory monitor
+2025-03-10 06:00:33,377 INFO    HandlerThread:14680 [interfaces.py:finish():198] Joined network monitor
+2025-03-10 06:00:33,379 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 2
+2025-03-10 06:00:33,379 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 3
+2025-03-10 06:00:33,383 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 3
+2025-03-10 06:00:33,383 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 3
+2025-03-10 06:00:33,383 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 4
+2025-03-10 06:00:33,384 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 4
+2025-03-10 06:00:33,386 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 4
+2025-03-10 06:00:33,387 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 5
+2025-03-10 06:00:33,387 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 5
+2025-03-10 06:00:33,390 INFO    SenderThread:14680 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 06:00:33,391 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 5
+2025-03-10 06:00:33,391 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 6
+2025-03-10 06:00:33,392 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 6
+2025-03-10 06:00:33,392 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 6
+2025-03-10 06:00:33,393 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 7
+2025-03-10 06:00:33,393 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 7
+2025-03-10 06:00:33,394 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 7
+2025-03-10 06:00:33,394 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 8
+2025-03-10 06:00:33,394 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 8
+2025-03-10 06:00:33,394 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 8
+2025-03-10 06:00:33,396 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 9
+2025-03-10 06:00:33,396 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 9
+2025-03-10 06:00:33,396 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 9
+2025-03-10 06:00:33,397 INFO    SenderThread:14680 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-10 06:00:33,968 INFO    SenderThread:14680 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 06:00:33,968 INFO    SenderThread:14680 [dir_watcher.py:finish():388] scan: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files
+2025-03-10 06:00:33,970 INFO    SenderThread:14680 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\config.yaml config.yaml
+2025-03-10 06:00:33,970 INFO    SenderThread:14680 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\requirements.txt requirements.txt
+2025-03-10 06:00:33,974 INFO    SenderThread:14680 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-metadata.json wandb-metadata.json
+2025-03-10 06:00:33,974 INFO    SenderThread:14680 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json wandb-summary.json
+2025-03-10 06:00:33,976 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 10
+2025-03-10 06:00:33,976 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 10
+2025-03-10 06:00:33,994 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 10
+2025-03-10 06:00:33,994 INFO    SenderThread:14680 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-10 06:00:34,975 INFO    wandb-upload_0:14680 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\config.yaml
+2025-03-10 06:00:35,014 INFO    wandb-upload_2:14680 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\wandb-summary.json
+2025-03-10 06:00:35,056 INFO    wandb-upload_1:14680 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\files\requirements.txt
+2025-03-10 06:00:35,264 INFO    Thread-15 (_thread_body):14680 [sender.py:transition_state():581] send defer: 11
+2025-03-10 06:00:35,266 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 11
+2025-03-10 06:00:35,266 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 11
+2025-03-10 06:00:35,266 INFO    SenderThread:14680 [file_pusher.py:join():175] waiting for file pusher
+2025-03-10 06:00:35,268 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 12
+2025-03-10 06:00:35,268 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 12
+2025-03-10 06:00:35,268 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 12
+2025-03-10 06:00:35,268 INFO    SenderThread:14680 [file_stream.py:finish():601] file stream finish called
+2025-03-10 06:00:36,273 INFO    SenderThread:14680 [file_stream.py:finish():605] file stream finish is done
+2025-03-10 06:00:36,273 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 13
+2025-03-10 06:00:36,273 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 13
+2025-03-10 06:00:36,273 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 13
+2025-03-10 06:00:36,273 INFO    SenderThread:14680 [sender.py:transition_state():581] send defer: 14
+2025-03-10 06:00:36,285 INFO    HandlerThread:14680 [handler.py:handle_request_defer():188] handle defer: 14
+2025-03-10 06:00:36,286 INFO    SenderThread:14680 [sender.py:send_request_defer():577] handle sender defer: 14
+2025-03-10 06:00:36,290 INFO    MainThread:14680 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-10 06:00:36,296 INFO    MainThread:14680 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-10 06:00:36,296 INFO    MainThread:14680 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-10 06:00:36,301 INFO    HandlerThread:14680 [handler.py:finish():897] shutting down handler
+2025-03-10 06:00:37,297 INFO    WriterThread:14680 [datastore.py:close():296] close: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_054050-gxkrfijq\run-gxkrfijq.wandb
+2025-03-10 06:00:37,299 INFO    SenderThread:14680 [sender.py:finish():1580] shutting down sender
+2025-03-10 06:00:37,299 INFO    SenderThread:14680 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-10 06:00:37,299 INFO    SenderThread:14680 [file_pusher.py:join():175] waiting for file pusher

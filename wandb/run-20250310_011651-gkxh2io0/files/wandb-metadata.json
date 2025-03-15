@@ -1,0 +1,59 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "CPython 3.11.2",
+    "heartbeatAt": "2025-03-09T19:46:53.957190",
+    "startedAt": "2025-03-09T19:46:51.755320",
+    "docker": null,
+    "args": [
+        "service",
+        "--debug",
+        "--port-filename",
+        "C:\\Users\\shrey\\AppData\\Local\\Temp\\tmpoxvtdfyw\\port-36040.txt",
+        "--pid",
+        "36040"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/Shrey1617539/DA6401_AS1.git",
+        "commit": "5c4374fce75bac947c45465b646a70d0673ee52a"
+    },
+    "email": "95377951+Shrey1617539@users.noreply.github.com",
+    "root": "C:/Users/shrey/Desktop/ACAD/DL/DA6401_AS1",
+    "host": "SHREY",
+    "username": null,
+    "executable": "C:\\Program Files\\Python311\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2918.0,
+        "min": 0.0,
+        "max": 2918.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2918.0,
+            "min": 0.0,
+            "max": 2918.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 490387533824,
+            "used": 453878607872
+        }
+    },
+    "gpu": "NVIDIA GeForce MX450",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce MX450",
+            "memory_total": 2147483648
+        }
+    ],
+    "memory": {
+        "total": 16905961472
+    }
+}

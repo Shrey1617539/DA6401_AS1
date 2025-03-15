@@ -1,0 +1,15 @@
+{"time":"2025-03-16T01:38:09.6619871+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250316_013809-lfde2ncb\\logs\\debug-core.log"}
+{"time":"2025-03-16T01:38:10.6820379+05:30","level":"INFO","msg":"created new stream","id":"lfde2ncb"}
+{"time":"2025-03-16T01:38:10.6820379+05:30","level":"INFO","msg":"stream: started","id":"lfde2ncb"}
+{"time":"2025-03-16T01:38:10.6824576+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lfde2ncb"}
+{"time":"2025-03-16T01:38:10.6824576+05:30","level":"INFO","msg":"sender: started","stream_id":"lfde2ncb"}
+{"time":"2025-03-16T01:38:10.6824576+05:30","level":"INFO","msg":"handler: started","stream_id":"lfde2ncb"}
+{"time":"2025-03-16T01:38:11.1487442+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T01:40:23.3992711+05:30","level":"INFO","msg":"stream: closing","id":"lfde2ncb"}
+{"time":"2025-03-16T01:40:23.3992711+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T01:40:23.4004209+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T01:40:25.1913274+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T01:40:25.5964826+05:30","level":"INFO","msg":"handler: closed","stream_id":"lfde2ncb"}
+{"time":"2025-03-16T01:40:25.5964826+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lfde2ncb"}
+{"time":"2025-03-16T01:40:25.5964826+05:30","level":"INFO","msg":"sender: closed","stream_id":"lfde2ncb"}
+{"time":"2025-03-16T01:40:25.5969925+05:30","level":"INFO","msg":"stream: closed","id":"lfde2ncb"}

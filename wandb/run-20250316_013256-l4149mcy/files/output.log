@@ -1,0 +1,7 @@
+Validation Accuracy :  0.8496666666666667
+Test Accuracy :  0.8393
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 287, in <module>
+    weights, bias = main(args)
+    ^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable NoneType object

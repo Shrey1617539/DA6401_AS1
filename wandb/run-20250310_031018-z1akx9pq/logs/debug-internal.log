@@ -1,0 +1,1125 @@
+2025-03-10 03:10:18,748 INFO    StreamThr :35896 [internal.py:wandb_internal():83] W&B internal server running at pid: 35896, started at: 2025-03-10 03:10:18.739051
+2025-03-10 03:10:18,766 INFO    WriterThread:35896 [datastore.py:open_for_write():87] open: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\run-z1akx9pq.wandb
+2025-03-10 03:10:19,678 INFO    SenderThread:35896 [dir_watcher.py:__init__():211] watching files in: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files
+2025-03-10 03:10:19,678 INFO    SenderThread:35896 [sender.py:_start_run_threads():1133] run started: z1akx9pq with start time 1741556418.738539
+2025-03-10 03:10:20,372 INFO    HandlerThread:35896 [system_monitor.py:start():187] Starting system monitor
+2025-03-10 03:10:20,372 INFO    SystemMonitor:35896 [system_monitor.py:_start():151] Starting system asset monitoring threads
+2025-03-10 03:10:20,372 INFO    HandlerThread:35896 [system_monitor.py:probe():207] Collecting system info
+2025-03-10 03:10:20,389 INFO    SystemMonitor:35896 [interfaces.py:start():186] Started cpu monitoring
+2025-03-10 03:10:20,404 INFO    SystemMonitor:35896 [interfaces.py:start():186] Started disk monitoring
+2025-03-10 03:10:20,404 INFO    SystemMonitor:35896 [interfaces.py:start():186] Started gpu monitoring
+2025-03-10 03:10:20,450 INFO    SystemMonitor:35896 [interfaces.py:start():186] Started memory monitoring
+2025-03-10 03:10:20,452 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:20,452 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:20,499 INFO    SystemMonitor:35896 [interfaces.py:start():186] Started network monitoring
+2025-03-10 03:10:20,843 INFO    HandlerThread:35896 [system_monitor.py:probe():217] Finished collecting system info
+2025-03-10 03:10:20,843 INFO    HandlerThread:35896 [system_monitor.py:probe():220] Publishing system info
+2025-03-10 03:10:20,843 INFO    HandlerThread:35896 [system_monitor.py:probe():222] Finished publishing system info
+2025-03-10 03:10:20,876 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-metadata.json with policy now
+2025-03-10 03:10:21,705 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-metadata.json
+2025-03-10 03:10:22,352 INFO    wandb-upload_0:35896 [upload_job.py:push():130] Uploaded file C:\Users\shrey\AppData\Local\Temp\tmpt5vim4jwwandb\tagc66qa-wandb-metadata.json
+2025-03-10 03:10:23,711 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\requirements.txt
+2025-03-10 03:10:26,195 INFO    SenderThread:35896 [sender.py:send_run():980] updated run: z1akx9pq
+2025-03-10 03:10:26,770 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\config.yaml
+2025-03-10 03:10:31,300 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:10:31,302 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:31,302 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:42,000 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:10:42,003 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:42,004 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:52,723 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:10:52,751 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:52,751 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:10:53,159 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\config.yaml
+2025-03-10 03:11:03,413 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:11:03,416 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:03,418 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:14,155 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:11:14,159 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:14,159 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:24,951 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:11:24,957 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:24,957 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:35,771 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:11:35,779 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:35,779 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:46,455 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:11:46,459 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:46,459 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:57,128 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:11:57,132 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:11:57,132 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:07,874 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:12:07,876 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:07,876 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:18,648 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:12:18,652 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:18,652 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:29,405 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:12:29,411 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:29,411 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:40,226 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:12:40,236 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:40,236 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:50,919 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:12:50,923 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:12:50,923 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:01,680 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:13:01,686 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:01,686 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:12,455 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:13:12,461 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:12,462 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:23,201 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:13:23,201 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:23,201 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:33,953 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:13:33,957 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:33,957 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:44,594 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:13:44,596 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:44,596 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:55,438 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:13:55,445 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:13:55,445 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:06,273 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:14:06,277 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:06,277 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:09,898 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:14:09,900 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:14:10,913 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:14:13,793 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:14:13,797 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:14:13,955 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:14:17,036 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:14:17,042 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:17,042 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:27,880 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:14:27,884 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:27,886 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:38,725 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:14:38,729 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:38,729 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:49,673 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:14:49,677 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:14:49,679 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:00,481 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:15:00,483 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:00,483 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:11,127 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:15:11,131 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:11,131 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:21,838 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:15:21,842 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:21,842 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:32,628 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:15:32,628 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:32,628 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:43,353 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:15:43,356 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:43,358 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:54,100 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:15:54,108 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:15:54,108 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:04,739 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:16:04,745 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:04,745 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:15,499 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:16:15,507 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:15,507 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:26,066 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:16:26,070 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:26,070 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:36,814 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:16:36,819 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:36,821 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:47,386 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:16:47,388 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:47,388 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:58,146 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:16:58,154 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:16:58,154 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:08,819 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:17:08,825 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:08,825 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:19,453 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:17:19,458 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:19,458 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:30,229 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:17:30,229 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:30,229 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:40,982 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:17:40,989 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:40,989 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:51,750 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:17:51,756 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:51,756 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:17:55,702 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:17:55,704 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:17:56,224 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:17:59,453 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:17:59,457 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:18:00,267 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:18:02,248 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:18:02,250 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:02,250 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:12,954 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:18:12,958 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:12,958 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:23,720 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:18:23,726 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:23,726 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:34,326 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:18:34,330 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:34,330 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:45,090 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:18:45,090 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:45,099 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:55,663 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:18:55,665 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:18:55,665 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:06,337 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:19:06,341 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:06,341 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:17,085 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:19:17,087 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:17,087 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:27,858 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:19:27,862 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:27,862 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:38,488 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:19:38,489 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:38,489 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:49,230 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:19:49,240 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:49,242 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:59,956 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:19:59,961 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:19:59,961 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:10,705 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:20:10,709 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:10,709 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:21,342 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:20:21,346 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:21,346 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:32,243 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:20:32,252 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:32,252 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:42,735 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:20:42,758 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:42,758 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:53,388 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:20:53,392 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:20:53,392 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:04,064 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:21:04,068 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:04,068 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:15,031 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:21:15,093 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:15,094 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:25,766 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:21:25,766 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:25,766 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:36,476 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:21:36,476 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:36,476 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:46,843 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:21:46,847 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:21:47,220 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:21:47,239 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:47,239 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:47,787 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:21:50,908 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:21:50,910 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:21:51,812 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:21:57,895 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:21:57,902 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:21:57,902 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:08,637 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:22:08,643 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:08,643 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:19,331 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:22:19,341 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:19,341 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:30,085 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:22:30,091 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:30,091 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:40,652 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:22:40,654 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:40,654 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:51,353 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:22:51,355 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:22:51,357 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:02,231 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:23:02,241 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:02,243 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:12,790 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:23:12,792 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:12,793 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:23,611 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:23:23,617 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:23,617 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:34,324 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:23:34,326 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:34,328 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:45,028 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:23:45,034 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:45,034 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:55,739 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:23:55,745 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:23:55,745 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:06,449 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:24:06,453 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:06,453 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:17,221 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:24:17,221 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:17,221 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:27,859 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:24:27,863 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:27,863 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:38,687 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:24:38,695 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:38,695 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:49,420 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:24:49,428 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:24:49,428 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:00,096 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:25:00,102 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:00,102 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:10,756 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:25:10,763 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:10,763 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:21,816 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:25:21,818 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:21,818 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:32,358 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:25:32,359 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:32,359 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:32,575 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:25:32,578 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:25:32,970 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:25:36,140 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:25:36,142 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:25:37,004 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:25:43,015 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:25:43,022 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:43,022 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:53,608 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:25:53,612 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:25:53,612 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:04,276 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:26:04,278 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:04,278 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:14,985 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:26:14,988 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:14,988 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:25,716 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:26:25,720 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:25,720 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:36,464 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:26:36,469 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:36,469 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:47,067 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:26:47,069 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:47,071 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:57,847 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:26:57,859 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:26:57,859 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:08,616 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:27:08,620 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:08,620 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:19,427 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:27:19,431 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:19,433 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:29,988 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:27:29,990 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:29,990 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:40,789 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:27:40,812 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:40,812 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:51,327 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:27:51,337 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:27:51,337 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:01,959 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:28:01,961 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:01,963 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:12,666 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:28:12,674 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:12,674 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:23,312 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:28:23,312 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:23,319 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:33,965 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:28:33,965 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:33,965 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:44,692 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:28:44,696 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:44,696 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:55,362 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:28:55,366 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:28:55,366 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:06,141 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:29:06,152 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:06,152 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:16,760 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:29:16,762 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:16,762 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:19,340 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:29:19,356 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:29:19,762 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:29:23,326 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:29:23,328 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:29:23,813 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:29:27,354 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:29:27,356 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:27,358 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:38,043 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:29:38,045 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:38,045 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:48,635 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:29:48,637 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:48,639 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:59,332 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:29:59,336 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:29:59,338 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:10,046 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:30:10,053 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:10,053 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:20,758 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:30:20,764 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:20,764 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:31,348 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:30:31,348 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:31,348 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:41,963 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:30:41,967 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:41,967 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:52,740 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:30:52,749 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:30:52,749 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:03,321 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:31:03,325 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:03,325 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:14,034 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:31:14,040 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:14,040 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:24,733 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:31:24,735 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:24,737 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:35,433 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:31:35,439 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:35,440 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:46,066 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:31:46,066 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:46,066 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:56,780 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:31:56,784 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:31:56,784 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:07,540 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:32:07,540 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:07,540 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:18,301 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:32:18,304 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:18,304 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:29,062 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:32:29,069 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:29,069 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:39,674 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:32:39,680 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:39,680 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:50,508 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:32:50,508 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:32:50,508 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:00,667 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:33:00,669 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:00,669 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:11,468 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:33:11,471 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:11,471 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:12,412 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:33:12,415 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:33:13,148 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:33:16,125 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:33:16,127 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:33:16,173 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:33:22,574 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:33:22,574 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:22,574 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:33,662 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:33:33,666 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:33,666 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:44,730 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:33:44,733 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:44,733 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:55,785 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:33:55,789 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:33:55,789 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:06,839 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:34:06,841 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:06,841 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:18,058 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:34:18,062 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:18,062 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:29,068 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:34:29,070 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:29,070 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:40,172 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:34:40,176 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:40,176 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:51,182 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:34:51,184 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:34:51,186 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:02,270 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:35:02,274 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:02,274 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:13,410 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:35:13,416 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:13,416 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:24,801 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:35:24,805 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:24,805 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:35,793 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:35:35,803 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:35,803 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:46,946 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:35:46,952 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:46,952 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:57,945 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:35:57,947 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:35:57,947 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:08,969 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:36:08,971 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:08,971 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:20,157 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:36:20,164 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:20,164 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:31,272 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:36:31,277 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:31,277 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:42,383 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:36:42,391 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:42,391 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:53,300 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:36:53,306 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:36:53,308 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:03,659 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:37:03,659 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:37:04,320 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:37:04,477 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:37:04,477 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:04,477 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:07,307 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:37:07,307 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:37:07,346 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:37:15,495 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:37:15,499 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:15,499 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:26,538 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:37:26,542 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:26,542 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:37,608 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:37:37,612 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:37,612 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:48,713 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:37:48,717 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:48,717 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:59,742 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:37:59,744 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:37:59,744 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:10,815 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:38:10,819 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:10,819 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:22,138 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:38:22,142 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:22,142 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:33,257 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:38:33,259 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:33,259 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:44,315 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:38:44,319 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:44,319 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:55,415 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:38:55,417 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:38:55,417 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:06,576 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:39:06,580 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:06,580 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:17,785 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:39:17,789 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:17,789 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:28,947 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:39:28,952 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:28,952 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:39,854 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:39:39,860 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:39,860 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:50,951 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:39:50,954 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:39:50,954 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:02,142 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:40:02,144 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:02,144 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:13,213 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:40:13,223 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:13,227 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:24,383 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:40:24,385 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:24,385 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:35,263 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:40:35,266 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:35,266 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:46,430 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:40:46,475 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:40:46,477 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:40:46,477 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:40:46,485 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:46,485 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:49,978 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:40:49,981 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:40:50,555 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:40:57,501 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:40:57,503 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:40:57,503 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:08,694 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:41:08,697 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:08,697 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:19,742 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:41:19,748 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:19,748 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:30,859 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:41:30,863 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:30,863 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:42,010 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:41:42,013 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:42,013 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:53,067 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:41:53,069 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:41:53,069 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:04,330 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:42:04,332 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:04,332 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:15,367 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:42:15,373 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:15,373 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:26,393 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:42:26,397 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:26,397 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:37,436 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:42:37,439 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:37,439 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:48,458 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:42:48,461 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:48,461 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:59,572 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:42:59,579 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:42:59,579 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:10,709 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:43:10,713 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:10,713 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:21,852 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:43:21,856 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:21,856 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:32,954 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:43:32,956 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:32,956 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:44,147 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:43:44,147 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:44,147 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:55,254 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:43:55,254 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:43:55,254 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:06,380 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:44:06,383 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:06,383 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:17,476 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:44:17,480 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:17,480 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:28,547 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:44:28,553 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:28,553 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:35,988 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:44:35,990 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:44:36,891 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:44:39,600 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:44:39,624 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:44:39,626 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:44:39,634 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:39,636 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:39,932 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:44:50,713 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:44:50,713 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:44:50,713 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:01,794 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:45:01,798 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:01,800 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:12,867 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:45:12,869 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:12,871 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:23,926 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:45:23,930 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:23,930 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:35,068 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:45:35,070 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:35,070 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:46,061 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:45:46,063 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:46,063 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:57,288 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:45:57,294 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:45:57,294 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:07,893 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:46:07,895 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:07,895 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:18,960 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:46:18,966 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:18,967 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:29,938 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:46:29,942 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:29,942 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:41,047 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:46:41,049 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:41,051 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:52,169 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:46:52,175 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:46:52,175 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:03,167 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:47:03,171 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:03,171 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:13,934 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:47:13,940 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:13,940 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:24,571 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:47:24,575 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:24,577 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:35,309 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:47:35,315 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:35,315 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:46,050 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:47:46,053 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:46,053 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:56,226 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:47:56,230 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:47:56,230 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:07,010 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:48:07,012 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:07,012 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:15,241 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:48:15,243 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:48:15,636 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:48:18,254 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:48:18,254 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:18,254 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:19,011 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:48:19,014 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:48:19,696 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:48:29,318 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:48:29,324 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:29,325 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:40,500 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:48:40,504 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:40,504 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:51,527 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:48:51,535 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:48:51,535 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:02,678 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:49:02,684 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:02,686 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:13,777 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:49:13,779 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:13,779 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:24,869 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:49:24,875 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:24,875 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:35,906 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:49:35,908 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:35,910 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:46,963 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:49:46,965 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:46,965 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:57,928 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:49:57,930 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:49:57,930 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:09,115 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:50:09,118 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:09,118 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:20,154 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:50:20,159 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:20,159 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:30,874 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:50:30,876 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:30,878 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:42,228 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:50:42,232 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:42,232 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:53,094 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:50:53,100 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:50:53,100 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:04,035 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:51:04,039 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:04,039 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:15,169 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:51:15,173 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:15,173 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:26,177 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:51:26,182 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:26,182 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:37,289 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:51:37,291 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:37,291 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:48,398 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:51:48,402 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:48,402 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:59,761 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:51:59,765 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:51:59,765 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:01,647 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:52:01,659 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:52:01,771 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:52:05,399 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:52:05,401 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:52:05,866 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:52:10,793 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:52:10,798 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:10,800 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:21,777 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:52:21,783 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:21,783 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:33,059 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:52:33,063 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:33,063 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:44,061 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:52:44,073 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:44,073 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:55,142 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:52:55,147 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:52:55,147 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:06,155 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:53:06,159 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:06,159 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:17,236 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:53:17,238 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:17,238 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:28,163 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:53:28,165 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:28,165 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:39,367 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:53:39,372 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:39,372 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:50,390 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:53:50,394 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:53:50,394 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:01,424 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:54:01,430 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:01,430 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:12,443 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:54:12,446 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:12,446 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:23,529 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:54:23,534 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:23,534 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:34,602 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:54:34,606 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:34,606 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:45,603 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:54:45,607 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:45,607 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:56,653 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:54:56,655 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:54:56,655 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:08,049 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:55:08,049 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:08,049 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:19,060 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:55:19,068 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:19,068 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:30,243 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:55:30,250 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:30,250 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:41,234 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:55:41,238 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:41,238 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:42,115 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:55:42,117 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:55:42,830 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:55:45,705 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:55:45,709 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:55:45,854 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:55:52,335 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:55:52,338 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:55:52,340 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:03,536 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:56:03,540 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:03,540 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:14,588 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:56:14,592 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:14,592 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:25,551 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:56:25,555 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:25,557 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:36,711 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:56:36,717 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:36,717 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:47,331 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:56:47,335 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:47,335 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:58,323 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:56:58,325 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:56:58,325 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:09,474 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:57:09,474 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:09,474 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:20,480 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:57:20,482 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:20,482 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:31,533 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:57:31,535 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:31,537 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:42,610 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:57:42,622 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:42,622 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:53,509 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:57:53,518 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:57:53,520 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:03,707 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:58:03,709 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:03,711 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:14,634 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:58:14,634 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:14,640 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:25,695 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:58:25,702 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:25,702 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:36,671 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:58:36,675 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:36,675 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:47,679 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:58:47,682 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:47,682 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:58,875 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:58:58,879 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:58:58,879 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:09,974 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:59:09,976 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:09,976 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:21,170 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:59:21,173 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:21,174 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:23,051 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:59:23,051 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:59:23,791 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:59:27,005 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:59:27,007 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 03:59:27,820 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 03:59:32,197 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:59:32,203 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:32,203 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:43,237 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:59:43,240 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:43,240 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:54,301 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 03:59:54,304 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 03:59:54,304 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:05,438 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:00:05,444 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:05,444 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:16,474 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:00:16,478 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:16,478 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:27,500 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:00:27,504 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:27,504 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:38,505 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:00:38,511 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:38,511 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:49,550 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:00:49,554 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:00:49,554 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:00,625 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:01:00,627 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:00,627 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:11,375 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:01:11,380 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:11,380 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:22,407 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:01:22,411 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:22,411 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:33,488 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:01:33,490 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:33,490 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:44,517 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:01:44,521 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:44,521 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:55,570 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:01:55,574 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:01:55,574 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:06,641 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:02:06,647 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:06,647 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:17,691 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:02:17,694 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:17,694 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:28,947 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:02:28,957 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:28,957 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:40,051 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:02:40,057 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:40,057 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:51,301 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:02:51,305 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:02:51,305 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:02,455 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:03:02,459 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:02,459 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:05,142 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:03:05,146 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:03:05,826 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 04:03:08,769 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:03:08,771 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:03:08,888 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 04:03:13,495 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:03:13,501 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:13,501 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:24,543 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:03:24,554 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:24,554 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:35,595 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:03:35,598 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:35,598 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:46,684 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:03:46,687 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:46,687 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:57,778 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:03:57,780 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:03:57,780 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:08,805 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:04:08,809 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:08,809 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:19,906 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:04:19,912 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:19,912 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:30,946 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:04:30,951 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:30,951 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:42,081 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:04:42,085 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:42,085 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:53,081 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:04:53,085 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:04:53,087 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:04,061 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:05:04,063 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:04,063 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:15,144 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:05:15,148 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:15,149 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:26,383 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:05:26,387 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:26,387 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:37,584 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:05:37,586 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:37,586 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:48,845 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:05:48,849 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:48,849 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:59,859 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:05:59,861 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:05:59,861 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:11,026 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:06:11,028 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:11,028 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:22,030 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:06:22,033 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:22,033 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:33,189 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:06:33,193 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:33,193 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:44,112 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:06:44,116 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:44,116 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:54,692 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:06:54,696 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:06:54,945 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 04:06:55,318 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:06:55,322 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:55,322 ERROR   gpu       :35896 [interfaces.py:monitor():140] Failed to sample metric: Not Supported
+2025-03-10 04:06:58,070 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:06:58,073 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:06:58,345 INFO    SenderThread:35896 [sender.py:send_exit():553] handling exit code: 0
+2025-03-10 04:06:58,345 INFO    SenderThread:35896 [sender.py:send_exit():555] handling runtime: 3398
+2025-03-10 04:06:58,349 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:06:58,351 INFO    SenderThread:35896 [sender.py:send_exit():561] send defer
+2025-03-10 04:06:58,351 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 0
+2025-03-10 04:06:58,352 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 0
+2025-03-10 04:06:58,352 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 1
+2025-03-10 04:06:58,352 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 1
+2025-03-10 04:06:58,353 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 1
+2025-03-10 04:06:58,353 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 2
+2025-03-10 04:06:58,353 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 2
+2025-03-10 04:06:58,354 INFO    HandlerThread:35896 [system_monitor.py:finish():196] Stopping system monitor
+2025-03-10 04:06:58,376 INFO    HandlerThread:35896 [interfaces.py:finish():198] Joined cpu monitor
+2025-03-10 04:06:58,377 INFO    HandlerThread:35896 [interfaces.py:finish():198] Joined disk monitor
+2025-03-10 04:06:59,005 INFO    Thread-16 :35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 04:06:59,053 ERROR   gpu       :35896 [interfaces.py:aggregate():157] Failed to serialize metric: division by zero
+2025-03-10 04:06:59,053 INFO    HandlerThread:35896 [interfaces.py:finish():198] Joined gpu monitor
+2025-03-10 04:06:59,055 INFO    HandlerThread:35896 [interfaces.py:finish():198] Joined memory monitor
+2025-03-10 04:06:59,055 INFO    HandlerThread:35896 [interfaces.py:finish():198] Joined network monitor
+2025-03-10 04:06:59,056 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 2
+2025-03-10 04:06:59,056 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 3
+2025-03-10 04:06:59,057 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 3
+2025-03-10 04:06:59,059 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 3
+2025-03-10 04:06:59,059 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 4
+2025-03-10 04:06:59,059 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 4
+2025-03-10 04:06:59,059 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 4
+2025-03-10 04:06:59,061 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 5
+2025-03-10 04:06:59,061 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 5
+2025-03-10 04:06:59,064 INFO    SenderThread:35896 [sender.py:_save_file():1402] saving file wandb-summary.json with policy end
+2025-03-10 04:06:59,064 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 5
+2025-03-10 04:06:59,064 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 6
+2025-03-10 04:06:59,064 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 6
+2025-03-10 04:06:59,066 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 6
+2025-03-10 04:06:59,066 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 7
+2025-03-10 04:06:59,066 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 7
+2025-03-10 04:06:59,066 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 7
+2025-03-10 04:06:59,066 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 8
+2025-03-10 04:06:59,066 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 8
+2025-03-10 04:06:59,066 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 8
+2025-03-10 04:06:59,066 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 9
+2025-03-10 04:06:59,069 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 9
+2025-03-10 04:06:59,069 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 9
+2025-03-10 04:06:59,069 INFO    SenderThread:35896 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-03-10 04:07:00,015 INFO    SenderThread:35896 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 04:07:00,017 INFO    SenderThread:35896 [dir_watcher.py:finish():388] scan: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files
+2025-03-10 04:07:00,019 INFO    SenderThread:35896 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\config.yaml config.yaml
+2025-03-10 04:07:00,019 INFO    SenderThread:35896 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\requirements.txt requirements.txt
+2025-03-10 04:07:00,023 INFO    SenderThread:35896 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-metadata.json wandb-metadata.json
+2025-03-10 04:07:00,025 INFO    SenderThread:35896 [dir_watcher.py:finish():402] scan save: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json wandb-summary.json
+2025-03-10 04:07:00,027 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 10
+2025-03-10 04:07:00,027 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 10
+2025-03-10 04:07:00,029 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 10
+2025-03-10 04:07:00,029 INFO    SenderThread:35896 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-10 04:07:01,161 INFO    wandb-upload_0:35896 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\config.yaml
+2025-03-10 04:07:02,352 INFO    wandb-upload_1:35896 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\requirements.txt
+2025-03-10 04:07:02,352 INFO    wandb-upload_2:35896 [upload_job.py:push():130] Uploaded file C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\files\wandb-summary.json
+2025-03-10 04:07:02,569 INFO    Thread-15 (_thread_body):35896 [sender.py:transition_state():581] send defer: 11
+2025-03-10 04:07:02,570 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 11
+2025-03-10 04:07:02,572 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 11
+2025-03-10 04:07:02,572 INFO    SenderThread:35896 [file_pusher.py:join():175] waiting for file pusher
+2025-03-10 04:07:02,572 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 12
+2025-03-10 04:07:02,572 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 12
+2025-03-10 04:07:02,572 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 12
+2025-03-10 04:07:02,572 INFO    SenderThread:35896 [file_stream.py:finish():601] file stream finish called
+2025-03-10 04:07:03,621 INFO    SenderThread:35896 [file_stream.py:finish():605] file stream finish is done
+2025-03-10 04:07:03,621 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 13
+2025-03-10 04:07:03,621 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 13
+2025-03-10 04:07:03,623 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 13
+2025-03-10 04:07:03,623 INFO    SenderThread:35896 [sender.py:transition_state():581] send defer: 14
+2025-03-10 04:07:03,623 INFO    HandlerThread:35896 [handler.py:handle_request_defer():188] handle defer: 14
+2025-03-10 04:07:03,625 INFO    SenderThread:35896 [sender.py:send_request_defer():577] handle sender defer: 14
+2025-03-10 04:07:03,635 INFO    MainThread:35896 [wandb_run.py:_footer_history_summary_info():3958] rendering history
+2025-03-10 04:07:03,635 INFO    MainThread:35896 [wandb_run.py:_footer_history_summary_info():3990] rendering summary
+2025-03-10 04:07:03,637 INFO    MainThread:35896 [wandb_run.py:_footer_sync_info():3919] logging synced files
+2025-03-10 04:07:03,643 INFO    HandlerThread:35896 [handler.py:finish():897] shutting down handler
+2025-03-10 04:07:04,641 INFO    WriterThread:35896 [datastore.py:close():296] close: C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_031018-z1akx9pq\run-z1akx9pq.wandb
+2025-03-10 04:07:04,641 INFO    SenderThread:35896 [sender.py:finish():1580] shutting down sender
+2025-03-10 04:07:04,641 INFO    SenderThread:35896 [file_pusher.py:finish():169] shutting down file pusher
+2025-03-10 04:07:04,641 INFO    SenderThread:35896 [file_pusher.py:join():175] waiting for file pusher

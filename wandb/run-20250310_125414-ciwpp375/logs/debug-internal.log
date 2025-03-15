@@ -1,0 +1,15 @@
+{"time":"2025-03-10T12:54:14.0457588+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250310_125414-ciwpp375\\logs\\debug-core.log"}
+{"time":"2025-03-10T12:54:15.2740057+05:30","level":"INFO","msg":"created new stream","id":"ciwpp375"}
+{"time":"2025-03-10T12:54:15.2740057+05:30","level":"INFO","msg":"stream: started","id":"ciwpp375"}
+{"time":"2025-03-10T12:54:15.2740057+05:30","level":"INFO","msg":"handler: started","stream_id":"ciwpp375"}
+{"time":"2025-03-10T12:54:15.2740057+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ciwpp375"}
+{"time":"2025-03-10T12:54:15.2740057+05:30","level":"INFO","msg":"sender: started","stream_id":"ciwpp375"}
+{"time":"2025-03-10T12:54:15.9007239+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-10T13:21:54.9988461+05:30","level":"INFO","msg":"stream: closing","id":"ciwpp375"}
+{"time":"2025-03-10T13:21:54.9988461+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-10T13:21:55.0023736+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-10T13:21:56.1053353+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-10T13:21:56.5307998+05:30","level":"INFO","msg":"handler: closed","stream_id":"ciwpp375"}
+{"time":"2025-03-10T13:21:56.5307998+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ciwpp375"}
+{"time":"2025-03-10T13:21:56.5307998+05:30","level":"INFO","msg":"sender: closed","stream_id":"ciwpp375"}
+{"time":"2025-03-10T13:21:56.5313092+05:30","level":"INFO","msg":"stream: closed","id":"ciwpp375"}

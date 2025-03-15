@@ -1,0 +1,17 @@
+{"time":"2025-03-09T14:28:28.7881128+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250309_142828-emf5n9c8\\logs\\debug-core.log"}
+{"time":"2025-03-09T14:28:29.8110593+05:30","level":"INFO","msg":"created new stream","id":"emf5n9c8"}
+{"time":"2025-03-09T14:28:29.8116253+05:30","level":"INFO","msg":"stream: started","id":"emf5n9c8"}
+{"time":"2025-03-09T14:28:29.8116253+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"emf5n9c8"}
+{"time":"2025-03-09T14:28:29.8116253+05:30","level":"INFO","msg":"sender: started","stream_id":"emf5n9c8"}
+{"time":"2025-03-09T14:28:29.8116253+05:30","level":"INFO","msg":"handler: started","stream_id":"emf5n9c8"}
+{"time":"2025-03-09T14:28:30.3630792+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-09T14:32:06.446959+05:30","level":"INFO","msg":"stream: closing","id":"emf5n9c8"}
+{"time":"2025-03-09T14:32:06.446959+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-09T14:32:06.4474884+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-09T14:32:06.8361604+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run emf5n9c8 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T14:32:06.8361604+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-03-09T14:32:06.8361604+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run my-awesome-project/emf5n9c8 not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-03-09T14:32:09.5553932+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run emf5n9c8 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T14:32:14.7647193+05:30","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run emf5n9c8 was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-03-09T14:32:16.7423214+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/me21b138-indian-institute-of-technology-madras/my-awesome-project/emf5n9c8/file_stream"}
+{"time":"2025-03-09T14:32:16.7423214+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/me21b138-indian-institute-of-technology-madras/my-awesome-project/emf5n9c8/file_stream: {\"error\":\"run my-awesome-project/emf5n9c8 not found while streaming file\"}"}

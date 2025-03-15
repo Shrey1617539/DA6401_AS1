@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "c:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 213, in <module>
+    weights, bias = main(args)
+                    ^^^^^^^^^^
+  File "c:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 23, in main
+    size_of_every_hidden_layer = json.load(size_of_every_hidden_layer)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python311\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^
+AttributeError: 'str' object has no attribute 'read'

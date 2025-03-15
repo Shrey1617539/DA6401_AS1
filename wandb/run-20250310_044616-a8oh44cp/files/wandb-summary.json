@@ -1,0 +1,1 @@
+{"train_accuracy": 0.8678888888888889, "_timestamp": 1741565310.111861, "_runtime": 3133.290704011917, "_step": 39, "train_error": 0.19293976263495738, "validation_accuracy": 0.8568333333333333, "validation_error": 0.20557875540980142, "_wandb": {"runtime": 3132}}

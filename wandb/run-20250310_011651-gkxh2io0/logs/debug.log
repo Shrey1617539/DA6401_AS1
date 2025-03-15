@@ -1,0 +1,23 @@
+2025-03-10 01:16:51,767 INFO    MainThread:36040 [wandb_setup.py:_flush():67] Current SDK version is 0.19.7
+2025-03-10 01:16:51,767 INFO    MainThread:36040 [wandb_setup.py:_flush():67] Configure stats pid to 36040
+2025-03-10 01:16:51,767 INFO    MainThread:36040 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\.config\wandb\settings
+2025-03-10 01:16:51,768 INFO    MainThread:36040 [wandb_setup.py:_flush():67] Loading settings from C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\settings
+2025-03-10 01:16:51,768 INFO    MainThread:36040 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-03-10 01:16:51,768 INFO    MainThread:36040 [wandb_init.py:setup_run_log_directory():647] Logging user logs to C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_011651-gkxh2io0\logs\debug.log
+2025-03-10 01:16:51,769 INFO    MainThread:36040 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\wandb\run-20250310_011651-gkxh2io0\logs\debug-internal.log
+2025-03-10 01:16:51,770 INFO    MainThread:36040 [wandb_init.py:init():761] calling init triggers
+2025-03-10 01:16:51,770 INFO    MainThread:36040 [wandb_init.py:init():766] wandb.init called with sweep_config: {'activation': 'tanh', 'batch_size': 16, 'beta': 0.08912238646395546, 'beta1': 0.9834339178484514, 'beta2': 0.9978683517908118, 'epochs': 15, 'epsilon': 5.396747489387253e-06, 'hidden_size': 32, 'learning_rate': 0.00011926068266919866, 'loss': 'mean_squared_error', 'momentum': 0.976130338947692, 'num_layers': 5, 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'Xavier'}
+config: {'_wandb': {}}
+2025-03-10 01:16:51,770 INFO    MainThread:36040 [wandb_init.py:init():784] starting backend
+2025-03-10 01:16:51,770 INFO    MainThread:36040 [wandb_init.py:init():788] sending inform_init request
+2025-03-10 01:16:51,819 INFO    MainThread:36040 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-03-10 01:16:51,821 INFO    MainThread:36040 [wandb_init.py:init():803] backend started and connected
+2025-03-10 01:16:51,824 INFO    MainThread:36040 [wandb_run.py:_config_callback():1261] config_cb None None {'activation': 'tanh', 'batch_size': 16, 'beta': 0.08912238646395546, 'beta1': 0.9834339178484514, 'beta2': 0.9978683517908118, 'epochs': 15, 'epsilon': 5.396747489387253e-06, 'hidden_size': 32, 'learning_rate': 0.00011926068266919866, 'loss': 'mean_squared_error', 'momentum': 0.976130338947692, 'num_layers': 5, 'optimizer': 'momentum', 'weight_decay': 0.0005, 'weight_init': 'Xavier'}
+2025-03-10 01:16:51,826 INFO    MainThread:36040 [wandb_init.py:init():896] updated telemetry
+2025-03-10 01:16:52,027 INFO    MainThread:36040 [wandb_init.py:init():920] communicating run to backend with 90.0 second timeout
+2025-03-10 01:16:53,056 INFO    MainThread:36040 [wandb_init.py:init():995] starting run threads in backend
+2025-03-10 01:16:56,035 INFO    MainThread:36040 [wandb_run.py:_console_start():2377] atexit reg
+2025-03-10 01:16:56,035 INFO    MainThread:36040 [wandb_run.py:_redirect():2227] redirect: wrap_raw
+2025-03-10 01:16:56,037 INFO    MainThread:36040 [wandb_run.py:_redirect():2292] Wrapping output streams.
+2025-03-10 01:16:56,037 INFO    MainThread:36040 [wandb_run.py:_redirect():2317] Redirects installed.
+2025-03-10 01:16:56,048 INFO    MainThread:36040 [wandb_init.py:init():1037] run started, returning control to user process

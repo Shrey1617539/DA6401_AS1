@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "c:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 210, in <module>
+  File "c:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 50, in main
+    X_data=X_train,
+               ^^^^
+  File "c:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 226, in gradient_descent
+    d_W[j] += np.mean(d_W_part[j], axis = 0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\numpy\core\fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\AppData\Roaming\Python\Python311\site-packages\numpy\core\_methods.py", line 118, in _mean
+    ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
