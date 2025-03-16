@@ -2,6 +2,7 @@ from keras.datasets import fashion_mnist, mnist
 import numpy as np
 import matplotlib.pyplot as plt
 
+# loading data with dataset name
 def load_data(data_name = 'fashion_mnist'):
     if data_name == 'fashion_mnist':
         (X_train, y_train), (X_test, y_test) = fashion_mnist.load_data()
@@ -9,10 +10,12 @@ def load_data(data_name = 'fashion_mnist'):
     elif data_name == 'mnist':
         (X_train, y_train), (X_test, y_test) = mnist.load_data()
 
+    # normalize the data before returning
     X_train = X_train/255
     X_test = X_test/255
     return X_train, y_train, X_test, y_test
 
+# plotting 1 image per class 
 def plot_images(X_train, y_train, num_cols=5):
     unique_labels = np.unique(y_train)
     num_classes = len(unique_labels)

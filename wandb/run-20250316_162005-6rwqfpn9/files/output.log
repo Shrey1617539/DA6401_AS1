@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 318, in <module>
+    main(args)
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 66, in main
+    weights, bias = model_training_function.gradient_descent(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 246, in gradient_descent
+    d_W_part, d_b_part = backpropagation(X, Y, weights = weights, bias = bias, activation_function = activation_function, loss_type=loss_type)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 131, in backpropagation
+    y_pred, a, h = feedforward(X, weights = weights, bias= bias, activation_function= activation_function)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 86, in feedforward
+    x = activation_function_cal(x, activation_function[layer])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 19, in activation_function_cal
+    def activation_function_cal(a, activation_function):
+
+KeyboardInterrupt

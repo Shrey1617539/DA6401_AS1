@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 287, in <module>
+    # Use parse_known_args to ignore extra arguments injected by wandb sweep agent
+    ^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\train.py", line 54, in main
+    wandb.run.name = run_name
+                    ^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 225, in gradient_descent
+    d_W_part, d_b_part = backpropagation(X, Y, weights = weights, bias = bias, activation_function = activation_function, loss_type=loss_type)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 120, in backpropagation
+    y_pred, a, h = feedforward(X, weights = weights, bias= bias, activation_function= activation_function)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 81, in feedforward
+    x = activation_function_cal(x, activation_function[layer])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shrey\Desktop\ACAD\DL\DA6401_AS1\model_training_function.py", line 16, in activation_function_cal
+    def activation_function_cal(a, activation_function):
+
+KeyboardInterrupt

@@ -4,15 +4,18 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
 import wandb
 
-
+# Break given data into train and test split
 def train_test_split(X_train, y_train, split_ratio=0.9, seed = 42):
     np.random.seed(seed)
     split = int(X_train.shape[0]*split_ratio)
+
+    # randomize the data with cerain seed
     indices = np.random.permutation(X_train.shape[0])
     X_train = X_train[indices]
     y_train = y_train[indices]
     return X_train[:split], y_train[:split], X_train[split:], y_train[split:]
 
+# Different activation function's formulation 
 def activation_function_cal(a, activation_function):
     if activation_function == 'sigmoid':
         pos_mask = (a >= 0)
@@ -49,6 +52,7 @@ def activation_function_cal(a, activation_function):
         a /= np.sum(a, axis=1, keepdims=True)
         return a
 
+# gradients of different activation function
 def gradient_activation_function(a, activation_function):
     if activation_function == 'sigmoid':
         z = activation_function_cal(a, activation_function=activation_function)
@@ -69,25 +73,29 @@ def gradient_activation_function(a, activation_function):
     if activation_function == 'identity':
         return np.ones(a.shape)
 
-
+# Feed Forward in the neural network
 def feedforward(x, weights, bias, activation_function):
     x = x.reshape(x.shape[0], x.shape[1]*x.shape[2],1)
     a = []
     h = []
 
+    # Goes through all network but the last
     for layer in range(len(weights)-1):
         x = bias[layer] + ( weights[layer] @ x )
         a.append(x)
         x = activation_function_cal(x, activation_function[layer])
         h.append(x)
 
+    # feed forward in last layer
     x = bias[-1] + (weights[-1] @ x)
     a.append(x)
     x = activation_function_cal(x, activation_function[-1])
     h.append(x)
 
+    # return output, a, h
     return x, a, h
     
+# Loss calculations for different type of loss
 def loss_calculations(y, y_pred, loss_type = 'cross_entropy'):
     if type(y) == list:
         y = np.array(y)
@@ -103,6 +111,7 @@ def loss_calculations(y, y_pred, loss_type = 'cross_entropy'):
         loss = np.mean(loss)
     return loss
 
+# Getting accuracy with the help of actual and predicted values
 def accuracy_calculations(y, y_pred):
     if type(y) == list:
         y = np.array(y)
@@ -112,19 +121,23 @@ def accuracy_calculations(y, y_pred):
     y_pred = y_pred.flatten()
     return np.sum(y_pred == y)/y.shape[0]
 
+# Back propagation for batch and get descent value
 def backpropagation(X, Y, weights, bias, activation_function, loss_type = 'cross_entropy'):
 
     d_W = []
     d_b = []
 
+    # Getting values with feedforward
     y_pred, a, h = feedforward(X, weights = weights, bias= bias, activation_function= activation_function)
 
     e_y = np.zeros(y_pred.shape)
     e_y[np.arange(e_y.shape[0]),Y] = 1
 
+    # getting grad_al for cross entropy
     if loss_type == 'cross_entropy':
         grad_al = (y_pred - e_y).reshape(e_y.shape[0], e_y.shape[1], 1)
 
+    # getting grad_al for mean-squared-error
     if loss_type == 'mean_squared_error' or loss_type == 'mse':
         sum_c = (y_pred - e_y)*y_pred
         sum_c = np.sum(sum_c, axis = 1)
@@ -132,6 +145,7 @@ def backpropagation(X, Y, weights, bias, activation_function, loss_type = 'cross
         grad_al = 2*y_pred*(y_pred - e_y - sum_c).reshape(e_y.shape[0], e_y.shape[1], 1)
     grad_hl = 0
 
+    # going through reversed order with help of chain rule
     for layer in reversed(range(1, len(weights))):
         d_W.append(np.matmul(grad_al, h[layer - 1].transpose(0,2,1)))
         d_b.append(grad_al)
@@ -145,8 +159,10 @@ def backpropagation(X, Y, weights, bias, activation_function, loss_type = 'cross
     d_W = list(reversed(d_W))
     d_b = list(reversed(d_b))
     
+    # returning the list of the gradients
     return d_W, d_b
     
+# reset inputs to zeros
 def reset_d_weights(weights, bias):
     d_W = []
     d_b = []
@@ -157,6 +173,7 @@ def reset_d_weights(weights, bias):
     
     return d_W, d_b
 
+# Initialize weights and biases according to initialisation method.
 def initialize_weights(input_size, hidden_layers, hidden_layer_size, output_size, initialisation):
     weights = []
     bias = []
@@ -185,13 +202,14 @@ def initialize_weights(input_size, hidden_layers, hidden_layer_size, output_size
 
     return weights, bias
 
-
+# Gradient descent for weights and biases
 def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function , 
                      learning_rate = 0.01, beta = 0.5, beta1 = 0.5, beta2 = 0.5, weight_decay = 0,
                      momentum = 0.5, batch_size = None, optimization_method = None,
                      epsilon = 0.000001, loss_type = 'cross_entropy', X_val = None, Y_val = None, X_test = None, 
                      Y_test = None, logging_train = False, logging_val = False, logging_test = False):
     
+    # assign value of batch size if not 
     if batch_size == None:
         batch_size = X_data.shape[0]
     
@@ -201,6 +219,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
     step_cnt = 0
     for epoch in range(epochs):
 
+        # Create the randomize batch for every epoch
         indices = np.random.permutation(X_data.shape[0])
         X_data = X_data[indices]
         Y_data = Y_data[indices]
@@ -213,6 +232,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
             X = X_data[i:min(X_data.shape[0], i+batch_size)]
             Y = Y_data[i:min(X_data.shape[0], i+batch_size)]
 
+            # If optimizers are nag then help to look ahaed gradients
             if optimization_method == 'nag':
 
                 if epoch == 0 and i == 0:
@@ -222,6 +242,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
                     weights[j] -= momentum*u_W[j]
                     bias[j] -= momentum*u_b[j]
 
+            # getting gredients with backpropagation
             d_W_part, d_b_part = backpropagation(X, Y, weights = weights, bias = bias, activation_function = activation_function, loss_type=loss_type)
 
             for j in range(len(weights)):
@@ -229,6 +250,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
                 d_W[j] += np.mean(d_W_part[j], axis = 0)
                 d_b[j] += np.mean(d_b_part[j], axis = 0)
 
+            # Update rules for diffenent optimizers
             if optimization_method == None or optimization_method == 'gd':
 
                 for j in range(len(weights)):
@@ -322,6 +344,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
 
                 d_W, d_b = reset_d_weights(weights, bias)
 
+        # Logging train accuracy and loss to wandb
         if logging_train:
             y_pred = feedforward(X_data, weights, bias, activation_function)[0]
             loss = loss_calculations(Y_data, y_pred, loss_type=loss_type)
@@ -329,6 +352,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
             wandb.log({"train_accuracy": accuracy})
             wandb.log({"train_error": loss})
         
+        # Logging Validation accuracy and loss to wandb
         if logging_val:
             y_pred = feedforward(X_val, weights, bias, activation_function)[0]
             loss = loss_calculations(Y_val, y_pred, loss_type=loss_type)
@@ -336,6 +360,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
             wandb.log({"validation_accuracy": accuracy})
             wandb.log({"validation_error": loss})
         
+        # Logging test accuracy and loss to wandb
         if logging_test:
             y_pred = feedforward(X_test, weights, bias, activation_function)[0]
             loss = loss_calculations(Y_test, y_pred, loss_type=loss_type)
@@ -345,6 +370,7 @@ def gradient_descent(X_data, Y_data, weights, bias, epochs, activation_function 
 
     return weights, bias
 
+# PLotting confusion matrix
 def confusion_matrix_plot(y_true, y_pred, class_names=None, title="Confusion Matrix", cmap="Blues"):
     if y_true.shape != y_pred.shape:
         y_pred = np.argmax(y_pred, axis=1).squeeze()
@@ -367,8 +393,4 @@ def confusion_matrix_plot(y_true, y_pred, class_names=None, title="Confusion Mat
     plot_filename = title+".png"
     plt.tight_layout()
     plt.savefig(plot_filename)
-    plt.show
-    
-    # wandb.log({"Confusion Matrix": wandb.Image(plot_filename)})
-    
     plt.close()

@@ -1,0 +1,5 @@
+Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11490434/11490434 [==============================] - 3s 0us/step
+Train Accuracy :  0.9800555555555556
+Validation Accuracy :  0.969
+Test Accuracy :  0.97

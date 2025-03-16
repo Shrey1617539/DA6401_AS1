@@ -3,6 +3,7 @@ import wandb
 import data_loading_function, model_training_function
 import numpy as np
 
+# get configaration values such that it gives priority to config over args. If config is not there then args
 def get_config_value(config, args, key, default=None):
     return getattr(config, key, getattr(args, key, default))
 
@@ -10,21 +11,29 @@ def main(args):
     # Initialize wandb with the provided entity and project
     wandb.init(entity=args.wandb_entity, project=args.wandb_project)
 
-    X_train, y_train, X_test, y_test = data_loading_function.load_data()
+    # Loading data for particular dataset
+    X_train, y_train, X_test, y_test = data_loading_function.load_data(data_name=get_config_value(wandb.config, args, "dataset"))
 
+    # plotting image of the dataset.
     if args.plot_image == True:
         data_loading_function.plot_images(X_train=X_train, y_train=y_train)
 
+    # Train and validation split
     X_train, y_train, X_val, y_val = model_training_function.train_test_split(X_train, y_train, split_ratio=0.9)
 
+    # if model is not extrenally given
     if args.load_model == "":
 
+        # getting values from wandb.config or arguments
         hidden_layers = get_config_value(wandb.config, args, "num_layers")
         initialisation = get_config_value(wandb.config, args, "weight_init")
         size_of_every_hidden_layer = get_config_value(wandb.config, args, "hidden_size")
+
+        # If size_of_every_hidden_layer is not a list then convert it to list
         if not isinstance(size_of_every_hidden_layer, list):
             size_of_every_hidden_layer = [size_of_every_hidden_layer for _ in range(hidden_layers)]
 
+        # Initializing weights with the help of number of layers and initialization mathod.
         weights, bias = model_training_function.initialize_weights(
             input_size = X_train[0].shape[0] * X_train[0].shape[1],
             hidden_layers = hidden_layers,
@@ -33,6 +42,7 @@ def main(args):
             initialisation =initialisation
         )
 
+        # getting values from wandb.config or arguments
         activation_function = [get_config_value(wandb.config, args, "activation") for _ in range(hidden_layers)]
         activation_function.append('softmax')
         epochs = get_config_value(wandb.config, args, 'epochs')
@@ -47,10 +57,12 @@ def main(args):
         epsilon = get_config_value(wandb.config, args, 'epsilon')
         loss_type = get_config_value(wandb.config, args, 'loss')
 
+        # Creating run name with help of different different hyper parameter so it is helpful to differentiate
         run_name = f"hl_{hidden_layers}_bs_{batch_size}_ac_{activation_function[0]}_lr_{learning_rate}_opt_{optimization_method}"
         run_name += f"_wd_{weight_decay}_mom_{momentum}_epochs_{epochs}"
         wandb.run.name = run_name
 
+        # Train the model with gradient descent 
         weights, bias = model_training_function.gradient_descent(
             X_data=X_train, 
             Y_data=y_train, 
@@ -77,12 +89,14 @@ def main(args):
             logging_test=False
         )
 
+        # save model parameters as .npz files.
         if args.model_name == "":
             model_name = run_name+".npz"
         else:
             model_name = args.model_name
         np.savez(model_name, *weights, *bias, np.array(activation_function, dtype=object))
 
+    # If model is given the load them instead of training
     else:
         loaded_model = np.load(args.load_model, allow_pickle=True)
         num_layers = (len(loaded_model.files) - 1)//2
@@ -91,26 +105,43 @@ def main(args):
         bias = [loaded_model[f'arr_{i}'] for i in range(num_layers, 2*num_layers)]
         activation_function = loaded_model[f'arr_{2*num_layers}'].tolist()
     
+    # If it is told to evaluate on training set 
     if args.evaluate_training == True:
+
+        # Getting accuracy on training set
         Y_pred_train = model_training_function.feedforward(X_train, weights=weights, bias=bias, activation_function=activation_function)[0]
         train_accuracy = model_training_function.accuracy_calculations(y_train, Y_pred_train)
         print('Train Accuracy : ', train_accuracy)
+
+        # Plotting confusion matrix for training set
         model_training_function.confusion_matrix_plot(y_true=y_train, y_pred=Y_pred_train,title="Confusion Matrix Train")      
 
+    # If it is told to evaluate on validation set 
     if args.evaluate_validation == True:
+
+        # Getting accuracy on validation set
         Y_pred_val = model_training_function.feedforward(X_val, weights=weights, bias=bias, activation_function=activation_function)[0]
         val_accuracy = model_training_function.accuracy_calculations(y_val, Y_pred_val)
         print('Validation Accuracy : ', val_accuracy)
+
+        # Plotting confusion matrix for validation set
         model_training_function.confusion_matrix_plot(y_true=y_val, y_pred=Y_pred_val,title="Confusion Matrix Validation")
 
+    # If it is told to evaluate on test set 
     if args.evaluate_test == True:
+
+        # Getting accuracy on test set
         Y_pred_test = model_training_function.feedforward(X_test, weights=weights, bias=bias, activation_function=activation_function)[0]
         test_accuracy = model_training_function.accuracy_calculations(y_test, Y_pred_test)
         print('Test Accuracy : ', test_accuracy)
+        
+        # Plotting confusion matrix for test set
         model_training_function.confusion_matrix_plot(y_true=y_test, y_pred=Y_pred_test,title="Confusion Matrix Test") 
 
 
 if __name__ == "__main__":
+
+    # Getting arguments for different hyper-parameters
     parser = argparse.ArgumentParser(
         description="Training script that return model weights"
     )
@@ -282,6 +313,6 @@ if __name__ == "__main__":
         default=False,
         help='If you want to see evaluation on test data with confusion matrix, set True.'
     )
-    # Use parse_known_args to ignore extra arguments injected by wandb sweep agent
+
     args = parser.parse_args()
     main(args)

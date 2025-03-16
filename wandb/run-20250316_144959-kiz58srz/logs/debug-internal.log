@@ -1,0 +1,15 @@
+{"time":"2025-03-16T14:49:59.6719579+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"C:\\Users\\shrey\\Desktop\\ACAD\\DL\\DA6401_AS1\\wandb\\run-20250316_144959-kiz58srz\\logs\\debug-core.log"}
+{"time":"2025-03-16T14:50:00.6979081+05:30","level":"INFO","msg":"created new stream","id":"kiz58srz"}
+{"time":"2025-03-16T14:50:00.6984695+05:30","level":"INFO","msg":"stream: started","id":"kiz58srz"}
+{"time":"2025-03-16T14:50:00.6984695+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"kiz58srz"}
+{"time":"2025-03-16T14:50:00.6984695+05:30","level":"INFO","msg":"sender: started","stream_id":"kiz58srz"}
+{"time":"2025-03-16T14:50:00.6984695+05:30","level":"INFO","msg":"handler: started","stream_id":"kiz58srz"}
+{"time":"2025-03-16T14:50:01.1627196+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-16T15:12:42.0170485+05:30","level":"INFO","msg":"stream: closing","id":"kiz58srz"}
+{"time":"2025-03-16T15:12:42.0170485+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-16T15:12:42.0197574+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-16T15:12:43.1769898+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-16T15:12:43.6073659+05:30","level":"INFO","msg":"handler: closed","stream_id":"kiz58srz"}
+{"time":"2025-03-16T15:12:43.6073659+05:30","level":"INFO","msg":"sender: closed","stream_id":"kiz58srz"}
+{"time":"2025-03-16T15:12:43.6073659+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"kiz58srz"}
+{"time":"2025-03-16T15:12:43.608046+05:30","level":"INFO","msg":"stream: closed","id":"kiz58srz"}
