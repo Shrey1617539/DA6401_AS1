@@ -2,6 +2,11 @@
 
 This repository contains tools for training neural network models with extensive configuration options and hyperparameter optimization using Weights & Biases.
 
+## Links
+Wandb report link: https://api.wandb.ai/links/me21b138-indian-institute-of-technology-madras/h385vxtx
+
+Github link: https://github.com/Shrey1617539/DA6401_AS1
+
 ## Overview
 
 This repository contains tools for neural network training and hyperparameter optimization:
