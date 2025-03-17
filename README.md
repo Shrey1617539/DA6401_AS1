@@ -36,7 +36,6 @@ These scripts work together to provide a complete workflow for neural network ex
 - keras.datasets
 - matplotlib
 - yaml
-- sklearn.metrics
 - seaborn
 
 ## Installation

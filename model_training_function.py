@@ -1,7 +1,6 @@
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix
 import wandb
 
 # Break given data into train and test split
@@ -375,7 +374,16 @@ def confusion_matrix_plot(y_true, y_pred, class_names=None, title="Confusion Mat
     if y_true.shape != y_pred.shape:
         y_pred = np.argmax(y_pred, axis=1).squeeze()
 
-    cm = confusion_matrix(y_true, y_pred)
+    classes = np.unique(y_true)
+    n_classes = len(classes)
+    
+    cm = np.zeros((n_classes, n_classes), dtype=int)
+    
+    class_to_idx = {cls: i for i, cls in enumerate(classes)}
+    
+    for t, p in zip(y_true, y_pred):
+        if p in class_to_idx:
+            cm[class_to_idx[t], class_to_idx[p]] += 1
     
     if class_names == None:
         class_names = [f'class {i}' for i in range(len(np.unique(y_true)))]
